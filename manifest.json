@@ -1,7 +1,7 @@
 {
-  "vendor": "merlinosrl",
+  "vendor": "marketon",
   "name": "store",
-  "version": "2.0.2",
+  "version": "1.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -68,7 +68,7 @@
     "madeofpartnerar.product-price": "0.x",
     "madeofpartnerar.slider-layout": "0.x",
     "madeofpartnerar.componentes": "0.x",
-    "merlinosrl.merlinosrl-checkout-ui-settings": "0.x",
+    "marketon.merlinosrl-checkout-ui-settings": "0.x",
     "madeofpartnerar.connectif": "0.x"
   },
   "peerDependencies": {
