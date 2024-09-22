@@ -1,0 +1,147 @@
+{
+    "header-layout.desktop": {
+        "children": [
+            "flex-layout.row#container-promociones-desktop",
+            "sticky-layout#desktop"
+        ]
+    },
+
+    // ROW PROMOCIONES DESKTOP
+    "flex-layout.row#container-promociones-desktop": {
+        "props": {
+            "blockClass": "container-promo-header"
+        },
+        "children": ["flex-layout.row#promociones-desktop"]
+    },
+
+    "flex-layout.row#promociones-desktop": {
+        "props": {
+            "horizontalAlign": "between",
+            "fullWidth": true,
+            "blockClass": ["row-promociones-desktop", "row-promociones"]
+        },
+        "children": ["flex-layout.col#promo-desktop-1"]
+    },
+
+    "flex-layout.col#promo-desktop-1": {
+        "props": {
+            "blockClass": ["promo-1", "promociones"]
+        },
+        "children": ["link#promo-desktop-1"]
+    },
+
+    "link#promo-desktop-1": {
+        "props": {
+            "href": "",
+            "blockClass": ["link-promo-1", "links-promociones", "links-header"]
+        },
+        "children": [
+            "image#promociones-desktop-1",
+            "rich-text#promociones-desktop-1"
+        ]
+    },
+
+    "rich-text#promociones-desktop-1": {
+        "props": {
+            "text": "Encontrá las mejores opciones para fiesta a un 30% de descuento en transferencias",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "texto-promociones-desktop",
+                "texto-promociones-1",
+                "texto-promociones"
+            ]
+        }
+    },
+
+    "image#promociones-desktop-1": {
+        "props": {
+            "src": ""
+        }
+    },
+
+    // STICKY DESKTOP
+    "sticky-layout#desktop": {
+        "props": {
+            "blockClass": ["sticky-header-desktop", "sticky-header"]
+        },
+        "children": ["flex-layout.row#sticky-desktop", "menu-base.desktop"]
+    },
+
+    "flex-layout.row#sticky-desktop": {
+        "props": {
+            "horizontalAlign": "between",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": ["sticky-desktop", "sticky"]
+        },
+        "children": [
+            "flex-layout.col#logo-desktop",
+            "flex-layout.col#search-desktop",
+            "flex-layout.col#icons-desktop"
+        ]
+    },
+
+    "flex-layout.col#logo-desktop": {
+        "props": {
+            "verticalAlign": "top",
+            "blockClass": ["logo-desktop", "col-sticky"]
+        },
+        "children": ["logo#logo-desktop"]
+    },
+
+    "logo#logo-desktop": {
+        "props": {
+            "blockClass": "logo-desktop",
+            "height": 48,
+            "width": 156,
+            "href": "/",
+            "url": "assets/icons/header-logo.svg"
+        }
+    },
+
+    "flex-layout.col#search-desktop": {
+        "props": {
+            "verticalAlign": "middle",
+            "blockClass": ["search-desktop", "col-sticky"]
+        },
+        "children": ["search-bar"]
+    },
+
+    "search-bar": {
+        "blocks": ["autocomplete-result-list.v2"],
+        "props": {
+            "placeholder": "¡Hola! ¿Qué estás buscando?"
+        }
+    },
+
+    "autocomplete-result-list.v2": {
+        "blocks": ["product-summary.shelf#search-bar"],
+        "props": {
+            "maxSuggestedProducts": 4,
+            "productLayout": "VERTICAL"
+        }
+    },
+
+    "flex-layout.col#icons-desktop": {
+        "props": {
+            "verticalAlign": "bottom",
+            "blockClass": ["icons-desktop", "icons-header", "col-sticky"]
+        },
+        "children": ["components-popup", "login", "minicart.v2"]
+    },
+
+    "link#wishlist-desktop": {
+        "props": {
+            "href": "/wishlist",
+            "blockClass": [
+                "link-wishlist-desktop",
+                "links-header-desktop",
+                "links-header"
+            ]
+        },
+        "children": ["image#wishlist"]
+    }
+}

@@ -1,0 +1,33 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+:global(.vtex-flex-layout-0-x-flexRow--view-product-row) .productBrand {
+  color: #555555;
+}
+
+.shippingTableRow {
+  align-items: center;
+  justify-content: center;
+}
+.shippingTableRow :visited {
+  background-color: red;
+}
+.shippingTableRow .shippingTableCellDeliveryName,
+.shippingTableRow .shippingTableCellDeliveryEstimate,
+.shippingTableRow .shippingTableCellDeliveryPrice {
+  border: none;
+}
+.shippingTableRow .shippingTableCell {
+  font-size: 0.7rem;
+}
+.shippingTableRow .shippingTableCell .shippingTableRadioBtn {
+  accent-color: #898989;
+}
+
+.skuSelectorContainer--sku-selector-pdp .skuSelectorTextContainer::after {
+  display: none;
+}
+.skuSelectorContainer--sku-selector-pdp .skuSelectorSelectContainer {
+  min-width: 150px;
+}

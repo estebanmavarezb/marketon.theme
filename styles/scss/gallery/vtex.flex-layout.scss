@@ -1,0 +1,14 @@
+.flexRow--breadcrumb-container {
+    max-width: 1039px;
+    .flexRowContent--breadcrumb-container {
+        .stretchChildrenWidth {
+            justify-content: flex-start;
+        }
+    }
+}
+
+.flexRow--footer-cart{
+    .flexRowContent--footer-cart{
+        flex-direction: column;
+    }
+}

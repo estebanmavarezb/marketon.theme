@@ -1,0 +1,29 @@
+/* ------------------------------GENERAL ------------------------------*/
+/*---------- FICHA -------------*/
+/* PRODUCT IMAGE */
+:global(.vtex-flex-layout-0-x-flexRowContent--view-product-col-product-main-mobile) .stackContainer--product .stackItem--product,
+:global(.vtex-flex-layout-0-x-flexRowContent--view-product-col-product-main-desktop) .stackContainer--product .stackItem--product {
+  top: 25px;
+  right: 25px;
+  left: inherit;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--view-product-col-product-main-mobile) .stackItem--product:last-child,
+:global(.vtex-flex-layout-0-x-flexRowContent--view-product-col-product-main-desktop) .stackItem--product:last-child {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 600px;
+  z-index: initial !important;
+}
+
+/* ------------------------------DESKTOP ------------------------------*/
+/* ------------------------------TABLE --------------------------------*/
+@media screen and (max-width: 768px) {
+  .stackItem--product {
+    top: 20px !important;
+    right: 20px !important;
+  }
+}
+/* ------------------------------MOBILE -------------------------------*/

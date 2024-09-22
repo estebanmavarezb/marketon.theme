@@ -1,0 +1,604 @@
+{
+    "footer": {
+        "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    },
+
+    "footer-layout.desktop": {
+        "children": ["flex-layout.row#footer"]
+    },
+    "footer-layout.mobile": {
+        "children": ["flex-layout.row#footer"]
+    },
+
+    "flex-layout.row#footer": {
+        "children": [
+            "flex-layout.row#footer-info-container",
+            "flex-layout.row#footer-copyright-container"
+        ],
+        "props": {
+            "blockClass": "footer-container"
+        }
+    },
+
+    "flex-layout.row#footer-info-container": {
+        "children": [
+            "flex-layout.col#footer-info-1",
+            "flex-layout.col#footer-info-2",
+            "flex-layout.col#footer-info-3",
+            "flex-layout.col#footer-info-4",
+            "flex-layout.col#footer-info-5"
+        ],
+        "props": {
+            "blockClass": "footer-info-container"
+        }
+    },
+
+    "flex-layout.col#footer-info-1": {
+        "children": [
+            "rich-text#title-footer-info-1",
+            "link#link-footer-info-1-1",
+            "link#link-footer-info-1-2",
+            "link#link-footer-info-1-3",
+            "link#link-footer-info-1-4",
+            "link#link-footer-info-1-5",
+            "link#link-footer-info-1-6",
+            "link#link-footer-info-1-7"
+        ],
+        "props": {
+            "blockClass": "footer-info-1"
+        }
+    },
+
+    "flex-layout.col#footer-info-2": {
+        "children": [
+            "rich-text#title-footer-info-2",
+            "link#link-footer-info-2-1",
+            "link#link-footer-info-2-2",
+            "link#link-footer-info-2-3",
+            "link#link-footer-info-2-4",
+            "link#link-footer-info-2-5"
+        ],
+        "props": {
+            "blockClass": "footer-info-2"
+        }
+    },
+
+    "flex-layout.col#footer-info-3": {
+        "children": [
+            "rich-text#title-footer-info-3",
+            "link#link-footer-info-3-1",
+            "link#link-footer-info-3-2",
+            "link#link-footer-info-3-3"
+        ],
+        "props": {
+            "blockClass": "footer-info-3"
+        }
+    },
+
+    "flex-layout.col#footer-info-4": {
+        "children": [
+            "rich-text#title-footer-info-4",
+            "link#link-footer-info-4-1",
+            "link#link-footer-info-4-2"
+        ],
+        "props": {
+            "blockClass": "footer-info-4"
+        }
+    },
+
+    "flex-layout.col#footer-info-5": {
+        "children": [
+            "rich-text#title-footer-info-5",
+            "link#link-footer-info-5-1",
+            "link#link-footer-info-5-2",
+            "link#link-footer-info-5-3",
+            "rich-text#title-footer-info-social",
+            "flex-layout.row#social"
+        ],
+        "props": {
+            "blockClass": "footer-info-5"
+        }
+    },
+
+    "rich-text#title-footer-info-1": {
+        "props": {
+            "text": "SECCIONES",
+            "blockClass": "footer-info-title"
+        }
+    },
+
+    "link#link-footer-info-1-1": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-1-1"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-1-2": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-1-2"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-1-3": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-1-3"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-1-4": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-1-4"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-1-5": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-1-5"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-1-6": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-1-6"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-1-7": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-1-7"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "rich-text#title-footer-info-2": {
+        "props": {
+            "text": "MÁS INFORMACIÓN",
+            "blockClass": "footer-info-title"
+        }
+    },
+
+    "link#link-footer-info-2-1": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-2-1"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-2-2": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-2-2"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-2-3": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-2-3"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-2-4": {
+        "children": ["rich-text#link-footer-info-2-4"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info-bold"
+        }
+    },
+
+    "link#link-footer-info-2-5": {
+        "children": ["rich-text#link-footer-info-2-5"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info-bold"
+        }
+    },
+
+    "rich-text#title-footer-info-3": {
+        "props": {
+            "text": "POLÍTICAS",
+            "blockClass": "footer-info-title"
+        }
+    },
+
+    "link#link-footer-info-3-1": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-3-1"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-3-2": {
+        "children": ["image#arrow-footer", "rich-text#link-footer-info-3-2"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-3-3": {
+        "children": ["rich-text#link-footer-info-3-3"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "rich-text#title-footer-info-4": {
+        "props": {
+            "text": "SUCURSALES",
+            "blockClass": "footer-info-title"
+        }
+    },
+
+    "link#link-footer-info-4-1": {
+        "children": ["image#location-footer", "rich-text#link-footer-info-4-1"],
+        "props": {
+            "href": "",
+            "blockClass": ["footer-info", "footer-info-location"]
+        }
+    },
+
+    "link#link-footer-info-4-2": {
+        "children": ["image#location-footer", "rich-text#link-footer-info-4-2"],
+        "props": {
+            "href": "",
+            "blockClass": ["footer-info", "footer-info-location"]
+        }
+    },
+
+    "rich-text#title-footer-info-5": {
+        "props": {
+            "text": "CONTACTO",
+            "blockClass": "footer-info-title"
+        }
+    },
+
+    "rich-text#title-footer-info-social": {
+        "props": {
+            "text": "SEGUINOS",
+            "blockClass": ["footer-info-title", "footer-info-title-social"]
+        }
+    },
+
+    "link#link-footer-info-5-1": {
+        "children": ["image#mail-footer", "rich-text#link-footer-info-5-1"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-5-2": {
+        "children": ["image#phone-footer", "rich-text#link-footer-info-5-2"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "link#link-footer-info-5-3": {
+        "children": ["image#time-footer", "rich-text#link-footer-info-5-3"],
+        "props": {
+            "href": "",
+            "blockClass": "footer-info"
+        }
+    },
+
+    "flex-layout.row#social": {
+        "children": [
+            "image#facebook-footer",
+            "image#instagram-footer",
+            "image#youtube-footer",
+            "image#tiktok-footer",
+            "image#x-footer"
+        ],
+        "props": {
+            "blockClass": "footer-info-social"
+        }
+    },
+
+    "image#arrow-footer": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/arrow-footer.png",
+            "blockClass": "arrow-footer"
+        }
+    },
+
+    "image#location-footer": {
+        "props": {
+            "src": "assets/icons/location-icon.svg",
+            "blockClass": "location-footer"
+        }
+    },
+
+    "image#mail-footer": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/mail-footer.png",
+            "blockClass": "mail-footer"
+        }
+    },
+
+    "image#phone-footer": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/phone-footer.png",
+            "blockClass": "phone-footer"
+        }
+    },
+
+    "image#time-footer": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/time-footer.png",
+            "blockClass": "time-footer"
+        }
+    },
+
+    "image#facebook-footer": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/Facebook-footer.png",
+            "blockClass": "facebook-footer"
+        }
+    },
+
+    "image#instagram-footer": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/Instagram-footer.png",
+            "blockClass": "instagram-footer"
+        }
+    },
+
+    "image#youtube-footer": {
+        "props": {
+            "src": "assets/icons/youtube-footer.svg",
+            "blockClass": "youtube-footer"
+        }
+    },
+
+    "image#tiktok-footer": {
+        "props": {
+            "src": "assets/icons/tiktok-footer.svg",
+            "blockClass": "tiktok-footer"
+        }
+    },
+
+    "image#x-footer": {
+        "props": {
+            "src": "assets/icons/x-footer.svg",
+            "blockClass": "x-footer"
+        }
+    },
+
+    "rich-text#link-footer-info-1-1": {
+        "props": {
+            "text": "AROS",
+            "blockClass": ["text-link-footer-info-1-1", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-1-2": {
+        "props": {
+            "text": "ANILLOS",
+            "blockClass": ["text-link-footer-info-1-2", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-1-3": {
+        "props": {
+            "text": "COLLARES",
+            "blockClass": ["text-link-footer-info-1-3", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-1-4": {
+        "props": {
+            "text": "PULSERAS",
+            "blockClass": ["text-link-footer-info-1-4", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-1-5": {
+        "props": {
+            "text": "DIJES",
+            "blockClass": ["text-link-footer-info-1-5", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-1-6": {
+        "props": {
+            "text": "MOMENTOS",
+            "blockClass": ["text-link-footer-info-1-6", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-1-7": {
+        "props": {
+            "text": "RELOJES",
+            "blockClass": ["text-link-footer-info-1-7", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-2-1": {
+        "props": {
+            "text": "QUIENES SOMOS",
+            "blockClass": ["text-link-footer-info-2-1", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-2-2": {
+        "props": {
+            "text": "SUCURSALES",
+            "blockClass": ["text-link-footer-info-2-2", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-2-3": {
+        "props": {
+            "text": "PREGUNTAS FRECUENTES",
+            "blockClass": ["text-link-footer-info-2-3", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-2-4": {
+        "props": {
+            "text": "MÉTODOS DE ENVÍO",
+            "blockClass": [
+                "text-link-footer-info-2-4",
+                "text-link-footer-info-bold"
+            ]
+        }
+    },
+
+    "rich-text#link-footer-info-2-5": {
+        "props": {
+            "text": "MÉTODOS DE PAGO",
+            "blockClass": [
+                "text-link-footer-info-2-5",
+                "text-link-footer-info-bold"
+            ]
+        }
+    },
+
+    "rich-text#link-footer-info-3-1": {
+        "props": {
+            "text": "POLÍTICAS DE CAMBIO Y DEVOLUCIÓN",
+            "blockClass": ["text-link-footer-info-3-1", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-3-2": {
+        "props": {
+            "text": "POLÍTICAS DE SEGURIDAD Y PRIVACIDAD",
+            "blockClass": ["text-link-footer-info-3-2", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-3-3": {
+        "props": {
+            "text": "ARREPENTIMIENTO DE COMPRA",
+            "blockClass": [
+                "text-link-footer-info-3-3",
+                "text-link-footer-info-bold"
+            ]
+        }
+    },
+
+    "rich-text#link-footer-info-4-1": {
+        "props": {
+            "text": "SUCURSAL CORRIENTES\nJunin 1446\nCorrientes Capital",
+            "blockClass": ["text-link-footer-info-4-1", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-4-2": {
+        "props": {
+            "text": "SUCURSAL CHACO\nJuan Domingo Perón 138\nResistencia Chaco",
+            "blockClass": ["text-link-footer-info-4-2", "text-link-footer-info"]
+        }
+    },
+
+    "rich-text#link-footer-info-5-1": {
+        "props": {
+            "text": "contacto@antuanjoyerias.com",
+            "blockClass": [
+                "text-link-footer-info-5-1",
+                "text-link-footer-info",
+                "text-link-footer-info-contact"
+            ]
+        }
+    },
+
+    "rich-text#link-footer-info-5-2": {
+        "props": {
+            "text": "379 435-2382",
+            "blockClass": [
+                "text-link-footer-info-5-2",
+                "text-link-footer-info",
+                "text-link-footer-info-contact"
+            ]
+        }
+    },
+
+    "rich-text#link-footer-info-5-3": {
+        "props": {
+            "text": "08:00 a 12:30 | 16:30 a 20:30",
+            "blockClass": [
+                "text-link-footer-info-5-3",
+                "text-link-footer-info",
+                "text-link-footer-info-contact"
+            ]
+        }
+    },
+
+    "flex-layout.row#footer-copyright-container": {
+        "children": [
+            "flex-layout.col#footer-copyright-1",
+            "flex-layout.col#footer-copyright-2"
+        ],
+        "props": {
+            "blockClass": "footer-copyright-container"
+        }
+    },
+
+    "flex-layout.col#footer-copyright-1": {
+        "children": ["rich-text#copyright"],
+        "props": {
+            "blockClass": ["footer-copyright-1", "footer-copyright"]
+        }
+    },
+
+    "flex-layout.col#footer-copyright-2": {
+        "children": [
+            "image#copyright-1",
+            "image#copyright-2",
+            "image#copyright-3"
+        ],
+        "props": {
+            "blockClass": ["footer-copyright-2", "footer-copyright"]
+        }
+    },
+
+    "rich-text#copyright": {
+        "props": {
+            "text": "Copyright 2020 | Todos los derechos reservados MadeOf.",
+            "blockClass": ["text-copyright", "footer-text"]
+        }
+    },
+
+    "image#copyright-1": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/logo-vtex.png",
+            "blockClass": "logo-vtex"
+        }
+    },
+
+    "image#copyright-2": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/logo-madeof.png",
+            "blockClass": "logo-madeof"
+        }
+    },
+
+    "image#copyright-3": {
+        "props": {
+            "src": "assets/icons/footer-logo.svg",
+            "blockClass": "footer-logo"
+        }
+    }
+}

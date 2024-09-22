@@ -1,0 +1,7 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+:global(.vtex-flex-layout-0-x-flexRowContent--product-assembly-options-container) .productAssemblyOptionItemImage {
+  border-radius: 50%;
+}

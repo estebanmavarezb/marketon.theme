@@ -1,0 +1,49 @@
+@import '../VARS.scss';
+
+.biggy-autocomplete {
+    border-radius: 24px;
+    .itemList {
+        max-width: 204px;
+        background: #fff;
+        .itemListTitle {
+            color: #BC1920;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .itemListLinkTitle,
+        .itemListSubItemLink {
+            color: #848484;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .itemListSubItemLink {
+            font-size: 13px;
+        }
+    }
+
+    .tileList {
+        background: #f6f6f8;
+        .tileListTitle {
+            color: $main-gray;
+            font-size: 14px;
+        }
+        .tileListList {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 5px;
+            grid-row-gap: 15px;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: $phone) {
+    .biggy-autocomplete-wrapper {
+        width: 95vw;
+        .biggy-autocomplete {
+            left: 0;
+            flex-direction: column !important;
+        }
+    }
+}

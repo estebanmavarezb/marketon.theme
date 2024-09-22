@@ -1,0 +1,95 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+.productName {
+  color: #555;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 110.4%;
+  width: 100%;
+  display: flex;
+}
+
+.quantitySelectorButton {
+  padding: 0;
+  width: 24.3px;
+  height: 30.6px;
+}
+
+.quantitySelectorButton:hover,
+.quantitySelectorButton:focus {
+  background: transparent;
+}
+
+.quantitySelectorDecrease {
+  border-color: #c4c4c4;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-right-color: transparent;
+  background: transparent;
+  justify-content: right;
+  padding-right: 3px;
+}
+
+.quantitySelectorDecrease:hover,
+.quantitySelectorDecrease:focus {
+  border-color: #c4c4c4;
+  border-right-color: transparent;
+}
+
+.quantitySelectorIncrease {
+  border-color: #c4c4c4;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-left-color: transparent;
+  background: transparent;
+  justify-content: left;
+  padding-left: 3px;
+}
+
+.quantitySelectorIncrease:hover,
+.quantitySelectorIncrease:focus {
+  border-color: #c4c4c4;
+  border-left-color: transparent;
+}
+
+.inputContainer {
+  border-color: #c4c4c4;
+  padding: 0;
+  width: 24.3px;
+  height: 30.6px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.inputContainer:hover,
+.inputContainer:focus {
+  border-top-color: #c4c4c4;
+  border-bottom-color: #c4c4c4;
+}
+
+.removeButton {
+  padding: 0;
+}
+
+.removeButton::before {
+  content: "";
+  background: url(assets/icons/minicart-delete-element-icon.svg) no-repeat center center;
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+  min-height: 24px;
+  display: flex;
+  padding: 0;
+}
+
+.deleteIcon {
+  display: none;
+}
+
+.productPriceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

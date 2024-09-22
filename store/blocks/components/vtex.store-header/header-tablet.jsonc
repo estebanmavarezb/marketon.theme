@@ -1,0 +1,76 @@
+{
+    "responsive-layout.tablet": {
+        "children":[
+            "sticky-layout#tablet"
+        ]
+    },
+
+    "sticky-layout#tablet": {
+        "props": {
+            "blockClass": ["sticky-header-tablet" , "sticky-header"]
+        },
+        "children": ["flex-layout.row#sticky-tablet"]
+    },
+
+    "flex-layout.row#sticky-tablet": {
+        "props": {
+            "horizontalAlign": "between",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": ["sticky-tablet", "sticky"]
+        },
+        "children": [
+            "flex-layout.col#logo-tablet",
+            "flex-layout.col#search-tablet",
+            "flex-layout.col#icons-tablet"
+        ]
+    },
+
+    "flex-layout.col#logo-tablet": {
+        "props": {
+            "verticalAlign": "top",
+            "width":"grow",
+            "blockClass": ["logo-tablet", "col-sticky"]
+        },
+        "children": [
+            "logo",
+            "category-menu#mobile"
+        ]
+    },
+
+    "flex-layout.col#search-tablet": {
+        "props":{
+            "width":"grow",
+            "verticalAlign": "middle",
+            "blockClass": ["search-tablet", "search-desktop", "col-sticky"]
+        },
+        "children":[
+            "search-bar"
+        ]
+    },
+
+    "flex-layout.col#icons-tablet": {
+        "props":{
+            "width":"grow",
+            "verticalAlign": "bottom",
+            "blockClass": ["icons-tablet", "icons-header", "col-sticky"]
+        },
+        "children":[
+            "components-popup",
+            "login",
+            "minicart.v2"
+        ]
+    },
+
+    "link#wishlist-tablet": {
+        "props":{
+            "href":"/wishlist",
+            "blockClass": ["link-wishlist-tablet", "links-header-tablet", "links-header"]
+        },
+        "children":[
+            "image#wishlist"
+        ]
+    }
+}

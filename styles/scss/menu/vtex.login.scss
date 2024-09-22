@@ -1,0 +1,22 @@
+@import '../VARS.scss';
+
+:global(.madeofpartnerar-componentes-0-x-item_menu) {
+    max-width: 315px;
+    :global(.madeofpartnerar-componentes-0-x-link_active) {
+        background-color: $main-yellow;
+        :global(.madeofpartnerar-componentes-0-x-link_menu_content) {
+            a {
+                color: #fff;
+                font-weight: 700;
+            }
+        }
+    }
+    :global(.madeofpartnerar-componentes-0-x-nombre) {
+        color: $main-yellow;
+    }
+    :global(.madeofpartnerar-componentes-0-x-titulo) {
+        a {
+            color: $main-gray;
+        }
+    }
+}

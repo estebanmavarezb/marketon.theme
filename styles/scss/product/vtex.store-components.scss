@@ -1,0 +1,35 @@
+@import '../VARS.scss';
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-row) {
+    .productBrand {
+        color: #555555;
+    }
+}
+
+.shippingTableRow {
+    align-items: center;
+    justify-content: center;
+    & :visited {
+        background-color: red;
+    }
+    .shippingTableCellDeliveryName,
+    .shippingTableCellDeliveryEstimate,
+    .shippingTableCellDeliveryPrice {
+        border: none;
+    }
+    .shippingTableCell {
+        font-size: 0.7rem;
+        .shippingTableRadioBtn {
+            accent-color: $third-gray;
+        }
+    }
+}
+
+.skuSelectorContainer--sku-selector-pdp {
+    .skuSelectorTextContainer::after {
+        display: none;
+    }
+    .skuSelectorSelectContainer {
+        min-width: 150px;
+    }
+}

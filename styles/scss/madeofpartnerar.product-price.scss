@@ -1,0 +1,524 @@
+/* ------------------------------GENERAL ------------------------------*/
+@import './VARS.scss';
+
+/* SHELF */
+.savingsPercentage,
+.savings--percentage {
+    color: $main-color;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    white-space: nowrap;
+    padding-top: 0.8px;
+}
+
+.installments {
+    color: #9a9a9a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.installments .installmentsNumber {
+    font-size: 9px;
+}
+
+.installments .installmentsNumber::after {
+    content: 'X';
+    font-size: 9px;
+    padding-right: 0.2rem;
+}
+
+.installments .installmentValue {
+    font-size: 9px;
+}
+
+.installments .installmentValue::after {
+    content: 'SIN INTERÉS';
+    font-size: 9px;
+    padding-left: 0.2rem;
+}
+
+.priceContainer {
+    padding: 0;
+    align-self: center;
+    width: max-content;
+}
+
+.price_className {
+    flex-direction: column;
+    display: flex;
+}
+
+.price_listPriceContainer {
+    padding: 0;
+}
+
+.listPrice {
+    align-self: flex-start;
+    margin: 0;
+}
+
+.listPriceLabel {
+    display: none;
+}
+
+.sellingPriceLabel {
+    display: none;
+}
+
+.listPrice .listPriceValue {
+    color: #9a9a9a;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: line-through;
+}
+
+:global(.vtex-product-summary-2-x-container) {
+    .listPrice .listPriceValue {
+        text-decoration: none;
+    }
+
+    .content__listPrice {
+        width: max-content;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: #9A9D9F;
+            left: 0;
+            top: 44%;
+            bottom: 66%;
+        }
+    }
+
+    .container__total__price .list__price {
+        width: max-content;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: #9A9D9F;
+            left: 0;
+            top: 52%;
+        }
+    }
+}
+
+
+.listPriceValue,
+.sellingPriceContainer {
+    padding: 0;
+}
+
+.sellingPrice .sellingPriceValue {
+    color: #2b2b2b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-row) {
+    .containerSellingPrice {
+        display: flex;
+        align-items: center;
+
+        .unitValue {
+            color: #000;
+            font-size: 24px;
+            font-weight: 100;
+            line-height: 135.9%;
+            margin-left: 5px;
+
+        }
+    }
+
+    .containerListPrice {
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 1.6px;
+            background-color: #9A9D9F;
+            left: 0;
+            top: 12px;
+        }
+
+        .listPriceValue {
+            text-decoration: none;
+        }
+
+        .unitValue {
+            color: #848484;
+            font-size: 18px;
+            font-weight: 100;
+            line-height: 135.9%;
+            margin-left: 5px;
+
+        }
+    }
+
+    .container__total__price {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 10px 0;
+
+        .list__price {
+            width: max-content;
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 1px;
+                background-color: #9A9D9F;
+                left: 0;
+                top: 50%;
+                bottom: 50%;
+
+                @media screen and (max-width: 1024px) {
+                    top: 56%;
+                    bottom: 44%;
+                }
+            }
+
+            &--value,
+            & .price--value__text {
+                font-weight: 400;
+                color: #848484;
+                font-size: 18px;
+                line-height: 16.31px;
+            }
+        }
+
+        .selling__price {
+
+            &--value,
+            & .price--value__text {
+                color: #2B2B2B;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 16.31px;
+            }
+        }
+
+        .price--value__text {
+            margin-left: 5px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            margin-top: 0;
+            gap: 4px;
+        }
+    }
+}
+
+
+
+/* ------------------------------MOBILE ------------------------------*/
+
+@media screen and (max-width: 639px) {
+
+    /* SHELF */
+    .listPrice .listPriceValue {
+        font-size: 10.29px;
+    }
+
+    .sellingPrice .sellingPriceValue {
+        font-size: 14.15px;
+    }
+
+    .listPrice,
+    .sellingPrice {
+        padding: 0;
+    }
+
+    .installments {
+        font-size: 0 !important;
+    }
+
+    .installments .installmentsNumber {
+        font-size: 7px;
+    }
+
+    .installments .installmentsNumber::after {
+        font-size: 7px;
+    }
+
+    .installments .installmentValue {
+        font-size: 7px;
+    }
+
+    .installments .installmentValue::after {
+        font-size: 7px;
+    }
+
+    .savingsPercentage,
+    .savings--percentage {
+        font-size: 9px;
+        padding-top: 3px;
+    }
+}
+
+/*FICHA*/
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-row) {
+
+    :global(.vtex-flex-layout-0-x-flexCol--right-col-desktop),
+    :global(.vtex-flex-layout-0-x-flexRowContent--view-product-col-product-main-mobile) {
+        .listPriceValue {
+            font-family: 'Poppins';
+            color: #848484;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 135.9%;
+            // margin-bottom: 10px;
+            display: flex;
+        }
+
+        .sellingPriceValue {
+            font-family: 'Poppins';
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 135.9%;
+            color: #2b2b2b;
+        }
+
+        .savings {
+            font-family: 'Poppins';
+            align-self: center;
+            margin-left: 14px;
+            color: $main-color;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 135.9%;
+        }
+
+        .savingsPercentage,
+        .savings--percentage {
+            color: $main-color;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            white-space: nowrap;
+            padding-top: 0.8px;
+            line-height: 135.9%;
+        }
+
+        /* ------------------------------DESKTOP ------------------------------*/
+
+        /* ------------------------------TABLET -------------------------------*/
+        @media screen and (max-width: 768px) {
+            .listPriceValue {
+                font-size: 20px;
+            }
+
+            // .sellingPriceValue {
+            //     font-size: 30px;
+            // }
+
+            .savings {
+                margin-left: 16px;
+            }
+
+            .listPrice {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+
+
+    :global(.vtex-product-summary-2-x-element--product-shelf) {
+        :global(.vtex-flex-layout-0-x-flexCol--container-data-grid) {
+            :global(.vtex-product-summary-2-x-nameContainer) {
+                min-height: 40px;
+                max-height: 40px;
+            }
+        }
+
+        :global(.vtex-flex-layout-0-x-flexCol--container-data-price-condition) {
+            .listPrice {
+                .content__listPrice {
+                    text-align: start;
+                    font-size: 10px;
+
+                    .price_listPrice {
+                        font-size: 10px;
+                        margin-right: 2.5px;
+                    }
+                }
+
+                .container__total__price {
+                    text-align: start;
+                    margin: 0;
+
+                    .currencyContainer,
+                    .price--value__text {
+                        font-size: 10px;
+                    }
+
+                    .price--value__text {
+                        margin-left: 2.5px;
+                    }
+                }
+            }
+
+
+            .price--value__text {
+                margin-left: 5px;
+            }
+
+            .sellingPrice {
+                .content__sellingPrice {
+                    text-align: start;
+                    color: #2b2b2b;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+
+                    .sellingPrice {
+                        margin-right: 5px;
+                    }
+
+
+                }
+
+                .container__total__price {
+                    text-align: start;
+                    margin: 0;
+
+                    .currencyContainer,
+                    .price--value__text {
+                        color: #2b2b2b;
+                        font-family: "Poppins", sans-serif;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+
+                    .price--value__text {
+                        margin-left: 2.5px;
+                    }
+                }
+
+            }
+        }
+
+    }
+}
+
+
+:global(.vtex-product-summary-2-x-element--product-shelf) {
+
+    :global(.vtex-flex-layout-0-x-flexCol--container-data-price-condition) {
+        .listPrice {
+            .content__listPrice {
+                text-align: start;
+                font-size: 10px;
+
+                .price_listPrice {
+                    font-size: 10px;
+                    margin-right: 2.5px;
+                }
+            }
+
+            .container__total__price {
+                text-align: start;
+
+                .currencyContainer,
+                .price--value__text {
+                    font-size: 10px;
+                }
+
+                .price--value__text {
+                    margin-left: 2.5px;
+                }
+            }
+        }
+
+
+        .price--value__text {
+            margin-left: 5px;
+        }
+
+        .sellingPrice {
+            .content__sellingPrice {
+                text-align: start;
+                color: #2b2b2b;
+                font-family: "Poppins", sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+
+                .sellingPrice {
+                    margin-right: 5px;
+                }
+
+
+            }
+
+            .container__total__price {
+                text-align: start;
+
+                .currencyContainer,
+                .price--value__text {
+                    color: #2b2b2b;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+
+                .price--value__text {
+                    margin-left: 2.5px;
+                }
+            }
+
+        }
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    :global(.vtex-flex-layout-0-x-flexRow--view-product-col-product-main-mobile) {
+        .list__price {
+            &::after {
+                background-color: #848484 !important;
+                top: 45% !important;
+                bottom: 55% !important;
+            }
+    
+        }
+    }
+}

@@ -1,0 +1,506 @@
+@import './VARS.scss';
+
+:global(.vtex-flex-layout-0-x-flexRow--headerOrderPlace) {
+    :global(.vtex-store-components-3-x-container) {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: $main-gray;
+    }
+}
+
+.confirmationTitle {
+    color: $main-color;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 96.6%;
+    margin: 15px 0;
+}
+
+.confirmationMessage {
+    color: #2b2b2b;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 147.6%;
+}
+
+.noticesList {
+    background-color: transparent !important;
+    text-align: start;
+}
+
+.noticeListItem {
+    width: fit-content;
+    padding: 8px 0;
+    text-align: start;
+    margin: 0;
+    color: #2b2b2b;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 96.6%;
+}
+
+.noticeListItem:last-child {
+    border-bottom: solid 1px #e3e4e6;
+}
+
+.orderNumber {
+    color: $main-color;
+    font-size: 24.623px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.6%;
+    margin-bottom: 20px;
+}
+
+.orderDatetime,
+.orderSoldBy,
+.orderSeller {
+    color: #2b2b2b;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 152.1%;
+}
+
+.updateOrderButton :global(.vtex-button) {
+    background: transparent;
+    border: 1px solid #1f466b;
+    border-radius: 30px;
+    width: 205px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.myOrdersButton :global(.vtex-button) {
+    background: transparent;
+    border: 1px solid #1f466b;
+    border-radius: 30px;
+    width: 140px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.cancelOrderButton {
+    display: none;
+}
+
+.productWrapper {
+    align-items: center;
+    display: flex;
+}
+
+.totalListItem--Shipping {
+    .totalListItemLabel {
+        font-size: 0;
+        &::before {
+            content: 'Envío';
+        }
+    }
+    .totalListItemLabel::before,
+    .totalListItemValue {
+        color: #3e3e3e;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.totalListItem--Items .totalListItemLabel {
+    font-size: 0;
+}
+
+.totalListItem--Items .totalListItemLabel::before {
+    content: 'Subtotal';
+    font-weight: 400;
+    font-size: 21px;
+    color: #000;
+}
+
+.totalListItem--Items .totalListItemValue {
+    font-weight: 400;
+    font-size: 21px;
+    color: #000;
+}
+
+.orderPlacedWrapper {
+    padding-top: 79px;
+    max-width: 896px;
+    margin: auto;
+}
+
+.confirmationIconWrapper::before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background: url('assets/icons/ok_order_placed_icon.svg') no-repeat center
+        center;
+    background-size: 40px 40px;
+    margin: auto;
+}
+
+.section--confirmation {
+    margin-bottom: 73.5px;
+}
+
+.section--notices {
+    margin-bottom: 40px;
+}
+
+.section--notices::before {
+    content: 'IMPORTANTE:';
+    color: #2b2b2b;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.orderPlacedMainWrapper {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.orderOptionsWrapper {
+    display: none;
+}
+
+.customerInfoListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.customerInfoListName,
+.customerInfoListEmail,
+.customerInfoListDocument,
+.customerInfoListPhone {
+    color: #2b2b2b;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: normal;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.customerInfoListName {
+    font-weight: 700;
+}
+
+.orderPaymentItem .paymentGroup {
+    display: none;
+}
+
+.orderPaymentItem {
+    padding-bottom: 30px;
+}
+
+.section--paymentMethods,
+.section--pickupPackages {
+    border-bottom: 0;
+}
+
+.section--paymentMethods::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    display: flex;
+    background: #e3e4e6;
+}
+
+.section--paymentMethods :global(.vtex__icon-info) {
+    display: none;
+}
+
+.package--delivery,
+.package--pickup {
+    margin-top: 30px;
+    margin-bottom: 57px;
+}
+
+.packageDeliveryTitle {
+    color: #2b2b2b;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.packageShippingEstimate,
+.packageSLA,
+.packageHeader--delivery,
+.packageHeader--pickup {
+    color: #2b2b2b;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.packageShippingEstimate {
+    margin-top: 8px;
+    display: flex;
+    font-weight: 300;
+}
+
+.pickupFriendlyName {
+    color: #2b2b2b;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.packageAdditionalInfo {
+    display: none;
+}
+
+.packageReceiverName {
+    color: #2b2b2b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.section--deliveryPackages,
+.section--pickupPackages {
+    border: none;
+}
+
+.productList {
+    max-width: 44.2%;
+    padding: 18px 5px 0 5px;
+    background: #fff;
+    border-radius: 12px;
+    position: relative;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productList::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    bottom: -57px;
+    left: 0;
+    background: #fff;
+    z-index: 0;
+}
+
+.productListItem {
+    z-index: 1;
+    position: inherit;
+    margin: 0;
+    padding: 5px 15px;
+    border: none;
+}
+
+.productImageColumn {
+    margin-right: 9px;
+    margin-bottom: 0;
+}
+
+.productImageWrapper {
+    width: 69.947px;
+    height: 69.947px;
+    border-radius: 6.172px;
+}
+
+.productInfoColumn {
+    width: 100%;
+}
+
+.productName {
+    color: #555;
+    font-size: 13.069px;
+    font-weight: 400;
+    line-height: 110.4%;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.productQuantity {
+    opacity: 0;
+}
+
+.productPrice {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    color: #3e3e3e;
+    font-size: 15.375px;
+    font-weight: 400;
+    line-height: 135.9%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.totalList {
+    max-width: 44.2%;
+    margin: 0;
+    padding-top: 21px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background: #fff;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    border-top: solid 1px #e5e5e5;
+    position: relative;
+}
+
+.totalListItem {
+    padding: 0 24px;
+}
+
+.totalList .totalListItem--Items .totalListItemLabel::before,
+.totalList .totalListItem--Items .totalListItemValue,
+.totalList .totalListItem--Discounts .totalListItemLabel,
+.totalList .totalListItem--Discounts .totalListItemValue {
+    color: #3e3e3e;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160.7%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.totalList .totalListItem:last-child {
+    border-top: solid 1px #e5e5e5;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 57px;
+}
+
+.totalList .totalListItem:last-child .totalListItemLabel,
+.totalList .totalListItem:last-child .totalListItemValue {
+    color: #2b2b2b;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 160.7%;
+}
+
+@media (max-width: 1025px) {
+    .orderPlacedWrapper {
+        max-width: none;
+        padding: 37px 30px 0 30px;
+    }
+
+    .confirmationIconWrapper::before {
+        width: 40px;
+        height: 40px;
+        background-size: 40px;
+    }
+
+    .confirmationTitle {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+
+    .confirmationMessage {
+        font-size: 10px;
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .section--confirmation {
+        margin-bottom: 36px;
+    }
+
+    .section--notices::before {
+        content: none;
+    }
+
+    .noticeListItem {
+        width: 100%;
+        padding: 8px 0 5px;
+        font-size: 9px;
+        line-height: 123.6%;
+    }
+
+    .orderPlacedMainWrapper {
+        margin-top: 100px;
+    }
+
+    .orderNumber {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .orderDatetime,
+    .orderSoldBy,
+    .orderSeller,
+    .customerInfoListName,
+    .customerInfoListEmail,
+    .customerInfoListDocument,
+    .customerInfoListPhone {
+        font-size: 11px;
+    }
+
+    .section--paymentMethods::after {
+        width: 100%;
+    }
+
+    .packageShippingEstimate,
+    .packageSLA,
+    .packageHeader--delivery {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 768px) {
+    .productInfoColumn {
+        display: flex;
+    }
+
+    .productList {
+        max-width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        gap: 10px;
+    }
+
+    .totalList {
+        max-width: 100%;
+    }
+
+    .productImageWrapper {
+        width: 59.568px;
+        height: 59.568px;
+    }
+
+    .productName {
+        font-size: 11.129px;
+    }
+
+    .productPrice {
+        font-size: 13.093px;
+    }
+
+    .totalList .totalListItem:last-child {
+        padding-bottom: 25px;
+    }
+
+    .totalList .totalListItem--Items .totalListItemLabel::before,
+    .totalList .totalListItem--Items .totalListItemValue,
+    .totalList .totalListItem--Discounts .totalListItemLabel,
+    .totalList .totalListItem--Discounts .totalListItemValue,
+    .totalList .totalListItem:last-child .totalListItemLabel,
+    .totalList .totalListItem:last-child .totalListItemValue {
+        font-size: 12px;
+    }
+
+    .package--delivery,
+    .package--pickup {
+        margin-bottom: 13px;
+    }
+
+    .packageReceiverName {
+        margin-bottom: 1rem;
+    }
+}

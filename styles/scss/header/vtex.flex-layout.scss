@@ -1,0 +1,17 @@
+@import '../VARS.scss';
+
+.flexCol--icons-header {
+    width: 127px;
+    justify-content: space-between;
+}
+
+@media (max-width: $phone) {
+    .flexRowContent--sticky-mobile {
+        .stretchChildrenWidth {
+            justify-content: flex-end;
+            .flexCol--icons-header {
+                max-width: fit-content;
+            }
+        }
+    }
+}

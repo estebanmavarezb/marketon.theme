@@ -1,0 +1,10 @@
+{
+    "store.account.custom": {
+      "blocks": ["my-account"],
+      "parent": {
+        "challenge": "challenge.profile",
+        "header": "menu-base"
+      }
+    }
+  }
+  

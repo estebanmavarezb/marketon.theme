@@ -1,0 +1,37 @@
+/* ------------------------------GENERAL ------------------------------*/
+/*---------- FICHA -------------*/
+.product-identifier__separator {
+  display: none;
+}
+
+.product-identifier__label,
+.product-identifier__value {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #555555;
+}
+
+.product-identifier__value {
+  margin-left: 3px;
+}
+
+.product-identifier--productReference {
+  display: flex;
+  line-height: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* ------------------------------DESKTOP ------------------------------*/
+/* ------------------------------TABLET -------------------------------*/
+/* ------------------------------MOBILE -------------------------------*/
+/*---------- FICHA -------------*/
+@media screen and (max-width: 639px) {
+  .product-identifier__label,
+  .product-identifier__value {
+    font-size: 10px;
+    line-height: 9px;
+  }
+}

@@ -1,0 +1,203 @@
+{
+    "product-summary.shelf": {
+        "children": [
+            "product-summary-image",
+            "product-summary-add-to-list-button",
+            "product-summary-name",
+            "product-rating-inline",
+            "product-summary-space",
+            "product-summary-price",
+            "product-identifier.summary",
+            "add-to-cart-button"
+        ]
+    },
+
+    // minicart
+    "list-context.product-list#products-minicart": {
+        "props": {
+            "blockClass": "products-minicart"
+        },
+        "blocks": ["product-summary.shelf#products-minicart"],
+        "children": ["slider-layout#products-minicart"]
+    },
+    "slider-layout#products-minicart": {
+        "props": {
+            "blockClass": "slider-products-minicart",
+            "fullWidth": false,
+            "infinite": false,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 2,
+                "phone": 2
+            }
+        }
+    },
+    "product-summary.shelf#products-minicart": {
+        "children": ["flex-layout.row#products-minicart"],
+        "props": {
+            "blockClass": "products-minicart",
+            "maxItems": 5
+        }
+    },
+    "flex-layout.row#products-minicart": {
+        "children": [
+            "flex-layout.col#products-minicart-image",
+            "flex-layout.col#products-minicart-info",
+            "flex-layout.col#products-add-to-cart-empty"
+        ],
+        "props": {
+            "blockClass": "products-minicart"
+        }
+    },
+    "flex-layout.col#products-minicart-image": {
+        "children": ["product-summary-image"],
+        "props": {
+            "blockClass": "products-minicart-image"
+        }
+    },
+    "flex-layout.col#products-minicart-info": {
+        "children": ["product-summary-name", "product-summary-price"],
+        "props": {
+            "blockClass": "products-minicart-info"
+        }
+    },
+    "flex-layout.col#products-add-to-cart-empty": {
+        "children": ["add-to-cart-button"],
+        "props": {
+            "blockClass": "products-add-to-cart-empty"
+        }
+    },
+
+    /*ficha de producto*/
+
+    "product-summary.shelf#productGrid": {
+        "props": {
+            "blockClass": ["product-shelf"]
+        },
+        "children": [
+            "flex-layout.row#product-image-container-grid",
+            "flex-layout.row#product-data-container-grid"
+        ]
+    },
+    "flex-layout.row#product-image-container-grid": {
+        "children": ["flex-layout.col#product-image-container-grid"]
+    },
+    "flex-layout.col#product-image-container-grid": {
+        "props": {
+            "blockClass": "container-image-grid"
+        },
+        "children": [
+            "add-favorites",
+            "product-image-hover",
+            "container-destaque",
+            "hover-specification",
+            "flex-layout.col#container-button-selector"
+        ]
+    },
+    "flex-layout.row#product-data-container-grid": {
+        "children": ["flex-layout.col#product-data-container-grid"]
+    },
+    "flex-layout.col#product-data-container-grid": {
+        "props": {
+            "blockClass": "container-data-grid"
+        },
+        "children": [
+            "product-summary-name",
+            "product-summary-space",
+            // "product-summary-brand",
+            "condition-layout.product#product-price"
+            
+        ]
+    },
+    "condition-layout.product#product-price": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "specificationProperties",
+                    "arguments": {
+                        "name": "m2 por Caja"
+                    }
+                }
+            ],
+            "Then": "flex-layout.col#product-data-price-condition",
+            "Else": "flex-layout.row#footer-cart"
+        }
+    },
+    "flex-layout.row#footer-cart":{
+        "children":[
+            "flex-layout.col#product-data-price",
+            "product-summary-space",
+            "flex-layout.col#product-cuotas-container",
+            "product-summary-space",
+            "client-discount",
+            "product-summary-space",
+            "flex-layout.col#free-shipping"
+        ],
+        "props":{
+            "blockClass": "footer-cart",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.col#product-data-price-condition": {
+        "props": {
+            "blockClass": ["container-data-price", "container-data-price-condition"]
+        },
+        "children": [
+            "madeofpartnerar.product-price:product-price",
+            "madeofpartnerar.product-price:product-price-savings"
+        ]
+    },
+    "madeofpartnerar.product-price:product-price":{
+        "props":{
+            "showDecimals": true,
+            "unitValue": "m²",
+            "valueText": "Por caja"
+        }
+    },
+
+    /* Search bar shelf */
+    "product-summary.shelf#search-bar": {
+        "props": {
+            "blockClass": ["product-shelf", "search-bar"]
+        },
+        "children": [
+            "flex-layout.row#product-image-container-grid-search-bar",
+            "flex-layout.row#product-data-container-grid-search-bar"
+        ]
+    },
+    "flex-layout.row#product-image-container-grid-search-bar": {
+        "children": ["flex-layout.col#product-image-container-grid-search-bar"]
+    },
+    "flex-layout.col#product-image-container-grid-search-bar": {
+        "props": {
+            "blockClass": "container-image-grid"
+        },
+        "children": [
+            "add-favorites",
+            "product-image-hover",
+            "hover-specification",
+            "flex-layout.col#container-button-selector"
+        ]
+    },
+    "flex-layout.row#product-data-container-grid-search-bar": {
+        "children": ["flex-layout.col#product-data-container-grid-search-bar"]
+    },
+    "flex-layout.col#product-data-container-grid-search-bar": {
+        "props": {
+            "blockClass": "container-data-grid"
+        },
+        "children": [
+            "product-summary-name",
+            "product-summary-space",
+            "flex-layout.col#product-data-price-search-bar"
+        ]
+    },
+    "flex-layout.col#product-data-price-search-bar": {
+        "props": {
+            "blockClass": "container-data-price"
+        },
+        "children": ["madeofpartnerar.product-price:product-price"]
+    }
+}

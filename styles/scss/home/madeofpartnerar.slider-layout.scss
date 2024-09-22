@@ -1,0 +1,21 @@
+@import '../VARS.scss';
+
+.caretIcon {
+    color: $third-gray;
+}
+
+.caretIcon--slider-products-bg {
+    color: #fff;
+}
+
+@media (max-width: $phone) {
+    .paginationDotsContainer--slider-products-bg {
+        .paginationDot--slider-products-bg {
+            background: transparent;
+            border-color: #c6c6c6;
+        }
+        .paginationDot--slider-products-bg--isActive {
+            background-color: #848484;
+        }
+    }
+}

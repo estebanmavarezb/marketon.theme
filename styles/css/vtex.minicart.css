@@ -1,0 +1,152 @@
+/* ------------------------------GENERAL ------------------------------*/
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+/* HEADER */
+.openIconContainer {
+  padding: 0;
+}
+
+.minicartWrapperContainer {
+  background-image: url("assets/icons/header-cart-icon.svg");
+  box-sizing: content-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-self: center;
+  background-size: 26px;
+}
+
+.cartIcon {
+  display: none;
+}
+
+.minicartQuantityBadgeDefault {
+  background-color: #bc1920;
+  color: #fff;
+  width: 12px;
+  height: 12px;
+  font-size: 7px;
+  font-weight: 700;
+  box-sizing: border-box;
+  line-height: 15px;
+  top: -1rem;
+  right: -1rem;
+}
+
+/* minicart */
+.minicartTitle {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 0;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 116.4%;
+  position: absolute;
+  top: 0;
+  left: 60px;
+  right: 60px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.minicartTitle::before {
+  content: "CARRITO DE COMPRAS";
+  font-size: 20px;
+}
+
+.closeIconContainer {
+  background: #f4c226;
+  height: 65px;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.closeIcon {
+  filter: invert(1);
+  width: 24px;
+  height: 24px;
+}
+
+.childrenContainer {
+  padding-top: 58px;
+}
+
+.minicartProductListContainer {
+  padding: 6px 20px 0;
+}
+
+.minicartSummary {
+  padding: 10px 30px 0;
+}
+
+.minicartCheckoutButton {
+  margin: 0;
+  padding: 0 55px 30px;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+  display: none;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  border-radius: 72.324px;
+  background: #bc1920;
+  height: 51px;
+}
+
+.minicartCheckoutButton :global(.vtex-button)::before {
+  content: "FINALIZAR COMPRA";
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 135.9%;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--products-minicart-info) :global(.vtex-product-summary-2-x-brandName) {
+  text-transform: lowercase;
+  display: block;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--products-minicart-info) :global(.vtex-product-summary-2-x-brandName)::first-letter {
+  text-transform: uppercase;
+}
+
+/* ------------------------------TABLET ------------------------------*/
+@media screen and (max-width: 1025px) {
+  /* HEADER */
+  .minicartWrapperContainer {
+    padding: 10px;
+  }
+}
+/* ------------------------------MOBILE ------------------------------*/
+@media screen and (max-width: 768px) {
+  /* MINICART */
+  .drawer {
+    width: 100% !important;
+  }
+  /* HEADER  */
+  .minicartWrapperContainer {
+    padding: 7px;
+    width: 24px;
+    height: 24px;
+    background-size: 24px;
+  }
+  .minicartQuantityBadgeDefault {
+    top: -1.1rem;
+    right: -1.2rem;
+    font-size: 8px;
+    width: 13px;
+    height: 13px;
+  }
+}

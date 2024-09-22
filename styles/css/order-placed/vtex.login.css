@@ -1,0 +1,47 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+:global(.vtex-order-placed-2-x-confirmationIconWrapper) svg {
+  display: none;
+}
+
+:global(.vtex-order-placed-2-x-orderPaymentItem) p {
+  color: #2b2b2b;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+:global(.vtex-order-placed-2-x-paymentGroup) ~ p {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+:global(.render-route-store-orderplaced) div:has(:global(.vtex-order-placed-2-x-orderPlacedWrapper)) {
+  background: #f9f9f9;
+}
+
+:global(.render-route-store-orderplaced) :global(.vtex-store-footer-2-x-footerLayout) {
+  display: none;
+}
+
+:global(.vtex-order-placed-2-x-addressContainer) {
+  line-height: 0;
+}
+
+:global(.vtex-order-placed-2-x-addressContainer) span {
+  color: #2b2b2b;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 1025px) {
+  :global(.vtex-order-placed-2-x-orderPaymentItem) p,
+  :global(.vtex-order-placed-2-x-addressContainer) span {
+    font-size: 11px;
+  }
+}

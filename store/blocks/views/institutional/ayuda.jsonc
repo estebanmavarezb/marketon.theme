@@ -1,0 +1,356 @@
+{
+    "store.custom#ayuda": {
+        "children": ["tab-layout#ayuda"],
+        "parent": {
+            "header": "menu-base"
+        }
+    },
+    "tab-layout#ayuda": {
+        "children":[
+            "tab-list#ayuda",
+            "tab-content#ayuda"
+        ],
+        "props": {
+            "blockClass": "ayuda"
+        }
+    },
+    "tab-list#ayuda": {
+        "children": [
+            "rich-text#tab-list-title",
+            "tab-list.item#guia-de-compra",
+            "tab-list.item#medios-de-pago",
+            "tab-list.item#envios",
+            "tab-list.item#sucursales",
+            "tab-list.item#preguntas-frecuentes",
+            "tab-list.item#arrepentimiento-de-compra",
+            "tab-list.item#terminos-y-condiciones",
+            "tab-list.item#contacto"
+        ],
+        "props":{
+            "blockClass": "ayuda"
+        }
+    },
+
+    "rich-text#tab-list-title": {
+        "props": {
+            "text": "Ayuda",
+            "blockClass": "tabListTitle"
+        }
+    },
+    "tab-list.item#envios": {
+        "props": {
+            "blockClass": "ayuda",
+            "tabId": "envios",
+            "label": "Envíos"
+        }
+    },
+    "tab-list.item#sucursales":{
+        "props": {
+            "blockClass": "ayuda",
+            "tabId": "sucursales",
+            "label": "Sucursales"
+        }
+    },
+    "tab-list.item#preguntas-frecuentes": {
+        "props": {
+            "blockClass": "ayuda",
+            "tabId": "preguntas-frecuentes",
+            "label": "Preguntas Frecuentes"
+        }
+    },
+    "tab-list.item#arrepentimiento-de-compra": {
+        "props": {
+            "blockClass": "ayuda",
+            "tabId": "arrepentimiento-de-compra",
+            "label": "Arrepentimiento de compra"
+        }
+    },
+    "tab-list.item#terminos-y-condiciones": {
+        "props": {
+            "blockClass": "ayuda",
+            "tabId": "terminos-y-condiciones",
+            "label": "terminos y condiciones"
+        }
+    },
+    "tab-list.item#contacto": {
+        "props": {
+            "blockClass": "ayuda",
+            "tabId": "contacto",
+            "label": "Contacto"
+        }
+    },
+    "tab-list.item#guia-de-compra": {
+        "props": {
+            "tabId": "guia-de-compra",
+            "label": "Guia de compra",
+            "blockClass": "ayuda",
+            "defaultActiveTab": true
+          }
+    },
+    "tab-list.item#medios-de-pago": {
+        "props": {
+            "tabId": "medios-de-pago",
+            "blockClass": "ayuda",
+            "label": "Medios de pago"
+          }
+    },
+    "tab-content#ayuda": {
+        "children": [
+            "tab-content.item#guia-de-compra",
+            "tab-content.item#medios-de-pago",
+            "tab-content.item#envios",
+            "tab-content.item#sucursales",
+            "tab-content.item#preguntas-frecuentes",
+            "tab-content.item#arrepentimiento-de-compra",
+            "tab-content.item#terminos-y-condiciones",
+            "tab-content.item#contacto"
+        ],
+        "props":{
+            "blockClass": "ayuda"
+        }
+    },
+    "tab-content.item#envios": {
+        "props": {
+            "tabId": "envios",
+            "blockClass": "ayuda"
+        },
+        "children": ["paginas-estaticas"]
+    },
+    "tab-content.item#sucursales": {
+        "props": {
+            "tabId": "sucursales",
+            "blockClass": "ayuda"
+        },
+        "children": ["render-maps"]
+    },
+    "tab-content.item#preguntas-frecuentes": {
+        "props": {
+            "tabId": "preguntas-frecuentes",
+            "blockClass": "ayuda"
+        },
+        "children": ["paginas-estaticas"]
+    },
+    "tab-content.item#arrepentimiento-de-compra": {
+        "props": {
+            "tabId": "arrepentimiento-de-compra",
+            "blockClass": "ayuda"
+        },
+        "children": ["flex-layout.row#form-arrepentimiento"]
+    },
+    "flex-layout.row#form-arrepentimiento": {
+        "children": ["form#form-arrepentimiento"],
+        "props": {
+            "blockClass": "form-arrepentimiento"
+        }
+    },
+    "form#form-arrepentimiento": {
+        "children": [
+            "flex-layout.row#form-arrepentimiento-children-1",
+            "flex-layout.row#form-arrepentimiento-children-2",
+            "flex-layout.row#form-arrepentimiento-children-3",
+            "flex-layout.row#form-arrepentimiento-children-4",
+            "flex-layout.row#form-arrepentimiento-children-5"
+        ],
+        "props": {
+            "title": "Arrepentimiento de compra"
+        }
+    },
+    "flex-layout.row#form-arrepentimiento-children-1": {
+        "children":[
+            "form.input#form-arrepentimiento-nombre",
+            "form.input#form-arrepentimiento-apelido"
+        ],
+        "props": {
+            "blockClass": "form-arrepentimiento-children-1"
+        }
+    },
+    "form.input#form-arrepentimiento-nombre": {
+        "props": {
+            "name": "nombre",
+            "type": "text",
+            "id": "nombre",
+            "label": "Nombre"
+        }
+    },
+    "form.input#form-arrepentimiento-apelido": {
+        "props": {
+            "name": "apelido",
+            "type": "text",
+            "id": "apelido",
+            "label": "Apelido"
+        }
+    },
+    "flex-layout.row#form-arrepentimiento-children-2": {
+        "children":[
+            "form.input#form-arrepentimiento-email",
+            "form.input#form-arrepentimiento-dni"
+        ],
+        "props": {
+            "blockClass": "form-arrepentimiento-children-2"
+        }
+    },
+    "form.input#form-arrepentimiento-email": {
+        "props": {
+            "name": "email",
+            "type": "text",
+            "id": "email",
+            "label": "Correo electrónico"
+        }
+    },
+    "form.input#form-arrepentimiento-dni": {
+        "props": {
+            "name": "dni",
+            "type": "text",
+            "id": "dni",
+            "label": "DNI"
+        }
+    },
+    "flex-layout.row#form-arrepentimiento-children-3": {
+        "children":[
+            "form.input#form-arrepentimiento-celular",
+            "form.input#form-arrepentimiento-numeroDeOrden"
+        ],
+        "props": {
+            "blockClass": "form-arrepentimiento-children-3"
+        }
+    },
+    "form.input#form-arrepentimiento-celular": {
+        "props": {
+            "name": "celular",
+            "type": "text",
+            "id": "celular",
+            "label": "Celular"
+        }
+    },
+    "form.input#form-arrepentimiento-numeroDeOrden": {
+        "props": {
+            "name": "numeroDeOrden",
+            "type": "text",
+            "id": "numeroDeOrden",
+            "label": "Número de orden"
+        }
+    },
+    "flex-layout.row#form-arrepentimiento-children-4": {
+        "children":[
+            "form.text-area#form-arrepentimiento-mensaje"
+        ],
+        "props": {
+            "blockClass": "form-arrepentimiento-children-4"
+        }
+    },
+    "form.text-area#form-arrepentimiento-mensaje": {
+        "props": {
+            "name": "mensaje",
+            "id": "mensaje",
+            "label": "Número de orden"
+        }
+    },
+    "flex-layout.row#form-arrepentimiento-children-5": {
+        "children": ["form.button#form-arrepentimiento-submit"],
+        "props": {
+            "blockClass": "form-arrepentimiento-children-5"
+        }
+    },
+    "form.button#form-arrepentimiento-submit": {
+        "props": {
+            "label": "Envíar solicitud",
+            "id": "form-arrepentimiento"
+        }
+    },
+    "tab-content.item#terminos-y-condiciones": {
+        "props": {
+            "tabId": "terminos-y-condiciones",
+            "blockClass": "ayuda"
+        },
+        "children": ["paginas-estaticas"]
+    },
+    "tab-content.item#contacto": {
+        "props": {
+            "tabId": "contacto",
+            "blockClass": "ayuda"
+        },
+        "children": []
+    },
+
+    "tab-content.item#guia-de-compra": {
+        "children": [
+            "paginas-estaticas"
+        ],
+        "props": {
+            "tabId": "guia-de-compra",
+            "blockClass": "ayuda"
+        }
+    },
+    "tab-content.item#medios-de-pago": {
+        "children": ["medios-de-pago"],
+        "props": {
+            "tabId": "medios-de-pago",
+            "blockClass": "ayuda"
+        }
+    },
+    "medios-de-pago": {
+        "title": "Medios de Pago",
+        "props": {
+            "title": "Medios de pago",
+            "paragraph": "Podés pagar a través de Mercago Pago eligiendo cualquiera de estos medios o por transferencia bancaria",
+            "mainImage": "https://repdealberdiar.vteximg.com.br/arquivos/mercado-pago.png",
+            "options": [
+                {
+                    "__editorItemTitle":"TARJETAS DE CRÉDITO",
+                    "heading":"TARJETAS DE CRÉDITO",
+                    "headingLevel": "h2",
+                    "image": [
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-macro.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-naranja.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-go-cuotas.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-visa.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-mastercard.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-visa.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-mastercard.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-macro.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-naranja.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-go-cuotas.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-visa.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-mastercard.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-visa.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-mastercard.png"
+                    ],
+                    "description": ""
+                },
+                {
+                    "__editorItemTitle":"TARJETAS DE DÉBITO",
+                    "heading":"TARJETAS DE DÉBITO",
+                    "headingLevel": "h2",
+                    "image": [
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-macro.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-naranja.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-go-cuotas.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-visa.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-mastercard.png"
+                    ],
+                    "description": ""
+                },
+                {
+                    "__editorItemTitle":"EN EFECTIVO EN PUNTOS DE PAGO",
+                    "heading":"EN EFECTIVO EN PUNTOS DE PAGO",
+                    "headingLevel": "h2",
+                    "image": [
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-macro.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-naranja.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-go-cuotas.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-visa.png",
+                        "https://repdealberdiar.vteximg.com.br/arquivos/logo-mastercard.png"
+                    ],
+                    "description": ""
+                },
+                {
+                    "__editorItemTitle":"POR TRANSFERENCIA BANCARIA",
+                    "heading":"POR TRANSFERENCIA BANCARIA",
+                    "headingLevel": "h2",
+                    "image": [],
+                    "description": "Podés abonar por transferencia bancaria consultando nuestros datos."
+                }
+            ]
+        }
+    }
+}

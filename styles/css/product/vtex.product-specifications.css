@@ -1,0 +1,17 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+:global(.vtex-flex-layout-0-x-flexRowContent--view-product-row) .specificationName {
+  color: #898989;
+  margin-bottom: 0.1rem;
+  display: inline-block;
+}
+:global(.vtex-flex-layout-0-x-flexRowContent--view-product-row) .specificationValue {
+  color: #2b2b2b;
+}
+@media (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--view-product-row) .specificationValue {
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,50 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+.biggy-autocomplete {
+  border-radius: 24px;
+}
+.biggy-autocomplete .itemList {
+  max-width: 204px;
+  background: #fff;
+}
+.biggy-autocomplete .itemList .itemListTitle {
+  color: #BC1920;
+  font-size: 14px;
+  font-weight: 500;
+}
+.biggy-autocomplete .itemList .itemListLinkTitle,
+.biggy-autocomplete .itemList .itemListSubItemLink {
+  color: #848484;
+  font-size: 14px;
+  font-weight: 500;
+}
+.biggy-autocomplete .itemList .itemListSubItemLink {
+  font-size: 13px;
+}
+.biggy-autocomplete .tileList {
+  background: #f6f6f8;
+}
+.biggy-autocomplete .tileList .tileListTitle {
+  color: #2b2b2b;
+  font-size: 14px;
+}
+.biggy-autocomplete .tileList .tileListList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 15px;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .biggy-autocomplete-wrapper {
+    width: 95vw;
+  }
+  .biggy-autocomplete-wrapper .biggy-autocomplete {
+    left: 0;
+    flex-direction: column !important;
+  }
+}

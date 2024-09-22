@@ -1,0 +1,17 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+.flexCol--icons-header {
+  width: 127px;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .flexRowContent--sticky-mobile .stretchChildrenWidth {
+    justify-content: flex-end;
+  }
+  .flexRowContent--sticky-mobile .stretchChildrenWidth .flexCol--icons-header {
+    max-width: fit-content;
+  }
+}

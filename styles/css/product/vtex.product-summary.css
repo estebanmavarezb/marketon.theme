@@ -1,0 +1,37 @@
+.containerNormal--kitlook {
+  height: 95px;
+}
+.containerNormal--kitlook .clearLink--kitlook {
+  text-decoration: none;
+}
+.containerNormal--kitlook .clearLink--kitlook .element--kitlook {
+  display: flex;
+  flex-direction: row;
+}
+.containerNormal--kitlook .clearLink--kitlook .element--kitlook :global(.vtex-flex-layout-0-x-flexRow--kitlook-image) {
+  max-width: 62px;
+  margin-right: 10px;
+}
+.containerNormal--kitlook .clearLink--kitlook .element--kitlook :global(.vtex-flex-layout-0-x-flexRow--kitlook-image) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+  margin-right: 0;
+}
+.containerNormal--kitlook .clearLink--kitlook .element--kitlook :global(.vtex-flex-layout-0-x-flexRow--kitlook-content) {
+  width: 100%;
+}
+.containerNormal--kitlook .clearLink--kitlook .element--kitlook :global(.vtex-flex-layout-0-x-flexRow--kitlook-content) :global(.vtex-flex-layout-0-x-flexRowContent--kitlook-content) {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.containerNormal--kitlook .clearLink--kitlook .element--kitlook :global(.vtex-flex-layout-0-x-flexRow--kitlook-content) :global(.vtex-flex-layout-0-x-flexRowContent--kitlook-content) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+  margin: 0;
+}
+.containerNormal--kitlook .clearLink--kitlook .element--kitlook :global(.vtex-flex-layout-0-x-flexRow--kitlook-content) :global(.vtex-flex-layout-0-x-flexRowContent--kitlook-content) .productBrand {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #555555;
+  width: 70%;
+}

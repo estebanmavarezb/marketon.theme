@@ -1,0 +1,98 @@
+{
+    "store.search.custom": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                   "maxItemsPerPage": 6,
+                "simulationBehavior": "default",
+                "__unstableProductOriginVtex": true
+                // "hideUnavailableItems": false
+            }
+        },
+        "parent": {
+            "header": "menu-base"
+        }
+    },
+    "store.search.custom#brand": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                   "maxItemsPerPage": 6,
+                "simulationBehavior": "default",
+                "__unstableProductOriginVtex": true
+                // "hideUnavailableItems": false
+            }
+        },
+        "parent": {
+            "header": "menu-base"
+        }
+    },
+    "store.search.custom#department": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                   "maxItemsPerPage": 6,
+                "simulationBehavior": "default",
+                "__unstableProductOriginVtex": true
+                // "hideUnavailableItems": false
+            }
+        },
+        "parent": {
+            "header": "menu-base"
+        }
+    },
+    "store.search.custom#category": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                   "maxItemsPerPage": 6,
+                "simulationBehavior": "default",
+                "__unstableProductOriginVtex": true
+                // "hideUnavailableItems": false
+            }
+        },
+        "parent": {
+            "header": "menu-base"
+        }
+    },
+    "store.search.custom#subcategory": {
+        "blocks": ["search-result-layout"],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                "maxItemsPerPage": 6,
+                "simulationBehavior": "default",
+                "__unstableProductOriginVtex": true
+                // "hideUnavailableItems": false
+            }
+        },
+        "parent": {
+            "header": "menu-base"
+        }
+    },
+    "search-result-layout": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+    "store.not-found.custom": {
+        "blocks": ["rich-text#not-found"],
+        "parent": {
+            "header": "menu-base"
+        }
+
+    },
+    "store.not-found.custom#search": {
+        "blocks": ["rich-text#not-found"],
+        "parent": {
+            "header": "menu-base"
+        }
+
+    }
+}

@@ -1,0 +1,125 @@
+/* POPPINS */
+@font-face {
+    font-family: 'Poppins';
+    src: url(assets/fonts/Poppins/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(assets/fonts/Poppins/Poppins-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(assets/fonts/Poppins/Poppins-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(assets/fonts/Poppins/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(assets/fonts/Poppins/Poppins-Black.ttf);
+    font-weight: 900;
+}
+
+/* LOEW NEXT */
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-Black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-ThinItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-ExtraBoldItalic.ttf);
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-Heavy.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-Light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-Thin.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-HeavyItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-ExtraBold.ttf);
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Loew Next';
+    src: url(assets/fonts/LoewNext/LoewNext-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

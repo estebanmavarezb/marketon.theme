@@ -1,0 +1,42 @@
+.containerNormal--kitlook{
+    height: 95px;
+    .clearLink--kitlook{
+        text-decoration: none;
+        .element--kitlook{
+            display: flex;
+            flex-direction: row;
+
+            & :global(.vtex-flex-layout-0-x-flexRow--kitlook-image){
+                max-width: 62px;
+                margin-right: 10px;
+                & :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+                    width: 100% !important;
+                    margin-right: 0;
+                }
+            }
+
+            & :global(.vtex-flex-layout-0-x-flexRow--kitlook-content){
+                width: 100%;
+                & :global(.vtex-flex-layout-0-x-flexRowContent--kitlook-content){
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+    
+                    & :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+                        width: 100% !important;
+                        margin: 0;
+                    }
+    
+                    .productBrand{
+                        font-family: "Poppins", sans-serif;
+                        font-size: 10px;
+                        font-weight: 400;
+                        color: #555555;
+                        width: 70%;
+                    }
+                }
+            }
+
+        }
+    }
+}

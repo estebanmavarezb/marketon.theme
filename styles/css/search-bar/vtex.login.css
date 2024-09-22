@@ -1,0 +1,51 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+:global(.vtex-search-2-x-tileList) :global(.vtex-product-summary-2-x-container--product-shelf) {
+  max-width: 180px !important;
+  max-height: 260px !important;
+  min-width: unset;
+  min-height: 260px;
+}
+:global(.vtex-search-2-x-tileList) :global(.vtex-product-summary-2-x-container--product-shelf) :global(.madeofpartnerar-componentes-0-x-SecondaryImage),
+:global(.vtex-search-2-x-tileList) :global(.vtex-product-summary-2-x-container--product-shelf) :global(.madeofpartnerar-componentes-0-x-PrimaryImage) {
+  max-height: 130px;
+  min-height: 130px;
+}
+:global(.vtex-search-2-x-tileList) :global(.vtex-product-summary-2-x-container--product-shelf) :global(.madeofpartnerar-product-price-0-x-price_sellingPriceContainer) :global(.madeofpartnerar-product-price-0-x-content__sellingPrice) {
+  color: #bc1920;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: start;
+}
+:global(.vtex-search-2-x-tileList) :global(.vtex-product-summary-2-x-container--product-shelf) :global(.madeofpartnerar-product-price-0-x-price_sellingPriceContainer) :global(.madeofpartnerar-product-price-0-x-content__sellingPrice) :global(.madeofpartnerar-product-price-0-x-price_sellingPrice) {
+  margin-right: 5px;
+}
+:global(.vtex-search-2-x-tileList) :global(.vtex-product-summary-2-x-container--product-shelf) :global(.madeofpartnerar-product-price-0-x-price_sellingPriceContainer) :global(.madeofpartnerar-product-price-0-x-selling__price) {
+  color: #2b2b2b;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: start;
+}
+:global(.vtex-search-2-x-tileList) :global(.vtex-product-summary-2-x-container--product-shelf) :global(.madeofpartnerar-product-price-0-x-price_sellingPriceContainer) :global(.madeofpartnerar-product-price-0-x-selling__price) :global(.madeofpartnerar-product-price-0-x-selling__price--value) {
+  margin-right: 5px;
+}
+:global(.vtex-search-2-x-tileList) :global(.vtex-product-summary-2-x-container--product-shelf) :global(.madeofpartnerar-product-price-0-x-price_listPriceContainer) :global(.madeofpartnerar-product-price-0-x-price_listPrice), :global(.vtex-search-2-x-tileList) :global(.vtex-product-summary-2-x-container--product-shelf) :global(.madeofpartnerar-product-price-0-x-price_listPriceContainer) :global(.madeofpartnerar-product-price-0-x-list__price--value) {
+  margin-right: 5px;
+}
+:global(.vtex-search-2-x-tileList) :global(.vtex-product-summary-2-x-container--product-shelf) :global(.madeofpartnerar-product-price-0-x-price_listPriceContainer) :global(.madeofpartnerar-product-price-0-x-container__total__price), :global(.vtex-search-2-x-tileList) :global(.vtex-product-summary-2-x-container--product-shelf) :global(.madeofpartnerar-product-price-0-x-price_listPriceContainer) :global(.madeofpartnerar-product-price-0-x-content__listPrice) {
+  font-size: 12px;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal--search-bar) :global(.madeofpartnerar-product-price-0-x-price_sellingPrice) {
+  color: #bc1920;
+}
+
+@media (max-width: 768px) {
+  :global(.vtex-search-result-3-x-searchResultContainer) div:has(:global(.vtex-search-result-3-x-container--layout)) {
+    width: 100%;
+  }
+}

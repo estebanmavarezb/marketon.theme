@@ -1,0 +1,106 @@
+/* ------------------------------GENERAL ------------------------------*/
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+/* FICHA */
+/* productos relacionados */
+.relatedProducts {
+  max-width: 1012px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.relatedProducts .title {
+  padding: 50px 0 30px;
+  width: 100%;
+  color: #2b2b2b;
+  font-size: 21.479px;
+  font-weight: 400;
+  line-height: 110.4%;
+  justify-content: flex-start;
+}
+@media (max-width: 768px) {
+  .relatedProducts .title {
+    justify-content: center;
+  }
+}
+
+.relatedProducts :global(.vtex-product-summary-2-x-element--product-shelf) {
+  padding: 0;
+}
+
+.relatedProducts :global(.vtex-slider-0-x-dotsContainer) {
+  display: none;
+}
+
+.relatedProducts :global(.vtex-product-summary-2-x-container--product-shelf) {
+  max-width: none !important;
+  border-top-left-radius: 11.54px;
+  border-top-right-radius: 11.54px;
+  margin: 10px 22px;
+  height: initial;
+  max-height: none !important;
+}
+
+.dot--isActive {
+  background: #848484;
+  border-color: #848484;
+}
+
+.shelfContentContainer {
+  margin-left: -22px;
+  margin-right: -22px;
+}
+
+.shelfContentContainer :global(.vtex-product-summary-2-x-element) {
+  max-width: none !important;
+}
+
+/* ------------------------------DESKTOP ------------------------------*/
+/* ------------------------------TABLET -------------------------------*/
+/* FICHA */
+/* productos relacionados */
+@media screen and (max-width: 999px) {
+  .relatedProducts :global(.vtex-product-summary-2-x-container--product-shelf) {
+    max-height: 550px;
+  }
+  .relatedProducts :global(.vtex-slider-0-x-dotsContainer) {
+    display: block;
+  }
+  .relatedProducts {
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 744px) {
+  .relatedProducts :global(.vtex-flex-layout-0-x-flexCol--container-image-grid) {
+    max-height: 550px;
+  }
+}
+/* ------------------------------MOBILE- ------------------------------*/
+@media screen and (max-width: 768px) {
+  /* FICHA */
+  /* productos relacionados */
+  .relatedProducts {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .relatedProducts .title {
+    font-size: 16px;
+    padding: 15px 0 10px;
+  }
+  .relatedProducts :global(.vtex-product-summary-2-x-container--product-shelf) {
+    max-width: 310px !important;
+    max-height: none !important;
+    margin: 10px 6px;
+  }
+  .relatedProducts :global(.vtex-product-summary-2-x-element--product-shelf) {
+    max-height: none !important;
+  }
+  .shelfContentContainer {
+    margin-left: -22px;
+    margin-right: -22px;
+  }
+}

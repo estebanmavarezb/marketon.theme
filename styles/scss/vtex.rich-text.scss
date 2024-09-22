@@ -1,0 +1,534 @@
+/* ------------------------------GENERAL ------------------------------*/
+@import './VARS.scss';
+
+/* HEADER */
+.wrapper--texto-promociones {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.paragraph--texto-promociones {
+    margin: 0;
+}
+
+.paragraph--texto-link-static {
+    margin: 0.5rem 0;
+}
+
+.paragraph--text-row-information {
+    color: #2b2b2b;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+/* ROW INFORMATION */
+.paragraph--text-row-information .strong--text-row-information {
+    color: #2b2b2b;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* TAB LAYOUT PRODUCTS */
+.paragraph--tab-layout-text {
+    color: #2b2b2b;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+:global(.vtex-tab-layout-0-x-listItemChildrenActive--tab-list-products)
+    .paragraph--tab-layout-text {
+    color: $main-color;
+}
+
+/* NEWSLETTER */
+.container--newsletter-text {
+}
+
+.container--newsletter-text .paragraph {
+    color: $main-color;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+
+.container--newsletter-text-2 .paragraph {
+    color: #2b2b2b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container--newsletter-text-3 .paragraph {
+}
+
+/* IMAGE + TEXT + BUTTON */
+.paragraph--title-image-text-button {
+    margin: 15px 0 0;
+    font-size: 24.2401px;
+    line-height: 100.4%;
+    color: #1f466b;
+}
+
+.paragraph--description-image-text-button {
+    margin: 5px 0 20px;
+    font-size: 16.2445px;
+    line-height: 100.4%;
+    color: #3e3e3e;
+}
+
+/* DOBLE IMAGE + TEXT + BUTTON */
+.paragraph--title-doble-image-text-button {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #1f466b;
+    margin: 40px 0 0;
+}
+
+.paragraph--description-doble-image-text-button {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100.4%;
+    margin: 0 0 30px;
+}
+
+/* BANNER TITLE DOBLE IMAGE */
+.paragraph--banner-title-doble-image_title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 118.9%;
+    color: $main-gray;
+    margin: 40px 0 40px;
+}
+
+.container--banner-title-doble-image_title {
+    justify-content: center;
+    text-align: center;
+}
+
+/* IMAGE + TEXT + BUTTON - ELEGIDOS */
+.wrapper--title-image-text-button-elegidos,
+.wrapper--description-image-text-button-elegidos {
+    width: 100%;
+}
+
+.paragraph--title-image-text-button-elegidos {
+    margin: 8.8% 8.6% 4%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 118.9%;
+    text-transform: uppercase;
+    color: $main-gray;
+}
+
+.paragraph--description-image-text-button-elegidos {
+    margin: 0 8.6% 8%;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 118.9%;
+    color: $main-gray;
+}
+
+/* MINICART */
+.wrapper--minicart-default-empty-state .paragraph {
+    margin: 0;
+    text-align: center;
+    color: #3e3e3e;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.wrapper--minicart-empty-state-info-envio {
+    width: 100%;
+}
+
+.paragraph--minicart-empty-state-info-envio {
+    margin: 0;
+    padding: 17px 20px;
+    color: #15ad5e;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    border-top: solid 1px #c4c4c4;
+    border-bottom: solid 1px #c4c4c4;
+}
+
+/* FICHA */
+
+/* product-specification and description */
+.paragraph--text-specification-and-description {
+    color: #2b2b2b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 110.4%;
+    margin: 4px 0;
+}
+
+/* title and description render manager ficha */
+.paragraph--title-and-description-title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 110.4%;
+    color: #3e3e3e;
+}
+
+.paragraph--title-and-description-description {
+    margin: 0;
+    font-size: 15px;
+    line-height: 154.4%;
+    color: #595959;
+}
+
+/* FOOTER */
+.paragraph--footer-info-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.paragraph--footer-info-title-social {
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.paragraph--text-link-footer-info {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.paragraph--text-link-footer-info-bold {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 26px;
+    margin-bottom: 0;
+}
+
+.link--text-link-footer-info {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.container--text-link-footer-info-contact {
+    line-height: 22px;
+    margin: 5px 0;
+}
+
+.paragraph--footer-text {
+    color: #ffffff;
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+}
+
+/* ------------------------------DESKTOP ------------------------------*/
+
+/* HEADER */
+.wrapper--texto-promociones-desktop {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+/*BANNER TEXTO*/
+.container--colorFontBlue {
+    color: #1f466b;
+}
+
+.paragraph--textBannerUno {
+    font-size: 34px;
+    height: 0px;
+    margin: 5px 0px;
+}
+
+.paragraph--textBannerDos {
+    font-size: 34px;
+    height: 10px;
+}
+
+.paragraph--textBannerInfo {
+    text-align: initial;
+    font-size: 15px;
+    height: 0px;
+    color: black;
+    line-height: 20px;
+}
+
+/*BANNER TRINOMIO*/
+.container--stories-title-trinomio {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+}
+
+.paragraph--stories-title-trinomio {
+    margin: 0px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+}
+
+:global(.vtex-store-link-0-x-label--linkUrl-trinomio) {
+    text-transform: uppercase;
+    color: white !important;
+    font-size: 15px;
+}
+
+:global(.vtex-store-link-0-x-link--linkUrl-trinomio) {
+    text-decoration: none;
+    border-bottom: 1px solid $main-color;
+}
+
+/* SLIDER INFICARDS */
+.paragraph--title-slider-infocards {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 118.9%;
+    color: #1f466b;
+}
+
+/* ------------------------------TABLET ------------------------------*/
+
+@media screen and (max-width: 1025px) {
+    /* SLIDER INFOCARDS */
+    .paragraph--title-slider-infocards {
+        font-size: 33px;
+    }
+
+    /* IMAGE + TEXT + BUTTON - ELEGIDOS */
+    .paragraph--title-image-text-button-elegidos {
+        font-size: 12px;
+    }
+
+    .paragraph--description-image-text-button-elegidos {
+        font-size: 14px;
+    }
+
+    /* FICHA */
+    /* title and description render manager ficha */
+    .paragraph--title-and-description-title {
+        margin: 0;
+        font-size: 16px;
+        line-height: 110.4%;
+        color: #3e3e3e;
+    }
+
+    .paragraph--title-and-description-description {
+        margin: 0;
+        font-size: 11px;
+        line-height: 154.4%;
+        color: #595959;
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    /* FOOTER */
+    .paragraph--footer-info-title {
+        font-size: 13px;
+    }
+
+    .paragraph--text-link-footer-info {
+        font-size: 12px;
+    }
+
+    .paragraph--text-link-footer-info-bold {
+        font-size: 12px;
+        margin-top: 18px;
+    }
+
+    .paragraph--footer-info-title-social {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+/* ------------------------------MOBILE ------------------------------*/
+
+/* HEADER MOBILE */
+.wrapper--texto-promociones-mobile {
+    font-size: 12px;
+}
+
+.paragraph--texto-promociones-mobile {
+    margin: 8px 20px 8px 0;
+}
+
+.container--banner-title-doble-image_title-link {
+    display: flex;
+    justify-content: center;
+}
+
+.container--banner-title-doble-image_title-link
+    .paragraph--banner-title-doble-image_title-link
+    .link--banner-title-doble-image_title-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.8814px;
+    line-height: 135.9%;
+    text-align: center;
+    color: #1f466b;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+    /*BLOQUE  BANNER TEXTO */
+    .paragraph--textBannerUno {
+        font-size: 22px;
+    }
+
+    .paragraph--textBannerDos {
+        font-size: 22px;
+    }
+
+    .paragraph--textBannerInfo {
+        font-size: 12px;
+    }
+
+    /* SLIDER INFOCARDS */
+    .paragraph--title-slider-infocards {
+        font-size: 23px;
+    }
+
+    /* FICHA */
+
+    /* product-specification and description */
+    .paragraph--text-specification-and-description {
+        color: #555;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .container--banner-title-doble-image_title-link
+        .paragraph--banner-title-doble-image_title-link
+        .link--banner-title-doble-image_title-link {
+        font-size: 16px;
+    }
+
+    /* ROW INFORMATION */
+    .container--text-row-information {
+        font-size: 7.91408px;
+    }
+
+    /* TAB LAYOUT PRODUCTS */
+    .paragraph--tab-layout-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    /* NEWSLETTER */
+    .container--newsletter-text .paragraph {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .container--newsletter-text-2 .paragraph {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    /* DOBLE IMAGE + TEXT + BUTTON */
+    .paragraph--title-doble-image-text-button {
+        font-size: 19px;
+        margin: 5px 0 0;
+        line-height: 21px;
+    }
+
+    .paragraph--description-doble-image-text-button {
+        font-size: 10px;
+        margin: 5px 0 15px;
+    }
+
+    /* BANNER TITLE DOBLE IMAGE */
+    .paragraph--banner-title-doble-image_title {
+        margin: 0 0 30px;
+        font-size: 20px;
+    }
+
+    /* IMAGE + TEXT + BUTTON */
+    .paragraph--title-image-text-button {
+        margin: 13px 0 0;
+        font-size: 20.2401px;
+    }
+
+    .paragraph--description-image-text-button {
+        margin: 5px 0 20px;
+        font-size: 11.2445px;
+    }
+
+    /* IMAGE + TEXT + BUTTON - ELEGIDOS */
+    .paragraph--title-image-text-button-elegidos {
+        font-size: 18px;
+    }
+
+    .paragraph--description-image-text-button-elegidos {
+        font-size: 12px;
+    }
+
+    /* FOOTER */
+    .paragraph--footer-info-title {
+        font-size: 9.96407px;
+        line-height: 15px;
+        margin-bottom: 2px;
+    }
+
+    .paragraph--text-link-footer-info {
+        font-size: 9.34132px;
+        line-height: 18px;
+    }
+
+    .paragraph--text-link-footer-info-bold {
+        font-size: 9.34132px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    .container--text-link-footer-info-contact {
+        margin: 0;
+    }
+
+    .paragraph--footer-info-title-social {
+        margin-bottom: 7.46px;
+    }
+
+    .paragraph--footer-text {
+        font-size: 9px;
+    }
+
+    .paragraph--text-row-information {
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .paragraph--text-row-information .strong--text-row-information {
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+    }
+}

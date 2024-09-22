@@ -1,0 +1,21 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+.caretIcon {
+  color: #898989;
+}
+
+.caretIcon--slider-products-bg {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .paginationDotsContainer--slider-products-bg .paginationDot--slider-products-bg {
+    background: transparent;
+    border-color: #c6c6c6;
+  }
+  .paginationDotsContainer--slider-products-bg .paginationDot--slider-products-bg--isActive {
+    background-color: #848484;
+  }
+}

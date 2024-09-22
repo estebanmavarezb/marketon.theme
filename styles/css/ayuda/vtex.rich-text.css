@@ -1,0 +1,16 @@
+.container--tabListTitle {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin: 0.25rem;
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2b2b2b;
+}
+
+.container--tabListTitle .paragraph {
+  margin-top: 0;
+}

@@ -1,0 +1,5 @@
+.flexRow--view-product-col-breadcrumb {
+    :global(.vtex-breadcrumb-1-x-link):not(:first-child) {
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,447 @@
+@import './VARS.scss';
+
+:global(.vtex-flex-layout-0-x-flexRowContent--galleryResult) {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container--layout {
+    margin-bottom: 73px;
+}
+
+/* Filter Navigation Desktop */
+.filtersWrapper--filter-navigation {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #d9d9d9;
+    padding: 19px 27px 41px;
+}
+
+.filter__container--filter-navigation--title:first-child {
+    border-bottom: none;
+}
+
+.filterMessage--filter-navigation {
+    font-size: 0;
+}
+
+.filterMessage--filter-navigation::before {
+    content: 'FILTRADO POR';
+    color: #2b2b2b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20.474px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.filter__container--filter-navigation {
+    border-color: transparent;
+}
+
+.filter__container--selectedFilters .filterSelected--filter-navigation {
+    display: none;
+}
+
+.filter__container--selectedFilters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #cac4d0;
+    margin-bottom: 16px;
+}
+
+.filter__container--selectedFilters .filterTemplateOverflow--filter-navigation {
+    padding: 0;
+}
+
+.filterTitleSpan--filter-navigation {
+    color: #848484;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.filterAvailable--filter-navigation {
+    padding-bottom: 0.4rem;
+}
+
+.filterIcon--filter-navigation {
+    padding-right: 0;
+}
+
+.caretIcon--filter-navigation {
+    color: #848484;
+    width: 10px;
+}
+
+.filterItem--filter-navigation {
+    margin: 16px 0;
+}
+
+.filterItem--filter-navigation :global(.vtex-checkbox__line-container) {
+    align-items: center;
+}
+
+.filter__container--priceRange .filter--filter-navigation {
+    visibility: hidden;
+}
+
+.filterTemplateOverflow--filter-navigation
+    :global(.vtex-slider__values-container) {
+    color: #848484;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: flex-start;
+    margin-top: 16px;
+}
+
+.filterTemplateOverflow--filter-navigation
+    :global(.vtex-slider__values-container)::before {
+    content: 'Precio:';
+    margin-right: 0.3rem;
+}
+
+.filterTemplateOverflow--filter-navigation :global(.vtex-slider__left-value),
+.filterTemplateOverflow--filter-navigation :global(.vtex-slider__right-value) {
+    color: #848484;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+:global(.vtex-slider-layout-0-x-slide--bannerGallery) {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+/* Filter Navigation Mobile */
+:global(.vtex-flex-layout-0-x-flexRowContent--searchInfoMobile)
+    :global(.vtex-flex-layout-0-x-flexCol--switcherMobileCol) {
+    display: none;
+}
+
+.filtersWrapperMobile--filter-navigation {
+    position: relative;
+}
+
+.filtersWrapperMobile--filter-navigation .filterPopupButton {
+    position: absolute;
+    z-index: 1;
+    right: 1rem;
+    top: 12px;
+}
+
+.filtersWrapperMobile--filter-navigation .filterPopupButton {
+    background: transparent;
+    border: none;
+    width: 128px;
+    max-height: 22px;
+    padding: 0;
+}
+
+.filtersWrapperMobile--filter-navigation .filterPopupButton .filterPopupTitle {
+    color: #2b2b2b;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    border-bottom: 1px solid;
+}
+
+.filtersWrapperMobile--filter-navigation
+    .filterPopupButton
+    .filterPopupTitle::before {
+    content: 'Filtrar Por';
+    text-transform: uppercase;
+    color: inherit;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.filtersWrapperMobile--filter-navigation
+    .filterPopupButton
+    .filterPopupArrowIcon::before {
+    content: url('assets/icons/mobile-filter-icon.svg');
+}
+
+.filtersWrapperMobile--filter-navigation
+    .filterPopupButton
+    .filterPopupArrowIcon
+    .filterIcon--filter-navigation {
+    display: none;
+}
+
+.filterItem--filter-navigation :global(.vtex-checkbox__label) {
+    color: #848484;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Order By */
+.orderByOptionsContainer {
+    z-index: 900;
+}
+
+.orderByButton .filterPopupTitle,
+.orderByButton .filterPopupTitle .orderByText {
+    font-size: 0;
+}
+
+.orderByButton .filterPopupTitle::before {
+    content: 'Ordenar por';
+    text-transform: uppercase;
+    color: $main-gray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom: 1px solid $main-gray;
+}
+
+.orderByButton .filterPopupArrowIcon {
+    padding: 0 0.5rem;
+}
+
+.filterPopupArrowIcon {
+    margin: 0;
+    padding-left: 5px;
+}
+
+.orderByButton .filterPopupArrowIcon::before {
+    content: url('assets/icons/gallery-order-icon.svg');
+}
+
+.orderByButton .caretIcon {
+    display: none;
+}
+
+.accordionFilterItemTitle--filter-navigation,
+.orderByOptionItem {
+    text-transform: uppercase;
+}
+
+.orderByDropdown {
+    margin-bottom: 22px;
+}
+
+.filterTemplateOverflow :global(.vtex-slider__selector),
+.filterTemplateOverflow :global(.vtex-slider__base-internal) {
+    background-color: $main-yellow !important;
+}
+
+/* Order By Mobile */
+@media (max-width: 768px) {
+    .orderByButton {
+        justify-content: flex-end;
+        padding-left: 1rem;
+    }
+    .orderByOptionsContainer {
+        min-width: 180px;
+        max-width: 200px;
+        max-height: 320px;
+        overflow-y: scroll;
+        right: 18px;
+        top: 50px;
+    }
+
+    .orderByDropdown .orderByButton {
+        border: none;
+    }
+
+    /* width */
+    .orderByOptionsContainer::-webkit-scrollbar {
+        width: 6px;
+        height: 30px;
+        display: block !important;
+        padding-left: 1rem;
+    }
+
+    /* Track */
+    .orderByOptionsContainer::-webkit-scrollbar-track {
+        background: #fff;
+    }
+
+    /* Handle */
+    .orderByOptionsContainer::-webkit-scrollbar-thumb {
+        background: #d9d9d9;
+        border-radius: 50px;
+    }
+
+    .filtersWrapperMobile--filter-navigation .filterPopupButton {
+        right: unset;
+        left: 18px;
+        top: 18.5px;
+    }
+}
+
+/* Grid layout */
+.searchResultContainer {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--galleryResult) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 1039px;
+    max-width: 1039px;
+    margin: 0 auto;
+}
+
+.buttonShowMore :global(.vtex-button) {
+    background: transparent;
+    margin-top: 2rem;
+}
+
+.buttonShowMore :global(.vtex-button)::before {
+    content: 'VER MÁS PRODUCTOS';
+    background: transparent;
+    color: #3e3e3e;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0.1rem 0;
+    border-bottom: 2px solid $main-color;
+}
+
+.buttonShowMore :global(.vtex-button__label) {
+    font-size: 0;
+}
+
+.gallery--grid {
+    padding-left: 0;
+}
+
+.galleryItem--grid {
+    padding: 0.5rem !important;
+}
+
+/* Grid layout Laptop */
+.gallery--grid {
+    padding-left: 0;
+}
+
+.filterAccordionBreadcrumbs {
+    padding: 0;
+    border: none;
+}
+
+.filterAccordionBreadcrumbs .filterBreadcrumbsText--filter-navigation {
+    font-size: 0;
+}
+
+.filterAccordionBreadcrumbs .filterBreadcrumbsText--filter-navigation::before {
+    content: 'FILTRADO POR';
+    color: #2b2b2b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.accordionFilterItemTitle--filter-navigation {
+    color: #848484;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.filterAccordionItemBox {
+    border: none;
+    padding: 0;
+    min-height: 44px;
+}
+
+.accordionFilter {
+    padding: 26px 25px 56px;
+}
+
+.accordionFilterContainer {
+    padding: 0 14px;
+}
+
+.accordionFilterOpen--filter-navigation {
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.accordionFilterItem--filter-navigation {
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 32px;
+}
+
+.accordionFilterContent--filter-navigation {
+    width: 100%;
+    padding: 6px 0;
+}
+
+.filterButtonsBox {
+    border: none;
+    height: 142px;
+}
+
+.filterTotalProducts {
+    display: none;
+}
+
+.filterClearButtonWrapper--filter-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 0.8rem;
+}
+
+.filterClearButtonWrapper--filter-navigation :global(.vtex-button) {
+    border: 2px solid $main-color;
+    border-radius: 48px;
+    max-width: 95px;
+}
+
+.filterClearButtonWrapper--filter-navigation :global(.vtex-button__label) {
+    color: $main-color;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 7.25px 14px;
+    max-width: 80px;
+    margin: 0 auto;
+}
+
+.filterApplyButtonWrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 0.8rem;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button) {
+    border: 2px solid $main-color;
+    border-radius: 48px;
+    max-width: 95px;
+    background-color: $main-color;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    :global(.vtex-flex-layout-0-x-flexRow--galleryResult) {
+        min-width: unset;
+    }
+}

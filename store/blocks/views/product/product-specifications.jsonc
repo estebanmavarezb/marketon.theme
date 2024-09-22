@@ -1,0 +1,23 @@
+{
+    "product-specification-group#brand-specification": {
+        "children": ["product-specification#brand-specification"],
+        "props": {
+            "filter": {
+                "specificationGroups": ["Especificaciones de Productos"],
+                "type": "show"
+            }
+        }
+    },
+    "product-specification#brand-specification": {
+        "children": ["product-specification-values#brand-specification"]
+    },
+    "product-specification-values#brand-specification": {
+        "children": ["product-specification-text#brand-specification"]
+    },
+    "product-specification-text#brand-specification": {
+        "props": {
+            "message": "{specificationValue}",
+            "isFirstSpecificationValue": true
+        }
+    }
+}

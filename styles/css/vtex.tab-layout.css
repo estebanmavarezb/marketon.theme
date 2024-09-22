@@ -1,0 +1,119 @@
+/* GENERAL */
+/* TAB LAYOUT HOME */
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+:global(.vtex-flex-layout-0-x-flexRowContent--tab-layout-home) .contentItem {
+  margin-top: 40px;
+}
+
+.listItem--tab-list-home :global(.vtex-button) {
+  background-color: #ffffff;
+  color: #1f466b;
+  border: none;
+  font-weight: 400;
+  font-size: 16.1905px;
+  line-height: 118.9%;
+  letter-spacing: 0.195em;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.listItem--tab-list-home :global(.vtex-button__label) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.listItem--tab-list-home :global(.vtex-button):hover {
+  background-color: #ffffff;
+}
+
+.listItemActive--tab-list-home :global(.vtex-button) {
+  border-bottom: solid 3px #bc1920;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--tab-layout-home) .contentItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: max-content;
+}
+
+.listContainer--tab-list-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+  min-width: 325px;
+}
+
+/* TAB LAYOUT PRODUCTS */
+.listContainer--tab-list-container {
+  max-width: 1012px;
+  margin: 0 auto 70px;
+}
+
+.listContainer--tab-list-container .listItemChildren--tab-list-products {
+  border-bottom: 2px solid #e6e0e9;
+}
+
+.listItemChildren--tab-list-products {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  margin: 0;
+}
+
+.listItemChildrenActive--tab-list-products {
+  border-bottom: 4px solid #bc1920 !important;
+}
+
+/* TABLET  */
+@media screen and (max-width: 1025px) {
+  /* TAB LAYOUT HOME */
+  :global(.vtex-flex-layout-0-x-flexRowContent--tab-layout-home) .contentItem {
+    min-width: auto;
+  }
+}
+/* MOBILE  */
+@media screen and (max-width: 639px) {
+  /* TAB LAYOUT PRODUCTS */
+  .listItemChildren.listItemChildren--tab-list-products {
+    width: 100%;
+    margin: 0;
+  }
+  .listItemChildrenActive--tab-list-products {
+    border-bottom: 3px solid #bc1920 !important;
+  }
+  /* TAB LAYOUT HOME */
+  .infoCardContainer--infocard-tabs-home {
+    height: 53vw;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--tab-layout-home) .contentItem {
+    margin-top: 0;
+    flex-wrap: wrap;
+    width: auto;
+  }
+  .listItem--tab-list-home {
+    margin: 0;
+    padding: 0;
+  }
+  .listContainer--tab-list-container :global(.vtex-flex-layout-0-x-flexRow) {
+    width: 100%;
+  }
+  .listContainer--tab-list-container :global(.vtex-flex-layout-0-x-flexRowContent) {
+    display: flex;
+    overflow: scroll;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .listContainer--tab-list-container {
+    margin: 0 auto 33px;
+  }
+  .listContainer--tab-list-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+    min-width: 98px;
+  }
+}

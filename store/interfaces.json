@@ -1,0 +1,48 @@
+{
+    "store.custom.landings": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+    "store.custom.static-page": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+    "store.home.custom": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+    "store.search.custom": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+
+    "store.search.custom#brand": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+
+    "store.search.custom#department": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+    "store.search.custom#category": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+    "store.search.custom#subcategory": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+    "store.not-found.custom#search": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+    "store.product.custom": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp", "kitlook-context"]
+    },
+    "store.account.custom": {
+        "required": ["my-account"],
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+    "store.login.custom": {
+        "required": ["login-content"],
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+    "store.orderplaced.custom": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    },
+    "store.not-found.custom": {
+        "around": ["favorites-wrapper", "destaques-autoadministrables-plp","cuotas-autoadministrables-plp"]
+    }
+}

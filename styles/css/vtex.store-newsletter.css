@@ -1,0 +1,92 @@
+/* ------------------------------GENERAL ------------------------------*/
+/* NEWSLETTER */
+.newsletterForm {
+  text-align: center;
+  max-width: 850px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 27px;
+}
+
+.emailInputContainer {
+  width: 100%;
+}
+
+.emailInputContainer :global(.vtex-input-prefix__group) {
+  border: none;
+  border-radius: 0;
+  height: 72px;
+}
+
+.emailInputContainer :global(.vtex-styleguide-9-x-hideDecorators) {
+  border-radius: 94.362px;
+  border: 2px solid #cecece;
+  background: #f6f6f6;
+  width: 439px;
+  height: 61px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.emailInputContainer :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  font-style: normal;
+  color: #555;
+  padding-left: 1.5rem;
+}
+
+.formSubmitContainer :global(.vtex-button) {
+  position: absolute;
+  right: 15.34px;
+  top: 9.25px;
+  background: transparent;
+  font-size: 0;
+}
+
+.formSubmitContainer :global(.vtex-button__label) {
+  background-image: url("assets/icons/nl-right-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 41px;
+  width: 41px;
+  height: 41px;
+}
+
+.defaultSuccessMessage,
+.defaultErrorMessage {
+  color: #ffffff;
+  text-align: center;
+}
+
+.emailInputContainer :global(.vtex-styleguide-9-x-hideDecorators) {
+  padding-left: 2.5rem;
+}
+
+/* ------------------------------MOBILE ------------------------------*/
+/* NEWSLETTER */
+@media screen and (max-width: 639px) {
+  .emailInputContainer :global(.vtex-styleguide-9-x-hideDecorators) {
+    padding-left: 36px;
+    height: 45px;
+  }
+  .formSubmitContainer :global(.vtex-button__label) {
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+  }
+  .emailInputContainer :global(.vtex-styleguide-9-x-hideDecorators) {
+    max-width: 280px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+  }
+  .formSubmitContainer :global(.vtex-button) {
+    right: 3.34px;
+    top: 2.25px;
+  }
+  .newsletterForm {
+    margin-top: 10px;
+  }
+}

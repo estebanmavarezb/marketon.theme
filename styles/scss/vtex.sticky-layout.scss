@@ -1,0 +1,33 @@
+/* ------------------------------GENERAL ------------------------------*/
+@import './VARS.scss';
+
+/* HEADER */
+.container--sticky-header {
+    background-color: $sixth-gray;
+}
+
+.wrapper--sticky-header :global(.vtex-store-components-3-x-container) {
+    max-width: 100%;
+}
+/* ------------------------------DESKTOP ------------------------------*/
+
+/* HEADER */
+.container--sticky-header-desktop {
+    padding: 15px 50px 10px;
+}
+
+.wrapper--sticky-header-desktop {
+    z-index: 999;
+    display: contents;
+}
+
+/* ------------------------------TABLET ------------------------------*/
+
+/* HEADER */
+.container--sticky-header-tablet {
+    padding: 22px 16px 16px;
+}
+
+.wrapper--sticky-header-tablet {
+    height: auto !important;
+}

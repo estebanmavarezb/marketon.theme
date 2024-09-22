@@ -1,0 +1,47 @@
+.slide--slider-products-bg {
+    margin: 10px 5px;
+    max-width: 220px !important;
+}
+
+.sliderLayoutContainer--slider-products-bg {
+    max-width: 1012px !important;
+}
+
+.paginationDotsContainer--slider-products-bg {
+    bottom: -30px;
+}
+
+.paginationDotsContainer--slider-products-bg
+    .paginationDot--slider-products-bg {
+    background: transparent;
+    border: 2px solid #c6c6c6;
+    max-width: 7px;
+    height: 7px !important;
+    width: 100% !important;
+}
+
+.paginationDotsContainer--slider-products-bg
+    .paginationDot--slider-products-bg--isActive {
+    background: #848484;
+    border-color: #848484;
+}
+
+.sliderRightArrow--slider-products-bg {
+    right: -25px;
+}
+
+.sliderLeftArrow--slider-products-bg {
+    left: -25px;
+}
+
+@media screen and (max-width: 639px) {
+    .sliderLayoutContainer--slider-products-bg--1 {
+        max-width: 205px !important;
+    }
+}
+
+/*GRILLA 3 PRODUCTOS*/
+
+.sliderLayoutContainer--slider-products-bg--3 {
+    padding: 0 !important;
+}

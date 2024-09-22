@@ -1,0 +1,32 @@
+/* Pagina ayuda */
+
+.flexRowContent--form-arrepentimiento .stretchChildrenWidth {
+    flex-direction: column;
+}
+
+.flexRow--form-arrepentimiento-children-1,
+.flexRow--form-arrepentimiento-children-2,
+.flexRow--form-arrepentimiento-children-3,
+.flexRow--form-arrepentimiento-children-4,
+.flexRow--form-arrepentimiento-children-5 {
+    width: 80%;
+}
+
+.flexRowContent--form-arrepentimiento-children-1,
+.flexRowContent--form-arrepentimiento-children-2,
+.flexRowContent--form-arrepentimiento-children-3,
+.flexRowContent--form-arrepentimiento-children-4,
+.flexRowContent--form-arrepentimiento-children-5 {
+    gap: 2rem;
+}
+
+@media(max-width: 768px) {
+
+    .flexRow--form-arrepentimiento-children-1,
+    .flexRow--form-arrepentimiento-children-2,
+    .flexRow--form-arrepentimiento-children-3,
+    .flexRow--form-arrepentimiento-children-4,
+    .flexRow--form-arrepentimiento-children-5 {
+        width: 100%;
+    }
+}

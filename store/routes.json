@@ -1,0 +1,14 @@
+{
+    "store.custom#ayuda": {
+        "path": "/ayuda"
+    },
+    "store.custom.landings#cocina": {
+        "path": "/todo-para-tu-cocina"
+    },
+    "store.custom.landings#bano": {
+        "path": "/todo-para-tu-bano"
+    },
+    "store.custom.landings#pisos": {
+        "path": "/todo-para-tus-pisos"
+    }
+}

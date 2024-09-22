@@ -1,0 +1,81 @@
+/* assembly */
+.currencyLiteral {
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-assembly-options-container) :global(.vtex-button),
+:global(.vtex-flex-layout-0-x-flexRowContent--product-assembly-options-container) :global(.vtex-button__label) {
+  display: none;
+}
+
+.productAssemblyGroupName {
+  color: #2b2b2b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 133.9%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product-assembly-options-container) :global(.vtex-button)::after {
+  content: "";
+  background: url("https://madeofpartnerar.vtexassets.com/arquivos/assembly-arrow.png") no-repeat;
+  background-size: 100%;
+  width: 13.26px;
+  min-width: 13.26px;
+  height: 6.03px;
+  min-height: 6.03px;
+  display: flex;
+  margin-top: 12px;
+  margin-right: 7px;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+  padding: 0;
+  gap: 10px;
+  align-items: center;
+}
+
+.itemContainer :global(.vtex-numeric-stepper__plus-button),
+.itemContainer :global(.vtex-numeric-stepper__minus-button),
+.itemContainer :global(.vtex-numeric-stepper__input) {
+  width: 21.57px !important;
+  height: 27.26px;
+  font-family: "Loew Next", sans-serif;
+  font-weight: 700;
+  line-height: 110.4%;
+  font-size: 16.3019px;
+}
+
+.itemContainer :global(.vtex-numeric-stepper__input) {
+  font-size: 10.8679px;
+}
+
+.productAssemblyOptionItemImage {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 39.7431px;
+}
+
+.productAssemblyOptionItemName {
+  color: #555;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 110.4%;
+}
+
+.currencyContainer,
+.productAssemblyOptionItemSign {
+  color: #1f466b;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 135.9%;
+}
+
+.itemContainer:hover,
+.itemContainer:focus {
+  background-color: transparent;
+}

@@ -1,0 +1,188 @@
+{
+    "header-layout.mobile": {
+        "children": [
+            "flex-layout.row#promociones-mobile",
+            "responsive-layout.tablet",
+            "responsive-layout.phone"
+        ]
+    },
+    // ROW PROMOCIONES MOBILE
+    "flex-layout.row#promociones-mobile": {
+        "props": {
+            "horizontalAlign": "between",
+            "fullWidth": true,
+            "blockClass": ["row-promociones-mobile", "row-promociones"]
+        },
+        "children": [
+            "flex-layout.col#promo-mobile-1",
+            "flex-layout.col#promo-mobile-2",
+            "flex-layout.col#promo-mobile-3",
+            "flex-layout.col#promo-mobile-4"
+        ]
+    },
+    "flex-layout.col#promo-mobile-1": {
+        "props": {
+            "blockClass": ["promo-1", "promociones"]
+        },
+        "children": ["link#promo-mobile-1"]
+    },
+    "flex-layout.col#promo-mobile-2": {
+        "props": {
+            "blockClass": ["promo-2", "promociones"]
+        },
+        "children": ["link#promo-mobile-2"]
+    },
+    "flex-layout.col#promo-mobile-3": {
+        "props": {
+            "blockClass": ["promo-3", "promociones"]
+        },
+        "children": ["link#promo-mobile-3"]
+    },
+    "flex-layout.col#promo-mobile-4": {
+        "props": {
+            "blockClass": ["promo-4", "promociones"]
+        },
+        "children": ["link#promo-mobile-4"]
+    },
+    "link#promo-mobile-1": {
+        "props": {
+            "href": "",
+            "blockClass": ["link-promo-1", "links-promociones", "links-header"]
+        },
+        "children": [
+            "image#promociones-mobile-1",
+            "rich-text#promociones-mobile-1"
+        ]
+    },
+    "link#promo-mobile-2": {
+        "props": {
+            "href": "",
+            "blockClass": ["link-promo-2", "links-promociones", "links-header"]
+        },
+        "children": [
+            "image#promociones-mobile-1",
+            "rich-text#promociones-mobile-1"
+        ]
+    },
+    "link#promo-mobile-3": {
+        "props": {
+            "href": "",
+            "blockClass": ["link-promo-3", "links-promociones", "links-header"]
+        },
+        "children": [
+            "image#promociones-mobile-1",
+            "rich-text#promociones-mobile-1"
+        ]
+    },
+    "link#promo-mobile-4": {
+        "props": {
+            "href": "",
+            "blockClass": ["link-promo-4", "links-promociones", "links-header"]
+        },
+        "children": [
+            "image#promociones-mobile-1",
+            "rich-text#promociones-mobile-1"
+        ]
+    },
+    "rich-text#promociones-mobile-1": {
+        "props": {
+            "text": "Encontrá las mejores opciones para fiesta a un 30% de descuento en transferencias",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": [
+                "texto-promociones-mobile",
+                "texto-promociones-1",
+                "texto-promociones"
+            ]
+        }
+    },
+    "image#promociones-mobile-1": {
+        "props": {
+            "src": ""
+        }
+    },
+    // RESPONSIVE LAYOUT MOBILE
+    "responsive-layout.phone": {
+        "children": ["sticky-layout#mobile"]
+    },
+    // STICKY MOBLIE
+    "sticky-layout#mobile": {
+        "props": {
+            "blockClass": ["sticky-header-mobile", "sticky-header"]
+        },
+        "children": [
+            "flex-layout.row#sticky-mobile",
+            "flex-layout.row#search-mobile",
+            "flex-layout.row#links-mobile"
+        ]
+    },
+    "flex-layout.row#sticky-mobile": {
+        "props": {
+            "horizontalAlign": "between",
+            "verticalAlign": "center",
+            "blockClass": ["sticky-mobile", "sticky"]
+        },
+        "children": [
+            "flex-layout.col#menu-mobile",
+            "flex-layout.col#icons-mobile"
+        ]
+    },
+    "flex-layout.col#menu-mobile": {
+        "props": {
+            "verticalAlign": "top",
+            "width": "25%",
+            "blockClass": ["menu-mobile", "col-sticky"]
+        },
+        "children": ["drawer#menuMobile", "logo#logo-mobile"]
+    },
+    "logo#logo-mobile": {
+        "props": {
+            "blockClass": "logo-mobile",
+            "height": 19,
+            "width": 110,
+            "href": "/",
+            "url": "assets/icons/header-logo-mobile.svg"
+        }
+    },
+    "drawer#menuMobile": {
+        "children": ["menu-base.mobile"],
+        "props": {
+            "slideDirection": "rightToLeft",
+            "blockClass": "menu-mobile"
+        }
+    },
+
+    "flex-layout.col#icons-mobile": {
+        "props": {
+            "verticalAlign": "bottom",
+            "width": "25%",
+            "blockClass": ["icons-mobile", "icons-header", "col-sticky"]
+        },
+        "children": ["components-popup", "login", "minicart.v2"]
+    },
+    "link#wishlist-mobile": {
+        "props": {
+            "href": "/wishlist",
+            "blockClass": [
+                "link-wishlist-mobile",
+                "icons-header",
+                "links-header-mobile",
+                "links-header"
+            ]
+        },
+        "children": ["image#wishlist"]
+    },
+    "flex-layout.row#links-mobile": {
+        "children": ["menu-base.list"],
+        "props": {
+            "blockClass": "links-mobile"
+        }
+    },
+    "flex-layout.row#search-mobile": {
+        "props": {
+            "width": "100%",
+            "blockClass": "search-bar-mobile"
+        },
+        "children": ["search-bar"]
+    }
+}

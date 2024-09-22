@@ -1,0 +1,216 @@
+/* HOME */
+/* slidir principal */
+@import './VARS.scss';
+
+.slide.slide--slider-principal,
+.slide.slide--carousel {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.imageElement--slider-principal {
+    width: 100vw !important;
+}
+
+.caretIcon--slider-principal {
+    color: rgba(255, 255, 255, 0.62);
+}
+
+.sliderArrows--slider-principal {
+    padding: 15px;
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.24) !important;
+}
+
+.sliderLeftArrow {
+    left: 5%;
+}
+
+.sliderRightArrow {
+    right: 5%;
+}
+
+/* ROW INFORMATION */
+.paginationDot--slider-row-information--isActive {
+    background-color: $main-color;
+}
+
+.paginationDotsContainer--slider-row-information {
+    bottom: -30%;
+}
+
+.paginationDotsContainer--sldier-image-text-button {
+    bottom: -45px;
+}
+
+.paginationDotsContainer--sldier-doble-image-text-button {
+    bottom: -25px;
+}
+
+/* TAB LAYOUT PRODUCTS */
+/* .sliderTrackContainer--slider-products {
+  border-top: solid 1px #60C5F0;
+} */
+
+.sliderLeftArrow--slider-products {
+    left: -35px;
+    top: 40%;
+    color: #000;
+}
+
+.sliderRightArrow--slider-products {
+    right: -35px;
+    top: 40%;
+    color: #000;
+}
+
+.paginationDotsContainer--slider-products {
+    bottom: -20px;
+}
+
+.paginationDot--slider-products {
+    background-color: transparent;
+    border: 2px solid #c6c6c6;
+    max-width: 7px;
+    height: 7px !important;
+    width: 100% !important;
+}
+
+.paginationDot--isActive {
+    background: #848484;
+    border-color: #848484;
+}
+
+.paginationDot--slider-row-information {
+    background-color: transparent;
+    border: 2px solid #848484;
+    max-width: 7px;
+    height: 7px !important;
+    width: 100% !important;
+}
+
+.paginationDot--slider-row-information--isActive {
+    background: #848484;
+    border-color: #848484;
+}
+
+/* BANNER BORDE REDONDEADO */
+.slideChildrenContainer--rounded-border-banner {
+    margin: 0 5.2%;
+}
+
+/* SLIDER INFOCARDS */
+.paginationDotsContainer--slider-infocards {
+    bottom: -15px;
+}
+
+.paginationDot--slider-infocards--isActive {
+    background: #000;
+}
+
+/* SHELF */
+.sliderLeftArrow--slider-products-video {
+    left: -1%;
+}
+
+.sliderRightArrow--slider-products-video {
+    right: -1%;
+}
+
+.sliderTrackContainer--slider-products-bg {
+    padding: 1rem 0;
+}
+
+.slide {
+    margin: 0;
+}
+
+.sliderLayoutContainer--slider-products {
+    max-width: 1012px;
+    margin: 0 auto;
+    padding: 0 !important;
+}
+
+.sliderLayoutContainer--sldier-tab-list-1 .slide--sldier-tab-list-1 {
+    max-width: 343px;
+}
+
+.slideChildrenContainer--slider-infocards {
+    max-width: 343px;
+    max-height: 428px;
+}
+
+.slide.slide--carousel
+    :global(.vtex-store-components-3-x-imageElement--carousel) {
+    width: 100%;
+}
+
+/* MINICART */
+.sliderLayoutContainer--slider-products-minicart {
+    padding: 0 20px 30px !important;
+}
+
+.sliderTrack--slider-products-minicart {
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.slide--slider-products-minicart {
+    width: 100% !important;
+    margin: 0;
+}
+
+/* HOME MOBILE */
+@media screen and (max-width: 1025px) {
+    /* slidir principal */
+    .sliderArrows--slider-principal {
+        padding: 7px;
+    }
+
+    .sliderLeftArrow {
+        left: 2%;
+    }
+
+    .sliderRightArrow {
+        right: 2%;
+    }
+
+    /* TAB LAYOUT PRODUCTS */
+    .sliderLayoutContainer--slider-products {
+        padding: 0 !important;
+    }
+
+    .sliderTrackContainer--slider-products {
+        border: none;
+    }
+
+    .sliderLayoutContainer--sldier-tab-list {
+        padding-top: 18px;
+        padding-bottom: 26px;
+    }
+}
+
+/* ------------------------------TABLET ------------------------------*/
+
+@media screen and (max-width: 768px) {
+}
+
+/* ------------------------------MOBILE ------------------------------*/
+
+@media screen and (max-width: 639px) {
+    .sliderLayoutContainer--slider-products {
+        padding: 0 10px !important;
+    }
+
+    .sliderLayoutContainer--slider-products-video {
+        padding-bottom: 15px;
+    }
+
+    .paginationDotsContainer--slider-infocards {
+        bottom: -30px;
+    }
+
+    .slide {
+        margin: 0 5px;
+    }
+}

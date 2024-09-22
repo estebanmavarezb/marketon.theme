@@ -1,0 +1,23 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+@media (max-width: 768px) {
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-products) :global(.vtex-flex-layout-0-x-flexCol--cuotas-container) {
+    flex-wrap: wrap;
+  }
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-products) :global(.madeofpartnerar-product-price-0-x-price_className) {
+    gap: 8px;
+  }
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-products) :global(.madeofpartnerar-product-price-0-x-price_className) :global(.madeofpartnerar-product-price-0-x-price_sellingPrice) {
+    font-size: 12px;
+  }
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-products) :global(.madeofpartnerar-componentes-0-x-container_discount) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-products) :global(.madeofpartnerar-componentes-0-x-container_discount) :global(.madeofpartnerar-componentes-0-x-badge_discount) {
+    margin: 0;
+  }
+}

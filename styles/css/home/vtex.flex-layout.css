@@ -1,0 +1,77 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+.flexRow--background-grid-left-small-new_row {
+  max-width: 1075px;
+  margin: auto;
+}
+.flexRow--background-grid-left-small-new_row .flexRowContent--background-grid-left-small-new_row {
+  justify-content: space-between;
+}
+.flexRow--background-grid-left-small-new_row .flexRowContent--background-grid-left-small-new_row .flexCol--background-grid-left-small-new_col {
+  min-width: 720px;
+  justify-content: space-between;
+}
+.flexRow--background-grid-left-small-new_row .flexRowContent--background-grid-left-small-new_row .flexCol--background-grid-left-small-new_col :global(.vtex-product-summary-2-x-containerNormal--product-shelf) {
+  margin-bottom: 0;
+}
+
+.flexRow--double-col-slider {
+  height: 365px;
+  max-width: 1232px;
+  margin: 2rem auto;
+}
+.flexRow--double-col-slider .flexRowContent--double-col-slider {
+  align-items: center;
+  justify-content: center;
+}
+.flexRow--double-col-slider .flexRowContent--double-col-slider .flexCol--double-col-slider-col1 {
+  justify-content: space-between;
+}
+.flexRow--double-col-slider .flexRowContent--double-col-slider .flexCol--double-col-slider-col1 .flexColChild--double-col-slider-col1:first-child {
+  margin-bottom: 0.5rem;
+}
+.flexRow--double-col-slider .flexRowContent--double-col-slider :global(.vtex-slider-layout-0-x-sliderTrackContainer--double-col-slider) {
+  width: 740px;
+}
+.flexRow--double-col-slider .flexRowContent--double-col-slider :global(.vtex-slider-layout-0-x-sliderLeftArrow--double-col-slider) {
+  left: -6%;
+}
+.flexRow--double-col-slider .flexRowContent--double-col-slider :global(.vtex-slider-layout-0-x-sliderRightArrow--double-col-slider) {
+  right: -6%;
+}
+
+@media (max-width: 768px) {
+  .flexRow--double-col-slider {
+    height: 100%;
+  }
+  .flexRow--double-col-slider :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+  }
+  .flexRow--double-col-slider :global(.vtex-store-components-3-x-container) .flexRowContent--double-col-slider {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .flexRow--double-col-slider :global(.vtex-store-components-3-x-container) .flexRowContent--double-col-slider .flexCol--double-col-slider-col1 {
+    align-items: center;
+    margin: 1rem 0;
+  }
+  .flexRow--double-col-slider :global(.vtex-store-components-3-x-container) .flexRowContent--double-col-slider .flexCol--double-col-slider-col1 .flexColChild--double-col-slider-col1:first-child {
+    margin-bottom: 1rem;
+  }
+  .flexRow--double-col-slider :global(.vtex-store-components-3-x-container) .flexRowContent--double-col-slider .flexCol--double-col-slider-col2 {
+    max-width: 100vw;
+  }
+  .flexRow--double-col-slider :global(.vtex-store-components-3-x-container) .flexRowContent--double-col-slider .flexCol--double-col-slider-col2 :global(.vtex-store-components-3-x-imageElement--double-col-slider) {
+    border-radius: 0;
+    width: 100%;
+  }
+  .flexRow--double-col-slider :global(.vtex-store-components-3-x-container) .flexRowContent--double-col-slider :global(.vtex-slider-layout-0-x-slide--double-col-slider) {
+    margin: 0;
+  }
+  .flexRow--double-col-slider :global(.vtex-store-components-3-x-container) .flexRowContent--double-col-slider :global(.vtex-slider-layout-0-x-slide--double-col-slider) :global(.vtex-slider-layout-0-x-slideChildrenContainer--double-col-slider) :global(.vtex-store-components-3-x-imageElement--double-col-slider) {
+    max-height: 390px !important;
+    width: 100vw;
+  }
+}

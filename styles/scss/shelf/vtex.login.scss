@@ -1,0 +1,31 @@
+@import '.././VARS.scss';
+
+// :global(.vtex-product-summary-2-x-containerNormal--product-shelf) {
+//     :global(.vtex-flex-layout-0-x-flexColChild--container-data-grid):has(
+//             div:empty
+//         ) {
+//         display: none;
+//     }
+// }
+
+@media (max-width: $phone) {
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-products) {
+        :global(.vtex-flex-layout-0-x-flexCol--cuotas-container) {
+            flex-wrap: wrap;
+        }
+        :global(.madeofpartnerar-product-price-0-x-price_className) {
+            gap: 8px;
+            :global(.madeofpartnerar-product-price-0-x-price_sellingPrice) {
+                font-size: 12px;
+            }
+        }
+        :global(.madeofpartnerar-componentes-0-x-container_discount) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            :global(.madeofpartnerar-componentes-0-x-badge_discount) {
+                margin: 0;
+            }
+        }
+    }
+}

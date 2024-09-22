@@ -1,0 +1,20 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+:global(.madeofpartnerar-componentes-0-x-item_menu) {
+  max-width: 315px;
+}
+:global(.madeofpartnerar-componentes-0-x-item_menu) :global(.madeofpartnerar-componentes-0-x-link_active) {
+  background-color: #f4c226;
+}
+:global(.madeofpartnerar-componentes-0-x-item_menu) :global(.madeofpartnerar-componentes-0-x-link_active) :global(.madeofpartnerar-componentes-0-x-link_menu_content) a {
+  color: #fff;
+  font-weight: 700;
+}
+:global(.madeofpartnerar-componentes-0-x-item_menu) :global(.madeofpartnerar-componentes-0-x-nombre) {
+  color: #f4c226;
+}
+:global(.madeofpartnerar-componentes-0-x-item_menu) :global(.madeofpartnerar-componentes-0-x-titulo) a {
+  color: #2b2b2b;
+}

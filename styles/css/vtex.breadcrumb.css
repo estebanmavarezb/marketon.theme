@@ -1,0 +1,190 @@
+/* ------------------------------GENERAL ------------------------------*/
+:global(.vtex-flex-layout-0-x-flexRow--breadcrumb-container) {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 3.25rem auto 2.01rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--breadcrumb-container) .container {
+  max-width: 80%;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.homeLink {
+  padding-right: 0;
+  vertical-align: baseline;
+}
+
+.homeLink::before {
+  content: url("https://madeofpartnerar.vtexassets.com/arquivos/breadcrumb_home_icon.svg");
+}
+
+.homeIcon {
+  display: none;
+}
+
+.arrow .caretIcon {
+  display: none;
+}
+
+.link {
+  font-size: 14px;
+  color: #595959;
+  text-transform: uppercase;
+}
+
+.link:not(.link--1) {
+  font-weight: 700;
+}
+
+.link--1 {
+  padding-right: 0;
+  color: #848484;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.link--2 {
+  padding-left: 0;
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.link--2::before {
+  content: "/";
+  margin-right: 0.2rem;
+}
+
+/*---------- FICHA -------------*/
+/* BREADCRUMD */
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .homeLink::before {
+  content: "";
+  background: url(https://madeofpartnerar.vtexassets.com/arquivos/breadcrumb_home_icon.svg) no-repeat center center;
+  background-size: 100%;
+  display: inherit;
+  width: 16px;
+  height: 15px;
+  min-width: 16px;
+  min-height: 15px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .homeLink,
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .arrow,
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .link,
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .term {
+  color: #595959;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .homeIcon {
+  vertical-align: middle;
+  height: 16px;
+  width: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .link {
+  padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .homeLink::after {
+  content: "Inicio";
+  padding-left: 4px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .term {
+  font-weight: bold;
+  padding: 0;
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .termArrow {
+  padding: 0;
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .arrow {
+  padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .caretIcon {
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .arrow::before {
+  content: "/";
+  color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 4px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--view-product-row) .container {
+  padding: 34px 0;
+  align-self: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--breadcrumb-container) .arrow {
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--breadcrumb-container) .arrow--1,
+:global(.vtex-flex-layout-0-x-flexRowContent--breadcrumb-container) .arrow--2 {
+  display: inline-block;
+}
+
+/* ------------------------------DESKTOP ------------------------------*/
+/* Breadcrumb Laptop */
+@media (max-width: 1366px) {
+  :global(.vtex-flex-layout-0-x-flexRow--breadcrumb-container) .container {
+    max-width: 1200px;
+  }
+}
+/* ------------------------------MOBILE -------------------------------*/
+/* Breadcrumb Mobile */
+@media (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexRow--breadcrumb-container) .container {
+    padding: 0 1rem;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--breadcrumb-container) {
+    margin: 0.9rem auto;
+  }
+  /*---------- FICHA -------------*/
+  /* BREADCRUMD */
+  :global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .homeLink::before {
+    width: 10.3px;
+    height: 9.66px;
+    min-width: 10.3px;
+    min-height: 9.66px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .homeLink,
+  :global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .arrow,
+  :global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .link,
+  :global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .term,
+  :global(.vtex-flex-layout-0-x-flexRow--view-product-col-breadcrumb) .arrow::before {
+    font-size: 10px;
+    line-height: 11px;
+  }
+  .link--1 {
+    font-size: 10px;
+  }
+  .link--2 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 639px) {
+  :global(.vtex-flex-layout-0-x-flexRow--view-product-row) .container {
+    padding: 18px 0;
+  }
+}

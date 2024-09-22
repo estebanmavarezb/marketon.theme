@@ -1,0 +1,15 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+.link--render-link-text {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+  text-decoration: none;
+  width: 100%;
+}
+.link--render-link-text .label--render-link-text {
+  border-bottom: 2px solid #bc1920;
+  color: #3e3e3e;
+}

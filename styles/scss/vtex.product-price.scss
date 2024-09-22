@@ -1,0 +1,56 @@
+/* ------------------------------GENERAL ------------------------------*/
+@import './VARS.scss';
+/*---------- FICHA -------------*/
+
+.listPriceValue {
+    font-family: 'Poppins';
+    color: #848484;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 135.9%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+// .sellingPriceValue {
+//     font-family: 'Poppins';
+//     font-size: 24px;
+//     font-weight: 400;
+//     line-height: 135.9%;
+//     color: #2b2b2b;
+// }
+
+.savings {
+    font-family: 'Poppins';
+    align-self: center;
+    margin-left: 14px;
+    color: $main-color;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 135.9%;
+}
+
+/* ------------------------------DESKTOP ------------------------------*/
+
+/* ------------------------------TABLET -------------------------------*/
+@media screen and (max-width: 768px) {
+    .listPriceValue {
+        font-size: 20px;
+    }
+    .sellingPriceValue {
+        font-size: 30px;
+    }
+    .savings {
+        margin-left: 16px;
+    }
+    .listPrice {
+        margin-bottom: 0;
+    }
+}
+
+/* ------------------------------MOBILE -------------------------------*/
+
+/*---------- FICHA -------------*/
+
+@media screen and (max-width: 639px) {
+}

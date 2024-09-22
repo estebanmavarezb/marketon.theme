@@ -1,0 +1,21 @@
+@import '../VARS.scss';
+
+.paragraph--rich-text-home {
+    font-size: 1.87rem;
+    color: $second-gray;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--tab-layout-products-double) {
+    .paragraph--tab-layout-text {
+        text-wrap: nowrap;
+    }
+}
+
+@media (max-width: $phone) {
+    .paragraph--banner-title-doble-image_title {
+        font-size: 14px;
+    }
+    .strong--banner-title-doble-image_title {
+        font-size: 20px;
+    }
+}

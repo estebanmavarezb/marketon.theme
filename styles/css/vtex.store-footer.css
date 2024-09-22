@@ -1,0 +1,8 @@
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+.footerLayout :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+  max-width: initial;
+}

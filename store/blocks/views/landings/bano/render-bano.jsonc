@@ -1,0 +1,3659 @@
+{
+    "render-manager#landing-bano": {
+        "title": "Render landing Baño",
+        "children": [
+            "render-children#stories-content-1",
+            "render-children#stories-content-2",
+            "render-children#stories-content-3",
+            "render-children#stories-content-4",
+            "render-children#slider-principal-1",
+            "render-children#slider-principal-2",
+            "render-children#slider-principal-3",
+            "render-children#slider-principal-4",
+            "render-children#row-information-1",
+            "render-children#row-information-2",
+            "render-children#row-information-3",
+            "render-children#row-information-4",
+            "render-children#products-video-1",
+            "render-children#products-video-2",
+            "render-children#products-video-3",
+            "render-children#products-video-4",
+            "render-children#slider-custom-1",
+            "render-children#slider-custom-2",
+            "render-children#slider-custom-3",
+            "render-children#slider-custom-4",
+            "render-children#newsletter-1",
+            "render-children#newsletter-2",
+            "render-children#newsletter-3",
+            "render-children#newsletter-4",
+            "render-children#image-text-button-1",
+            "render-children#image-text-button-2",
+            "render-children#image-text-button-3",
+            "render-children#image-text-button-4",
+            "render-children#doble-image-text-button-1",
+            "render-children#doble-image-text-button-2",
+            "render-children#doble-image-text-button-3",
+            "render-children#doble-image-text-button-4",
+            "render-children#banner-doble-image-1",
+            "render-children#banner-doble-image-2",
+            "render-children#banner-doble-image-3",
+            "render-children#banner-doble-image-4",
+            "render-children#tab-layout-home-1",
+            "render-children#tab-layout-home-2",
+            "render-children#tab-layout-home-3",
+            "render-children#tab-layout-home-4",
+            "render-children#tab-layout-products-1",
+            "render-children#tab-layout-products-2",
+            "render-children#tab-layout-products-3",
+            "render-children#tab-layout-products-4",
+            "render-children#rounded-border-banner-1",
+            "render-children#rounded-border-banner-2",
+            "render-children#rounded-border-banner-3",
+            "render-children#rounded-border-banner-4",
+            "render-children#slider-infocards-1",
+            "render-children#slider-infocards-2",
+            "render-children#slider-infocards-3",
+            "render-children#slider-infocards-4",
+            "render-children#banner-texto-1",
+            "render-children#banner-texto-2",
+            "render-children#banner-texto-3",
+            "render-children#banner-texto-4",
+            "render-children#banner-texto-1-invested",
+            "render-children#banner-texto-2-invested",
+            "render-children#banner-texto-3-invested",
+            "render-children#banner-texto-4-invested",
+            "render-children#banner-title-doble-image-1",
+            "render-children#banner-title-doble-image-2",
+            "render-children#banner-title-doble-image-3",
+            "render-children#banner-title-doble-image-4",
+            "render-children#inforcars-1",
+            "render-children#inforcars-2",
+            "render-children#inforcars-3",
+            "render-children#inforcars-4",
+            "render-children#banner",
+            "render-children#banner-2",
+            "render-children#banner-3",
+            "render-children#banner-4",
+            "render-children#infocards-trinomio-1",
+            "render-children#image-text-button-elegidos-1",
+            "render-children#image-text-button-elegidos-2",
+            "render-children#image-text-button-elegidos-3",
+            "render-children#image-text-button-elegidos-4",
+            "render-children#productGrid-1",
+            "render-children#banner-image-full-texto",
+            "render-children#background-slider",
+            "render-children#background-slider-1",
+            "render-children#background-slider-2",
+            "render-children#background-slider-3",
+            "render-children#background-slider-4",
+            "render-children#background-slider-5",
+            "render-children#background-grid-left-1",
+            "render-children#background-grid-left-2",
+            "render-children#background-grid-left-3",
+            "render-children#background-grid-left-4",
+            "render-children#background-grid-right-1",
+            "render-children#background-grid-right-2",
+            "render-children#background-grid-right-3",
+            "render-children#background-grid-right-4",
+            "render-children#background-grid-left-small-1",
+            "render-children#background-grid-left-small-2",
+            "render-children#background-grid-left-small-3",
+            "render-children#background-grid-left-small-4",
+            "render-children#background-grid-right-small-1",
+            "render-children#background-grid-right-small-2",
+            "render-children#background-grid-right-small-3",
+            "render-children#background-grid-right-small-4",
+            "render-children#background-grid-sin-fondo-1",
+            "render-children#background-grid-sin-fondo-2",
+            "render-children#background-grid-sin-fondo-3",
+            "render-children#background-grid-sin-fondo-4",
+            "render-children#banner-triple",
+            "render-children#rich-text-1",
+            "render-children#rich-text-2",
+            "render-children#tab-layout-products-double",
+            "render-children#images-grid",
+            "render-children#iframe-block"
+        ],
+        "props": {
+            "componentList": [
+                {
+                    "keyComponent": "render-children#stories-content-1",
+                    "__editorItemTitle": "card-row-1"
+                },
+                {
+                    "keyComponent": "render-children#stories-content-2",
+                    "__editorItemTitle": "card-row-2"
+                },
+                {
+                    "keyComponent": "render-children#stories-content-3",
+                    "__editorItemTitle": "card-row-3"
+                },
+                {
+                    "keyComponent": "render-children#stories-content-4",
+                    "__editorItemTitle": "card-row-4"
+                },
+                {
+                    "keyComponent": "render-children#slider-principal-1",
+                    "__editorItemTitle": "slider-principal-1"
+                },
+                {
+                    "keyComponent": "render-children#slider-principal-2",
+                    "__editorItemTitle": "slider-principal-2"
+                },
+                {
+                    "keyComponent": "render-children#slider-principal-3",
+                    "__editorItemTitle": "slider-principal-3"
+                },
+                {
+                    "keyComponent": "render-children#slider-principal-4",
+                    "__editorItemTitle": "slider-principal-4"
+                },
+                {
+                    "keyComponent": "render-children#row-information-1",
+                    "__editorItemTitle": "row-information-1"
+                },
+                {
+                    "keyComponent": "render-children#row-information-2",
+                    "__editorItemTitle": "row-information-2"
+                },
+                {
+                    "keyComponent": "render-children#row-information-3",
+                    "__editorItemTitle": "row-information-3"
+                },
+                {
+                    "keyComponent": "render-children#row-information-4",
+                    "__editorItemTitle": "row-information-4"
+                },
+                {
+                    "keyComponent": "render-children#products-video-1",
+                    "__editorItemTitle": "products-video-1"
+                },
+                {
+                    "keyComponent": "render-children#products-video-2",
+                    "__editorItemTitle": "products-video-2"
+                },
+                {
+                    "keyComponent": "render-children#products-video-3",
+                    "__editorItemTitle": "products-video-3"
+                },
+                {
+                    "keyComponent": "render-children#products-video-4",
+                    "__editorItemTitle": "products-video-4"
+                },
+                {
+                    "keyComponent": "render-children#slider-custom-1",
+                    "__editorItemTitle": "slider-custom-1"
+                },
+                {
+                    "keyComponent": "render-children#slider-custom-2",
+                    "__editorItemTitle": "slider-custom-2"
+                },
+                {
+                    "keyComponent": "render-children#slider-custom-3",
+                    "__editorItemTitle": "slider-custom-3"
+                },
+                {
+                    "keyComponent": "render-children#slider-custom-4",
+                    "__editorItemTitle": "slider-custom-4"
+                },
+                {
+                    "keyComponent": "render-children#newsletter-1",
+                    "__editorItemTitle": "newsletter-1"
+                },
+                {
+                    "keyComponent": "render-children#newsletter-2",
+                    "__editorItemTitle": "newsletter-2"
+                },
+                {
+                    "keyComponent": "render-children#newsletter-3",
+                    "__editorItemTitle": "newsletter-3"
+                },
+                {
+                    "keyComponent": "render-children#newsletter-4",
+                    "__editorItemTitle": "newsletter-4"
+                },
+                {
+                    "keyComponent": "render-children#image-text-button-1",
+                    "__editorItemTitle": "image-text-button-1"
+                },
+                {
+                    "keyComponent": "render-children#image-text-button-2",
+                    "__editorItemTitle": "image-text-button-2"
+                },
+                {
+                    "keyComponent": "render-children#image-text-button-3",
+                    "__editorItemTitle": "image-text-button-3"
+                },
+                {
+                    "keyComponent": "render-children#image-text-button-4",
+                    "__editorItemTitle": "image-text-button-4"
+                },
+                {
+                    "keyComponent": "render-children#doble-image-text-button-1",
+                    "__editorItemTitle": "doble-image-text-button-1"
+                },
+                {
+                    "keyComponent": "render-children#doble-image-text-button-2",
+                    "__editorItemTitle": "doble-image-text-button-2"
+                },
+                {
+                    "keyComponent": "render-children#doble-image-text-button-3",
+                    "__editorItemTitle": "doble-image-text-button-3"
+                },
+                {
+                    "keyComponent": "render-children#doble-image-text-button-4",
+                    "__editorItemTitle": "doble-image-text-button-4"
+                },
+                {
+                    "keyComponent": "render-children#banner-doble-image-1",
+                    "__editorItemTitle": "banner-doble-image-1"
+                },
+                {
+                    "keyComponent": "render-children#banner-doble-image-2",
+                    "__editorItemTitle": "banner-doble-image-2"
+                },
+                {
+                    "keyComponent": "render-children#banner-doble-image-3",
+                    "__editorItemTitle": "banner-doble-image-3"
+                },
+                {
+                    "keyComponent": "render-children#banner-doble-image-4",
+                    "__editorItemTitle": "banner-doble-image-4"
+                },
+                {
+                    "keyComponent": "render-children#tab-layout-home-1",
+                    "__editorItemTitle": "tab-layout-home-1"
+                },
+                {
+                    "keyComponent": "render-children#tab-layout-home-2",
+                    "__editorItemTitle": "tab-layout-home-2"
+                },
+                {
+                    "keyComponent": "render-children#tab-layout-home-3",
+                    "__editorItemTitle": "tab-layout-home-3"
+                },
+                {
+                    "keyComponent": "render-children#tab-layout-home-4",
+                    "__editorItemTitle": "tab-layout-home-4"
+                },
+                {
+                    "keyComponent": "render-children#tab-layout-products-1",
+                    "__editorItemTitle": "tab-layout-products-1"
+                },
+                {
+                    "keyComponent": "render-children#tab-layout-products-2",
+                    "__editorItemTitle": "tab-layout-products-2"
+                },
+                {
+                    "keyComponent": "render-children#tab-layout-products-3",
+                    "__editorItemTitle": "tab-layout-products-3"
+                },
+                {
+                    "keyComponent": "render-children#tab-layout-products-4",
+                    "__editorItemTitle": "tab-layout-products-4"
+                },
+                {
+                    "keyComponent": "render-children#rounded-border-banner-1",
+                    "__editorItemTitle": "rounded-border-banner-1"
+                },
+                {
+                    "keyComponent": "render-children#rounded-border-banner-2",
+                    "__editorItemTitle": "rounded-border-banner-2"
+                },
+                {
+                    "keyComponent": "render-children#rounded-border-banner-3",
+                    "__editorItemTitle": "rounded-border-banner-3"
+                },
+                {
+                    "keyComponent": "render-children#rounded-border-banner-4",
+                    "__editorItemTitle": "rounded-border-banner-4"
+                },
+                {
+                    "keyComponent": "render-children#slider-infocards-1",
+                    "__editorItemTitle": "slider-infocards-1"
+                },
+                {
+                    "keyComponent": "render-children#slider-infocards-2",
+                    "__editorItemTitle": "slider-infocards-2"
+                },
+                {
+                    "keyComponent": "render-children#slider-infocards-3",
+                    "__editorItemTitle": "slider-infocards-3"
+                },
+                {
+                    "keyComponent": "render-children#slider-infocards-4",
+                    "__editorItemTitle": "slider-infocards-4"
+                },
+                {
+                    "keyComponent": "render-children#inforcars-1",
+                    "__editorItemTitle": "inforcards-1"
+                },
+                {
+                    "keyComponent": "render-children#inforcars-2",
+                    "__editorItemTitle": "inforcards-2"
+                },
+                {
+                    "keyComponent": "render-children#inforcars-3",
+                    "__editorItemTitle": "inforcards-3"
+                },
+                {
+                    "keyComponent": "render-children#inforcars-4",
+                    "__editorItemTitle": "inforcards-4"
+                },
+                {
+                    "keyComponent": "render-children#banner-title-doble-image-1",
+                    "__editorItemTitle": "banner-title-doble-image-1"
+                },
+                {
+                    "keyComponent": "render-children#banner-title-doble-image-2",
+                    "__editorItemTitle": "banner-title-doble-image-2"
+                },
+                {
+                    "keyComponent": "render-children#banner-title-doble-image-3",
+                    "__editorItemTitle": "banner-title-doble-image-3"
+                },
+                {
+                    "keyComponent": "render-children#banner-title-doble-image-4",
+                    "__editorItemTitle": "banner-title-doble-image-4"
+                },
+                {
+                    "keyComponent": "render-children#banner-texto-1",
+                    "__editorItemTitle": "banner-texto-1"
+                },
+                {
+                    "keyComponent": "render-children#banner-texto-2",
+                    "__editorItemTitle": "banner-texto-2"
+                },
+                {
+                    "keyComponent": "render-children#banner-texto-3",
+                    "__editorItemTitle": "banner-texto-3"
+                },
+                {
+                    "keyComponent": "render-children#banner-texto-4",
+                    "__editorItemTitle": "banner-texto-4"
+                },
+                {
+                    "keyComponent": "render-children#banner-texto-1-invested",
+                    "__editorItemTitle": "banner-texto-1-invested"
+                },
+                {
+                    "keyComponent": "render-children#banner-texto-2-invested",
+                    "__editorItemTitle": "banner-texto-2-invested"
+                },
+                {
+                    "keyComponent": "render-children#banner-texto-3-invested",
+                    "__editorItemTitle": "banner-texto-3-invested"
+                },
+                {
+                    "keyComponent": "render-children#banner-texto-4-invested",
+                    "__editorItemTitle": "banner-texto-4-invested"
+                },
+                {
+                    "keyComponent": "render-children#banner",
+                    "__editorItemTitle": "banner"
+                },
+                {
+                    "keyComponent": "render-children#banner-2",
+                    "__editorItemTitle": "banner-2"
+                },
+                {
+                    "keyComponent": "render-children#banner-3",
+                    "__editorItemTitle": "banner-3"
+                },
+                {
+                    "keyComponent": "render-children#banner-4",
+                    "__editorItemTitle": "banner-4"
+                },
+                {
+                    "keyComponent": "render-children#infocards-trinomio-1",
+                    "__editorItemTitle": "infocards-trinomio-1"
+                },
+                {
+                    "keyComponent": "render-children#image-text-button-elegidos-1",
+                    "__editorItemTitle": "image-text-button-elegidos-1"
+                },
+                {
+                    "keyComponent": "render-children#image-text-button-elegidos-2",
+                    "__editorItemTitle": "image-text-button-elegidos-2"
+                },
+                {
+                    "keyComponent": "render-children#image-text-button-elegidos-3",
+                    "__editorItemTitle": "image-text-button-elegidos-3"
+                },
+                {
+                    "keyComponent": "render-children#image-text-button-elegidos-4",
+                    "__editorItemTitle": "image-text-button-elegidos-4"
+                },
+                {
+                    "keyComponent": "render-children#productGrid-1",
+                    "__editorItemTitle": "product-grid"
+                },
+                // {
+                //     "keyComponent": "render-children#banner-image-full-texto",
+                //     "__editorItemTitle": "banner-image-full-texto"
+                // },
+                // {
+                //     "keyComponent": "render-children#banner-image-full-texto",
+                //     "__editorItemTitle": "banner-image-full-texto"
+                // }
+                {
+                    "keyComponent": "render-children#background-slider",
+                    "__editorItemTitle": "background-grid"
+                },
+                {
+                    "keyComponent": "render-children#background-slider-1",
+                    "__editorItemTitle": "background-grid-1"
+                },
+                {
+                    "keyComponent": "render-children#background-slider-2",
+                    "__editorItemTitle": "background-grid-2"
+                },
+                {
+                    "keyComponent": "render-children#background-slider-3",
+                    "__editorItemTitle": "background-grid-3"
+                },
+                {
+                    "keyComponent": "render-children#background-slider-4",
+                    "__editorItemTitle": "background-grid-4"
+                },
+                {
+                    "keyComponent": "render-children#background-slider-5",
+                    "__editorItemTitle": "background-grid-5"
+                },
+                // {
+                //     "keyComponent": "render-children#background-slider-5",
+                //     "__editorItemTitle": "background-grid-5"
+                // },
+                {
+                    "keyComponent": "render-children#background-grid-left-1",
+                    "__editorItemTitle": "background-grid-left-1"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-left-2",
+                    "__editorItemTitle": "background-grid-left-2"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-left-3",
+                    "__editorItemTitle": "background-grid-left-3"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-left-4",
+                    "__editorItemTitle": "background-grid-left-4"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-right-1",
+                    "__editorItemTitle": "background-grid-right-1"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-right-2",
+                    "__editorItemTitle": "background-grid-right-2"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-right-3",
+                    "__editorItemTitle": "background-grid-right-3"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-right-4",
+                    "__editorItemTitle": "background-grid-right-4"
+                },
+
+                {
+                    "keyComponent": "render-children#background-grid-left-small-1",
+                    "__editorItemTitle": "background-grid-left-small-1"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-left-small-2",
+                    "__editorItemTitle": "background-grid-left-small-2"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-left-small-3",
+                    "__editorItemTitle": "background-grid-left-small-3"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-left-small-4",
+                    "__editorItemTitle": "background-grid-left-small-4"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-right-small-1",
+                    "__editorItemTitle": "background-grid-right-small-1"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-right-small-2",
+                    "__editorItemTitle": "background-grid-right-small-2"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-right-small-3",
+                    "__editorItemTitle": "background-grid-right-small-3"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-right-small-4",
+                    "__editorItemTitle": "background-grid-right-small-4"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-sin-fondo-1",
+                    "__editorItemTitle": "background-grid-sin-fondo-1"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-sin-fondo-2",
+                    "__editorItemTitle": "background-grid-sin-fondo-2"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-sin-fondo-3",
+                    "__editorItemTitle": "background-grid-sin-fondo-3"
+                },
+                {
+                    "keyComponent": "render-children#background-grid-sin-fondo-4",
+                    "__editorItemTitle": "background-grid-sin-fondo-4"
+                },
+                {
+                    "keyComponent": "render-children#banner-triple",
+                    "__editorItemTitle": "Banner-Triple"
+                },
+                {
+                    "keyComponent": "render-children#rich-text-1",
+                    "__editorItemTitle": "Rich-Text"
+                },
+                {
+                    "keyComponent": "render-children#rich-text-2",
+                    "__editorItemTitle": "Rich-Text"
+                },
+                {
+                    "keyComponent": "render-children#tab-layout-products-double",
+                    "__editorItemTitle": "tab-layout-products-double"
+                },
+                {
+                    "keyComponent": "render-children#images-grid",
+                    "__editorItemTitle": "images-grid-responsive"
+                },
+                {
+                    "keyComponent": "render-children#iframe-block",
+                    "__editorItemTitle": "iframe-video"
+                }
+            ]
+        }
+    },
+    /*BANNER*/
+    "render-children#banner": {
+        "title": "banner-1",
+        "children": ["flex-layout.row#banner1"],
+        "props": {
+            "blockClass": "stories-content"
+        }
+    },
+    "render-children#banner-2": {
+        "title": "banner-2",
+        "children": ["flex-layout.row#banner1"],
+        "props": {
+            "blockClass": "stories-content"
+        }
+    },
+    "render-children#banner-3": {
+        "title": "banner-3",
+        "children": ["flex-layout.row#banner1"],
+        "props": {
+            "blockClass": "stories-content"
+        }
+    },
+    "render-children#banner-4": {
+        "title": "banner-4",
+        "children": ["flex-layout.row#banner1"],
+        "props": {
+            "blockClass": "stories-content"
+        }
+    },
+    "flex-layout.row#banner1": {
+        "children": ["list-context.media-list#demo"],
+        "props": {
+            "blockClass": "content-image-banner-test"
+        }
+    },
+    "list-context.media-list#demo": {
+        "children": ["slider-layout#demo-media"],
+        "props": {
+            "height": 720,
+            "mediaList": [
+                {
+                    "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+                    "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+                }
+            ]
+        }
+    },
+    "slider-layout#demo-media": {
+        "props": {
+            "itemsPerPage": 1,
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+        }
+    },
+    "image#banner": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "blockClass": "content-image"
+        }
+    },
+    /*BANNER 2*/
+    /*CARD ROW*/
+    "render-children#stories-content-1": {
+        "title": "card-row",
+        "children": ["flex-layout.row#content"],
+        "props": {
+            "blockClass": "stories-content",
+            "preventHorizontalStretch": true
+        }
+    },
+    "render-children#stories-content-2": {
+        "title": "card-row",
+        "children": ["flex-layout.row#content"],
+        "props": {
+            "blockClass": "stories-content"
+        }
+    },
+    "render-children#stories-content-3": {
+        "title": "card-row",
+        "children": ["flex-layout.row#content"],
+        "props": {
+            "blockClass": "stories-content"
+        }
+    },
+    "render-children#stories-content-4": {
+        "title": "card-row",
+        "children": ["flex-layout.row#content"],
+        "props": {
+            "blockClass": "stories-content"
+        }
+    },
+    "flex-layout.row#content": {
+        "children": ["render-children#stories-1", "render-children#stories-2"],
+        "props": {
+            "blockClass": "row-content"
+        }
+    },
+    "render-children#stories-1": {
+        "title": "card-stories-1",
+        "children": ["image", "rich-text#text-1", "rich-text#text-2"],
+        "props": {
+            "blockClass": ["stories-children", "stories-children-1"]
+        }
+    },
+    "render-children#stories-2": {
+        "title": "card-stories-2",
+        "children": ["image", "rich-text#text-1", "rich-text#text-2"],
+        "props": {
+            "blockClass": ["stories-children", "stories-children-2"]
+        }
+    },
+    "image": {
+        "props": {
+            "src": "https://joyasyrelojesexclusivos.com/modules/pspagebuilder/views/img/compromiso.jpg",
+            "link": "/"
+        }
+    },
+    "rich-text#text-1": {
+        "props": {
+            "text": "ingrese texto de prueba",
+            "blockClass": ["stories-title"]
+        }
+    },
+    "rich-text#text-2": {
+        "props": {
+            "text": "ingrese texto de prueba",
+            "blockClass": ["stories-text"]
+        }
+    },
+    // PRODUCTS VIDEO
+    "render-children#products-video-1": {
+        "title": "products-video-1",
+        "children": ["flex-layout.row#products-video"],
+        "props": {
+            "blockClass": "video-render"
+        }
+    },
+    "render-children#products-video-2": {
+        "title": "products-video-2",
+        "children": ["flex-layout.row#products-video"],
+        "props": {
+            "blockClass": "video-render"
+        }
+    },
+    "render-children#products-video-3": {
+        "title": "products-video-3",
+        "children": ["flex-layout.row#products-video"],
+        "props": {
+            "blockClass": "video-render"
+        }
+    },
+    "render-children#products-video-4": {
+        "title": "products-video-4",
+        "children": ["flex-layout.row#products-video"],
+        "props": {
+            "blockClass": "video-render"
+        }
+    },
+    "flex-layout.row#products-video": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": "products-video"
+        },
+        "children": [
+            "list-context.product-list#products-video",
+            "video#products-video"
+        ]
+    },
+    "list-context.product-list#products-video": {
+        "blocks": ["product-summary.shelf#productGrid"],
+        "children": ["slider-layout#products-video"],
+        "props": {
+            "collection": "137"
+        }
+    },
+    "slider-layout#products-video": {
+        "props": {
+            "blockClass": "",
+            "fullWidth": true,
+            "infinite": false,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "mobileOnly",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 2
+            }
+        }
+    },
+    "product-summary.shelf#products-video": {
+        "props": {
+            "blockClass": ["shelf-products-video", "basic-shelf"]
+        },
+        "children": [
+            "flex-layout.col#product-image-container",
+            "flex-layout.col#product-data-container"
+        ]
+    },
+    "flex-layout.col#product-image-container": {
+        "props": {
+            "blockClass": "container-image"
+        },
+        //Hola
+        "children": [
+            // "add-favorites",
+            "product-image-hover",
+            // tres ultimos hijos con position: absolute y z-index: 9
+            "container-destaque",
+            "hover-specification",
+            "flex-layout.col#container-button-selector"
+        ]
+    },
+    "product-summary-image": {
+        "props": {
+            "showBadge": false
+        }
+    },
+    "flex-layout.col#product-data-container": {
+        "props": {
+            "blockClass": "container-data"
+        },
+        "children": [
+            "product-summary-name",
+            "product-summary-brand",
+            "condition-layout.product#product-price"
+        ]
+    },
+    "flex-layout.col#product-data-price": {
+        "props": {
+            "blockClass": "container-data-price"
+        },
+        "children": [
+            // "product-summary-price",
+            "madeofpartnerar.product-price:product-price",
+            "madeofpartnerar.product-price:product-price-savings"
+        ]
+    },
+    "product-summary-price": {
+        "props": {
+            "blockClass": "product-summary-price",
+            "showInstallments": false
+        }
+    },
+    "madeofpartnerar.product-price:product-price-savings": {
+        "props": {
+            "blockClass": "percentage",
+            "message": "{savingsPercentage} OFF"
+        }
+    },
+    "flex-layout.col#product-cuotas-container": {
+        "props": {
+            "blockClass": "cuotas-container"
+        },
+        "children": [
+            "container-cuotas"
+            // "madeofpartnerar.product-price:product-installments"
+        ]
+    },
+    // "Descuento Especial"
+    "special-discount#product": {
+        "props": {
+            "attributeName": "Descuento Especial"
+        }
+    },
+    "madeofpartnerar.product-price:product-installments": {
+        "props": {
+            "installmentsCriteria": "max-quantity-without-interest"
+        }
+    },
+    "flex-layout.col#free-shipping": {
+        "props": {
+            "blockClass": "free-shipping"
+        },
+        "children": ["product-specification-badges#free-shipping"]
+    },
+    "product-specification-badges#free-shipping": {
+        "props": {
+            "blockClass": "specification-badges-free-shipping",
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Envio Gratis",
+                    "displayValue": "ENVÍO GRATIS"
+                }
+            ]
+        }
+    },
+    "flex-layout.col#container-button-selector": {
+        "props": {
+            "blockClass": "container-button-selector"
+        },
+        "children": [
+            "product-summary-sku-selector#shelf",
+            "add-to-cart-button#product-summary"
+        ]
+    },
+    "add-to-cart-button#product-summary": {
+        "props": {
+            "onClickBehavior": "go-to-product-page"
+        }
+    },
+    "product-summary-sku-selector#shelf": {
+        "props": {
+            "visibility": "always",
+            "showVariationsLabels": ["true"],
+            "hideImpossibleCombinations": false,
+            "visibleVariations": ["Color"]
+        }
+    },
+
+    "video#products-video": {
+        "props": {
+            "width": "100%",
+            "height": "100%",
+            "loop": false,
+            "autoPlay": false,
+            "muted": true,
+            "src": "https://www.youtube.com/watch?v=aIREqEn0GSs",
+            "blockClass": "products-video"
+        }
+    },
+    // SLIDER PRINCIPAL
+    "render-children#slider-principal-1": {
+        "title": "slider-principal-1",
+        "children": ["flex-layout.row#slider-principal"],
+        "props": {
+            "blockClass": "slider-principal-render"
+        }
+    },
+    "render-children#slider-principal-2": {
+        "title": "slider-principal-2",
+        "children": ["flex-layout.row#slider-principal"],
+        "props": {
+            "blockClass": "slider-principal-render"
+        }
+    },
+    "render-children#slider-principal-3": {
+        "title": "slider-principal-3",
+        "children": ["flex-layout.row#slider-principal"],
+        "props": {
+            "blockClass": "slider-principal-render"
+        }
+    },
+    "render-children#slider-principal-4": {
+        "title": "slider-principal-4",
+        "children": ["flex-layout.row#slider-principal"],
+        "props": {
+            "blockClass": "slider-principal-render"
+        }
+    },
+    "flex-layout.row#slider-principal": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "row-slider-principal"
+        },
+        "children": ["list-context.media-list#slider-principal"]
+    },
+    "list-context.media-list#slider-principal": {
+        "children": ["slider-layout#slider-principal"],
+        "props": {
+            "height": "auto",
+            "mediaList": [
+                {
+                    "image": "https://madeofpartnerar.vtexassets.com/arquivos/slider-desk.png",
+                    "mobileImage": "https://madeofpartnerar.vtexassets.com/arquivos/1025x555.png",
+                    "link": {
+                        "url": ""
+                    }
+                },
+                {
+                    "image": "https://madeofpartnerar.vtexassets.com/arquivos/slider-desk.png",
+                    "mobileImage": "https://madeofpartnerar.vtexassets.com/arquivos/1025x555.png",
+                    "link": {
+                        "url": ""
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#slider-principal": {
+        "props": {
+            "itemsPerPage": 1,
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "blockClass": "slider-principal"
+        }
+    },
+    // ROW INFORMATION
+    "render-children#row-information-1": {
+        "title": "row-information-1",
+        "children": ["flex-layout.row#row-information"],
+        "props": {
+            "blockClass": "row-information-render"
+        }
+    },
+    "render-children#row-information-2": {
+        "title": "row-information-2",
+        "children": ["flex-layout.row#row-information"],
+        "props": {
+            "blockClass": "row-information-render"
+        }
+    },
+    "render-children#row-information-3": {
+        "title": "row-information-3",
+        "children": ["flex-layout.row#row-information"],
+        "props": {
+            "blockClass": "row-information-render"
+        }
+    },
+    "render-children#row-information-4": {
+        "title": "row-information-4",
+        "children": ["flex-layout.row#row-information"],
+        "props": {
+            "blockClass": "row-information-render"
+        }
+    },
+    "flex-layout.row#row-information": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": "row-row-information"
+        },
+        "children": ["slider-layout#row-information"]
+    },
+    "slider-layout#row-information": {
+        "props": {
+            "blockClass": "slider-row-information",
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "mobileOnly"
+        },
+        "children": [
+            "flex-layout.col#row-information-1",
+            "flex-layout.col#row-information-2",
+            "flex-layout.col#row-information-3",
+            "flex-layout.col#row-information-4"
+        ]
+    },
+    "flex-layout.col#row-information-1": {
+        "props": {
+            "blockClass": ["row-information-1", "row-information"]
+        },
+        "children": [
+            "image#icon-row-information-1",
+            "rich-text#text-row-information-1"
+        ]
+    },
+    "flex-layout.col#row-information-2": {
+        "props": {
+            "blockClass": ["row-information-2", "row-information"]
+        },
+        "children": [
+            "image#icon-row-information-2",
+            "rich-text#text-row-information-2"
+        ]
+    },
+    "flex-layout.col#row-information-3": {
+        "props": {
+            "blockClass": ["row-information-3", "row-information"]
+        },
+        "children": [
+            "image#icon-row-information-3",
+            "rich-text#text-row-information-3"
+        ]
+    },
+    "flex-layout.col#row-information-4": {
+        "props": {
+            "blockClass": ["row-information-4", "row-information"]
+        },
+        "children": [
+            "image#icon-row-information-4",
+            "rich-text#text-row-information-4"
+        ]
+    },
+    "image#icon-row-information-1": {
+        "props": {
+            "blockClass": ["icon-row-information-1", "icon-row-information"],
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/icono-segura.png"
+        }
+    },
+    "image#icon-row-information-2": {
+        "props": {
+            "blockClass": ["icon-row-information-2", "icon-row-information"],
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/icono-garantia.png"
+        }
+    },
+    "image#icon-row-information-3": {
+        "props": {
+            "blockClass": ["icon-row-information-3", "icon-row-information"],
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/icono-retiro.png"
+        }
+    },
+    "image#icon-row-information-4": {
+        "props": {
+            "blockClass": ["icon-row-information-4", "icon-row-information"],
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/icono-envio.png"
+        }
+    },
+    "rich-text#text-row-information-1": {
+        "props": {
+            "blockClass": ["text-row-information-1", "text-row-information"],
+            "text": "**100% SEGURA**\nTus datos protegidos siempre"
+        }
+    },
+    "rich-text#text-row-information-2": {
+        "props": {
+            "blockClass": ["text-row-information-2", "text-row-information"],
+            "text": "**GARANTÍA DE SATISFACCIÓN**\nTu compra tiene garantía"
+        }
+    },
+    "rich-text#text-row-information-3": {
+        "props": {
+            "blockClass": ["text-row-information-3", "text-row-information"],
+            "text": "**RETIRO GRATIS EN LOCAL**\nRetira tu compra gratis en el local"
+        }
+    },
+    "rich-text#text-row-information-4": {
+        "props": {
+            "blockClass": ["text-row-information-4", "text-row-information"],
+            "text": "**ENVÍOS A TODO EL PAÍS**\nDonde estes, nosotros te lo enviamos"
+        }
+    },
+    // SLIDER CUSTOM
+    "render-children#slider-custom-1": {
+        "title": "slider-custom-1",
+        "children": ["slider-custom"],
+        "props": {
+            "blockClass": "slider-custom"
+        }
+    },
+    "render-children#slider-custom-2": {
+        "title": "slider-custom-2",
+        "children": ["slider-custom"],
+        "props": {
+            "blockClass": "slider-custom"
+        }
+    },
+    "render-children#slider-custom-3": {
+        "title": "slider-custom-3",
+        "children": ["slider-custom"],
+        "props": {
+            "blockClass": "slider-custom"
+        }
+    },
+    "render-children#slider-custom-4": {
+        "title": "slider-custom-4",
+        "children": ["slider-custom"],
+        "props": {
+            "blockClass": "slider-custom"
+        }
+    },
+    // NEWSLETTER
+    "render-children#newsletter-1": {
+        "title": "newsletter-1",
+        "children": ["flex-layout.row#newsletter"],
+        "props": {
+            "blockClass": "newsletter-render"
+        }
+    },
+    "render-children#newsletter-2": {
+        "title": "newsletter-2",
+        "children": ["flex-layout.row#newsletter"],
+        "props": {
+            "blockClass": "newsletter-render"
+        }
+    },
+    "render-children#newsletter-3": {
+        "title": "newsletter-3",
+        "children": ["flex-layout.row#newsletter"],
+        "props": {
+            "blockClass": "newsletter-render"
+        }
+    },
+    "render-children#newsletter-4": {
+        "title": "newsletter-4",
+        "children": ["flex-layout.row#newsletter"],
+        "props": {
+            "blockClass": "newsletter-render"
+        }
+    },
+    "flex-layout.row#newsletter": {
+        "props": {
+            "blockClass": "newsletter"
+        },
+        "children": [
+            "flex-layout.col#newsletter-1",
+            "flex-layout.col#newsletter-2"
+        ]
+    },
+    "flex-layout.col#newsletter-1": {
+        "children": [
+            "rich-text#newsletter-text-1",
+            "rich-text#newsletter-text-2"
+        ],
+        "props": {
+            "blockClass": "newsletter"
+        }
+    },
+    "flex-layout.col#newsletter-2": {
+        "children": ["newsletter-form"],
+        "props": {
+            "blockClass": "newsletter"
+        }
+    },
+    // Borrar
+
+    "flex-layout.col#imageBack": {
+        "children": ["image#image-text-button-1"],
+        "props": {
+            "blockClass": "imaga-news-background"
+        }
+    },
+    "flex-layout.col#imageBackMobile": {
+        "children": ["image#image-text-button-1"],
+        "props": {
+            "blockClass": "imaga-news-backgroundMobile"
+        }
+    },
+    "newsletter-form": {
+        "children": ["newsletter-input-email", "newsletter-submit"]
+    },
+    "newsletter-input-email": {
+        "props": {
+            "placeholderText": "ingresa tu email"
+        }
+    },
+    // IMAGE + TEXT + BUTTON
+    "render-children#image-text-button-1": {
+        "title": "image-text-button-1",
+        "children": ["flex-layout.row#image-text-button"],
+        "props": {
+            "blockClass": "image-text-button-render"
+        }
+    },
+    "render-children#image-text-button-2": {
+        "title": "image-text-button-1",
+        "children": ["flex-layout.row#image-text-button"],
+        "props": {
+            "blockClass": "image-text-button-render"
+        }
+    },
+    "render-children#image-text-button-3": {
+        "title": "image-text-button-1",
+        "children": ["flex-layout.row#image-text-button"],
+        "props": {
+            "blockClass": "image-text-button-render"
+        }
+    },
+    "render-children#image-text-button-4": {
+        "title": "image-text-button-1",
+        "children": ["flex-layout.row#image-text-button"],
+        "props": {
+            "blockClass": "image-text-button-render"
+        }
+    },
+    "flex-layout.row#image-text-button": {
+        "props": {
+            "blockClass": "image-text-button"
+        },
+        "children": ["slider-layout#slider-image-text-button"]
+    },
+
+    "slider-layout#slider-image-text-button": {
+        "children": [
+            "flex-layout.col#image-text-button-1",
+            "flex-layout.col#image-text-button-2",
+            "flex-layout.col#image-text-button-3",
+            "flex-layout.col#image-text-button-4"
+        ],
+        "props": {
+            "blockClass": "sldier-image-text-button",
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 1
+            },
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "never"
+        }
+    },
+    "flex-layout.col#image-text-button-1": {
+        "props": {
+            "blockClass": ["image-text-button-1", "image-text-button_container"]
+        },
+        "children": [
+            "image#image-text-button-1",
+            "rich-text#title-image-text-button-1",
+            "rich-text#description-image-text-button-1",
+            "link#image-text-button-1"
+        ]
+    },
+    "flex-layout.col#image-text-button-2": {
+        "props": {
+            "blockClass": ["image-text-button-2", "image-text-button_container"]
+        },
+        "children": [
+            "image#image-text-button-2",
+            "rich-text#title-image-text-button-2",
+            "rich-text#description-image-text-button-2",
+            "link#image-text-button-2"
+        ]
+    },
+    "flex-layout.col#image-text-button-3": {
+        "props": {
+            "blockClass": ["image-text-button-3", "image-text-button_container"]
+        },
+        "children": [
+            "image#image-text-button-3",
+            "rich-text#title-image-text-button-3",
+            "rich-text#description-image-text-button-3",
+            "link#image-text-button-3"
+        ]
+    },
+    "flex-layout.col#image-text-button-4": {
+        "props": {
+            "blockClass": ["image-text-button-4", "image-text-button_container"]
+        },
+        "children": [
+            "image#image-text-button-4",
+            "rich-text#title-image-text-button-4",
+            "rich-text#description-image-text-button-4",
+            "link#image-text-button-4"
+        ]
+    },
+    "image#image-text-button-1": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/image-text-button-1.png",
+            "blockClass": [
+                "image-text-button-1__image",
+                "image-text-button__images"
+            ]
+        }
+    },
+    "image#image-text-button-2": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/image-text-button-2.png",
+            "blockClass": [
+                "image-text-button-2__image",
+                "image-text-button__images"
+            ]
+        }
+    },
+    "image#image-text-button-3": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/image-text-button-3.png",
+            "blockClass": [
+                "image-text-button-3__image",
+                "image-text-button__images"
+            ]
+        }
+    },
+    "image#image-text-button-4": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/image-text-button-4.png",
+            "blockClass": [
+                "image-text-button-4__image",
+                "image-text-button__images"
+            ]
+        }
+    },
+    "rich-text#title-image-text-button-1": {
+        "props": {
+            "text": "Tarde de amigos",
+            "blockClass": [
+                "title-image-text-button-1",
+                "title-image-text-button"
+            ]
+        }
+    },
+    "rich-text#title-image-text-button-2": {
+        "props": {
+            "text": "Día de oficina",
+            "blockClass": [
+                "title-image-text-button-2",
+                "title-image-text-button"
+            ]
+        }
+    },
+    "rich-text#title-image-text-button-3": {
+        "props": {
+            "text": "Pequeños momentos",
+            "blockClass": [
+                "title-image-text-button-3",
+                "title-image-text-button"
+            ]
+        }
+    },
+    "rich-text#title-image-text-button-4": {
+        "props": {
+            "text": "Parte de la celebración",
+            "blockClass": [
+                "title-image-text-button-4",
+                "title-image-text-button"
+            ]
+        }
+    },
+    "rich-text#description-image-text-button-1": {
+        "props": {
+            "text": "Elegimos para vos las mejores joyas para esos momentos divertidos.",
+            "blockClass": [
+                "description-image-text-button-1",
+                "description-image-text-button"
+            ]
+        }
+    },
+    "rich-text#description-image-text-button-2": {
+        "props": {
+            "text": "Nada mejor que completar tu look de oficina que estas joyas.",
+            "blockClass": [
+                "description-image-text-button-2",
+                "description-image-text-button"
+            ]
+        }
+    },
+    "rich-text#description-image-text-button-3": {
+        "props": {
+            "text": "Los detalles hacen todo! Llevá con vos estas joyas.",
+            "blockClass": [
+                "description-image-text-button-3",
+                "description-image-text-button"
+            ]
+        }
+    },
+    "rich-text#description-image-text-button-4": {
+        "props": {
+            "text": "Destaca esos momentos unicos con los mejores accesorios.",
+            "blockClass": [
+                "description-image-text-button-4",
+                "description-image-text-button"
+            ]
+        }
+    },
+    "link#image-text-button-1": {
+        "props": {
+            "href": "#",
+            "label": "Ver colección",
+            "blockClass": ["image-text-button-1_link", "image-text-button_link"]
+        }
+    },
+    "link#image-text-button-2": {
+        "props": {
+            "href": "#",
+            "label": "Ver colección",
+            "blockClass": ["image-text-button-2_link", "image-text-button_link"]
+        }
+    },
+    "link#image-text-button-3": {
+        "props": {
+            "href": "#",
+            "label": "Ver colección",
+            "blockClass": ["image-text-button-3_link", "image-text-button_link"]
+        }
+    },
+    "link#image-text-button-4": {
+        "props": {
+            "href": "#",
+            "label": "Ver colección",
+            "blockClass": ["image-text-button-4_link", "image-text-button_link"]
+        }
+    },
+    // DOBLE IMAGE + TEXT + BUTTON
+    "render-children#doble-image-text-button-1": {
+        "title": "doble-image-text-button-1",
+        "children": ["flex-layout.row#doble-image-text-button"],
+        "props": {
+            "blockClass": "doble-image-text-button-render"
+        }
+    },
+    "render-children#doble-image-text-button-2": {
+        "title": "doble-image-text-button-1",
+        "children": ["flex-layout.row#doble-image-text-button"],
+        "props": {
+            "blockClass": "doble-image-text-button-render"
+        }
+    },
+    "render-children#doble-image-text-button-3": {
+        "title": "doble-image-text-button-1",
+        "children": ["flex-layout.row#doble-image-text-button"],
+        "props": {
+            "blockClass": "doble-image-text-button-render"
+        }
+    },
+    "render-children#doble-image-text-button-4": {
+        "title": "doble-image-text-button-1",
+        "children": ["flex-layout.row#doble-image-text-button"],
+        "props": {
+            "blockClass": "doble-image-text-button-render"
+        }
+    },
+    "flex-layout.row#doble-image-text-button": {
+        "props": {
+            "blockClass": "doble-image-text-button"
+        },
+        "children": ["slider-layout#slider-doble-image-text-button"]
+    },
+    "slider-layout#slider-doble-image-text-button": {
+        "children": [
+            "flex-layout.col#doble-image-text-button-1",
+            "flex-layout.col#doble-image-text-button-2"
+        ],
+        "props": {
+            "blockClass": "sldier-doble-image-text-button",
+            "itemsPerPage": {
+                "desktop": 2,
+                "tablet": 1,
+                "phone": 1
+            },
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "never"
+        }
+    },
+    "flex-layout.col#doble-image-text-button-1": {
+        "props": {
+            "blockClass": [
+                "doble-image-text-button-1",
+                "doble-image-text-button_container"
+            ]
+        },
+        "children": [
+            "image#doble-image-text-button-1",
+            "rich-text#title-doble-image-text-button-1",
+            "rich-text#description-doble-image-text-button-1",
+            "link#doble-image-text-button-1"
+        ]
+    },
+    "flex-layout.col#doble-image-text-button-2": {
+        "props": {
+            "blockClass": [
+                "doble-image-text-button-2",
+                "doble-image-text-button_container"
+            ]
+        },
+        "children": [
+            "image#doble-image-text-button-2",
+            "rich-text#title-doble-image-text-button-2",
+            "rich-text#description-doble-image-text-button-2",
+            "link#doble-image-text-button-2"
+        ]
+    },
+    "image#doble-image-text-button-1": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/anillo-para-siempre-1.png",
+            "blockClass": [
+                "doble-image-text-button-1__image",
+                "doble-image-text-button__images"
+            ]
+        }
+    },
+    "image#doble-image-text-button-2": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/anillo-para-siempre-2.png",
+            "blockClass": [
+                "doble-image-text-button-2__image",
+                "doble-image-text-button__images"
+            ]
+        }
+    },
+    "rich-text#title-doble-image-text-button-1": {
+        "props": {
+            "text": "Elegí tu anillo\n**PARA SIEMPRE**",
+            "blockClass": [
+                "title-doble-image-text-button-1",
+                "title-doble-image-text-button"
+            ]
+        }
+    },
+    "rich-text#title-doble-image-text-button-2": {
+        "props": {
+            "text": "Elegí tu anillo\n**PARA SIEMPRE**",
+            "blockClass": [
+                "title-doble-image-text-button-2",
+                "title-doble-image-text-button"
+            ]
+        }
+    },
+    "rich-text#description-doble-image-text-button-1": {
+        "props": {
+            "text": "Anillos que unen, que van a estar\nsiendo parte de un solo amor.",
+            "blockClass": [
+                "description-doble-image-text-button-1",
+                "description-doble-image-text-button"
+            ]
+        }
+    },
+    "rich-text#description-doble-image-text-button-2": {
+        "props": {
+            "text": "Anillos que unen, que van a estar\nsiendo parte de un solo amor.",
+            "blockClass": [
+                "description-doble-image-text-button-2",
+                "description-doble-image-text-button"
+            ]
+        }
+    },
+    "link#doble-image-text-button-1": {
+        "props": {
+            "href": "#",
+            "label": "Ver alianzas",
+            "blockClass": [
+                "doble-image-text-button-1_link",
+                "doble-image-text-button_link"
+            ]
+        }
+    },
+    "link#doble-image-text-button-2": {
+        "props": {
+            "href": "#",
+            "label": "Ver alianzas",
+            "blockClass": [
+                "doble-image-text-button-2_link",
+                "doble-image-text-button_link"
+            ]
+        }
+    },
+    "rich-text#newsletter-text-1": {
+        "props": {
+            "text": "NEWSLETTER",
+            "blockClass": ["newsletter-text", "newsletter-text-1"]
+        }
+    },
+    "rich-text#newsletter-text-2": {
+        "props": {
+            "text": "¿QUERÉS SABER **NUESTRAS NOVEDADES**?",
+            "blockClass": ["newsletter-text", "newsletter-text-2"]
+        }
+    },
+
+    // BANNER DOBLE IMAGE
+    "render-children#banner-doble-image-1": {
+        "title": "banner-doble-image-1",
+        "children": ["flex-layout.row#banner-doble-image"],
+        "props": {
+            "blockClass": "banner-doble-image-render"
+        }
+    },
+    "render-children#banner-doble-image-2": {
+        "title": "banner-doble-image-2",
+        "children": ["flex-layout.row#banner-doble-image"],
+        "props": {
+            "blockClass": "banner-doble-image-render"
+        }
+    },
+    "render-children#banner-doble-image-3": {
+        "title": "banner-doble-image-3",
+        "children": ["flex-layout.row#banner-doble-image"],
+        "props": {
+            "blockClass": "banner-doble-image-render"
+        }
+    },
+    "render-children#banner-doble-image-4": {
+        "title": "banner-doble-image-4",
+        "children": ["flex-layout.row#banner-doble-image"],
+        "props": {
+            "blockClass": "banner-doble-image-render"
+        }
+    },
+    //RENDER INFOCARDS
+    "render-children#inforcars-1": {
+        "children": ["flex-layout.row#contentInfocart"]
+    },
+    "render-children#inforcars-2": {
+        "children": ["flex-layout.row#contentInfocart"]
+    },
+    "render-children#inforcars-3": {
+        "children": ["flex-layout.row#contentInfocart"]
+    },
+    "render-children#inforcars-4": {
+        "children": ["flex-layout.row#contentInfocart"]
+    },
+    "flex-layout.row#contentInfocart": {
+        "children": [
+            "flex-layout.row#infocards1",
+            "flex-layout.row#infocards2",
+            "flex-layout.row#infocards3",
+            "flex-layout.row#infocards4"
+        ],
+        "props": {
+            "blockClass": "infocardsContent",
+            "preventHorizontalStretch": false
+        }
+    },
+    "flex-layout.row#infocards1": {
+        "children": ["info-card#1"],
+        "props": {
+            "blockClass": "inforcards"
+        }
+    },
+    "info-card#1": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-cards-class",
+            "textAlignment": "center"
+        }
+    },
+    "flex-layout.row#infocards2": {
+        "children": ["info-card#2"],
+        "props": {
+            "blockClass": "inforcards"
+        }
+    },
+    "info-card#2": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-cards-class",
+            "textAlignment": "center"
+        }
+    },
+    "flex-layout.row#infocards3": {
+        "children": ["info-card#3"],
+        "props": {
+            "blockClass": "inforcards"
+        }
+    },
+    "info-card#3": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-cards-class",
+            "textAlignment": "center"
+        }
+    },
+    "flex-layout.row#infocards4": {
+        "children": ["info-card#4"],
+        "props": {
+            "blockClass": "inforcards"
+        }
+    },
+    "info-card#4": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-cards-class",
+            "textAlignment": "center"
+        }
+    },
+    //RENDER INFOCARDS FIN
+    "flex-layout.row#banner-doble-image": {
+        "props": {
+            "blockClass": "banner-doble-image"
+        },
+        "children": ["image#first-image", "image#last-image"]
+    },
+    "image#first-image": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/imagen-hombre.png",
+            "blockClass": "banner-doble-image__image"
+        }
+    },
+    "image#last-image": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/imagen-mujer.png",
+            "blockClass": "banner-doble-image__image"
+        }
+    },
+    // TAB LAYOUT HOME
+    "render-children#tab-layout-home-1": {
+        "title": "tab-layout-home-1",
+        "children": ["flex-layout.row#tab-layout-home"],
+        "props": {
+            "blockClass": "tab-layout-home-render"
+        }
+    },
+    "render-children#tab-layout-home-2": {
+        "title": "tab-layout-home-2",
+        "children": ["flex-layout.row#tab-layout-home"],
+        "props": {
+            "blockClass": "tab-layout-home-render"
+        }
+    },
+    "render-children#tab-layout-home-3": {
+        "title": "tab-layout-home-3",
+        "children": ["flex-layout.row#tab-layout-home"],
+        "props": {
+            "blockClass": "tab-layout-home-render"
+        }
+    },
+    "render-children#tab-layout-home-4": {
+        "title": "tab-layout-home-4",
+        "children": ["flex-layout.row#tab-layout-home"],
+        "props": {
+            "blockClass": "tab-layout-home-render"
+        }
+    },
+    "flex-layout.row#tab-layout-home": {
+        "props": {
+            "blockClass": "tab-layout-home"
+        },
+        "children": ["tab-layout#home"]
+    },
+    "tab-layout#home": {
+        "children": ["tab-list#home", "tab-content#home"],
+        "props": {
+            "blockClass": "home",
+            "defaultActiveTabId": "tab-list-1"
+        }
+    },
+    "tab-list#home": {
+        "children": ["flex-layout.row#tab-list-coontainer"],
+        "props": {
+            "blockClass": "tab-list-container"
+        }
+    },
+    "flex-layout.row#tab-list-coontainer": {
+        "children": [
+            "tab-list.item#tab-list-1",
+            "tab-list.item#tab-list-2",
+            "tab-list.item#tab-list-3"
+        ]
+    },
+    "tab-list.item#tab-list-1": {
+        "props": {
+            "tabId": "tab-list-1",
+            "label": "BUSCA TU JOYA",
+            "blockClass": ["tab-list-home-1", "tab-list-home"],
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#tab-list-2": {
+        "props": {
+            "tabId": "tab-list-2",
+            "label": "BUSCA TU ESTILO",
+            "blockClass": ["tab-list-home-2", "tab-list-home"]
+        }
+    },
+    "tab-list.item#tab-list-3": {
+        "props": {
+            "tabId": "tab-list-3",
+            "label": "BUSCA TU MOMENTO",
+            "blockClass": ["tab-list-home-3", "tab-list-home"]
+        }
+    },
+    "tab-content#home": {
+        "children": [
+            "tab-content.item#tab-list-1",
+            "tab-content.item#tab-list-2",
+            "tab-content.item#tab-list-3"
+        ]
+    },
+    "tab-content.item#tab-list-1": {
+        "children": ["slider-layout#slider-tab-list-1"],
+        "props": {
+            "tabId": "tab-list-1"
+        }
+    },
+    "slider-layout#slider-tab-list-1": {
+        "children": [
+            "info-card#tab-1-1",
+            "info-card#tab-1-2",
+            "info-card#tab-1-3",
+            "info-card#tab-1-4"
+        ],
+        "props": {
+            "blockClass": ["sldier-tab-list-1", "sldier-tab-list"],
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "never"
+        }
+    },
+    "tab-content.item#tab-list-2": {
+        "children": ["slider-layout#slider-tab-list-2"],
+        "props": {
+            "tabId": "tab-list-2"
+        }
+    },
+    "slider-layout#slider-tab-list-2": {
+        "children": [
+            "info-card#tab-2-1",
+            "info-card#tab-2-2",
+            "info-card#tab-2-3",
+            "info-card#tab-2-4"
+        ],
+        "props": {
+            "blockClass": ["sldier-tab-list-2", "sldier-tab-list"],
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "never"
+        }
+    },
+    "tab-content.item#tab-list-3": {
+        "children": ["slider-layout#slider-tab-list-3"],
+        "props": {
+            "tabId": "tab-list-3"
+        }
+    },
+    "slider-layout#slider-tab-list-3": {
+        "children": [
+            "info-card#tab-3-1",
+            "info-card#tab-3-2",
+            "info-card#tab-3-3",
+            "info-card#tab-3-4"
+        ],
+        "props": {
+            "blockClass": ["sldier-tab-list-3", "sldier-tab-list"],
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "showPaginationDots": "mobileOnly",
+            "showNavigationArrows": "never"
+        }
+    },
+    "info-card#tab-1-1": {
+        "props": {
+            "id": "infocard-tab-1-1",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/aros-tab-2.png",
+            "headline": "AROS",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-1-1", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#tab-1-2": {
+        "props": {
+            "id": "ifocard-tab-1-2",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/relojes-tab.png",
+            "headline": "RELOJES",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-1-2", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#tab-1-3": {
+        "props": {
+            "id": "infocard-tab-1-3",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/anillos-tab.png",
+            "headline": "ANILLOS",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-1-3", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#tab-1-4": {
+        "props": {
+            "id": "infocard-tab-1-4",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/collares-tab.png",
+            "headline": "COLLARES",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-1-4", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#tab-2-1": {
+        "props": {
+            "id": "infocard-tab-2-1",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/collares-tab.png",
+            "headline": "COLLARES",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-2-1", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#tab-2-2": {
+        "props": {
+            "id": "infocard-tab-2-2",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/aros-tab-2.png",
+            "headline": "AROS",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-2-2", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#tab-2-3": {
+        "props": {
+            "id": "infocard-tab-2-3",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/relojes-tab.png",
+            "headline": "RELOJES",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-2-3", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#tab-2-4": {
+        "props": {
+            "id": "infocard-tab-2-4",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/anillos-tab.png",
+            "headline": "ANILLOS",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-2-4", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#tab-3-1": {
+        "props": {
+            "id": "infocard-tab-3-1",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/anillos-tab.png",
+            "headline": "ANILLOS",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-3-1", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#tab-3-2": {
+        "props": {
+            "id": "infocard-tab-3-2",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/collares-tab.png",
+            "headline": "COLLARES",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-3-2", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#tab-3-3": {
+        "props": {
+            "id": "infocard-tab-3-3",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/aros-tab-2.png",
+            "headline": "AROS",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-3-3", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    "info-card#tab-3-4": {
+        "props": {
+            "id": "infocard-tab-3-4",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/relojes-tab.png",
+            "headline": "RELOJES",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["infocard-tab-3-4", "infocard-tabs-home"],
+            "textAlignment": "center"
+        }
+    },
+    // BANNER BORDE REDONDEADO
+    "render-children#rounded-border-banner-1": {
+        "title": "rounded-border-banner-1",
+        "children": ["flex-layout.row#rounded-border-banner"]
+    },
+    "render-children#rounded-border-banner-2": {
+        "title": "rounded-border-banner-2",
+        "children": ["flex-layout.row#rounded-border-banner"]
+    },
+    "render-children#rounded-border-banner-3": {
+        "title": "rounded-border-banner-1",
+        "children": ["flex-layout.row#rounded-border-banner"]
+    },
+    "render-children#rounded-border-banner-4": {
+        "title": "rounded-border-banner-1",
+        "children": ["flex-layout.row#rounded-border-banner"]
+    },
+    "flex-layout.row#rounded-border-banner": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "row-rounded-border-banner"
+        },
+        "children": ["list-context.media-list#rounded-border-banner"]
+    },
+    "list-context.media-list#rounded-border-banner": {
+        "children": ["slider-layout#rounded-border-banner"],
+        "props": {
+            "height": "auto",
+            "mediaList": [
+                {
+                    "image": "https://madeofpartnerar.vtexassets.com/arquivos/rounded-border-banner.png",
+                    "mobileImage": "https://madeofpartnerar.vtexassets.com/arquivos/rounded-border-banner.png",
+                    "link": {
+                        "url": ""
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#rounded-border-banner": {
+        "props": {
+            "itemsPerPage": 1,
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": "rounded-border-banner"
+        }
+    },
+    // SLIDER INFOCARDS
+    "render-children#slider-infocards-1": {
+        "title": "slider-infocards-1",
+        "children": ["flex-layout.row#slider-infocards"]
+    },
+    "render-children#slider-infocards-2": {
+        "title": "slider-infocards-2",
+        "children": ["flex-layout.row#slider-infocards"]
+    },
+    "render-children#slider-infocards-3": {
+        "title": "slider-infocards-1",
+        "children": ["flex-layout.row#slider-infocards"]
+    },
+    "render-children#slider-infocards-4": {
+        "title": "slider-infocards-1",
+        "children": ["flex-layout.row#slider-infocards"]
+    },
+    "flex-layout.row#slider-infocards": {
+        "props": {
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "row-slider-infocards"
+        },
+        "children": ["flex-layout.col#slider-infocards"]
+    },
+    "flex-layout.col#slider-infocards": {
+        "props": {
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "col-slider-infocards"
+        },
+        "children": [
+            "rich-text#slider-infocards",
+            "slider-layout#slider-infocards"
+        ]
+    },
+    "rich-text#slider-infocards": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "NUESTRAS SELECCIONES",
+            "blockClass": "title-slider-infocards"
+        }
+    },
+    "slider-layout#slider-infocards": {
+        "children": [
+            "info-card#slider-infocards-1",
+            "info-card#slider-infocards-2",
+            "info-card#slider-infocards-3",
+            "info-card#slider-infocards-4",
+            "info-card#slider-infocards-5"
+        ],
+        "props": {
+            "blockClass": "slider-infocards",
+            "showNavigationArrows": "never",
+            "showPaginationDots": "mobileOnly",
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 2
+            }
+        }
+    },
+    "info-card#slider-infocards-1": {
+        "props": {
+            "id": "slider-infocards-1",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/slider-infocard-1.png",
+            "headline": "CONNECTED",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["slider-infocards-1", "slider-infocards"]
+        }
+    },
+    "info-card#slider-infocards-2": {
+        "props": {
+            "id": "slider-infocards-2",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/slider-infocard-2.png",
+            "headline": "CARRERA",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["slider-infocards-2", "slider-infocards"]
+        }
+    },
+    "info-card#slider-infocards-3": {
+        "props": {
+            "id": "slider-infocards-3",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/slider-infocard-3.png",
+            "headline": "FORMULA 1",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["slider-infocards-3", "slider-infocards"]
+        }
+    },
+    "info-card#slider-infocards-4": {
+        "props": {
+            "id": "slider-infocards-4",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/slider-infocard-4.png",
+            "headline": "MÓNACO",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["slider-infocards-4", "slider-infocards"]
+        }
+    },
+    "info-card#slider-infocards-5": {
+        "props": {
+            "id": "slider-infocards-5",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "https://madeofpartnerar.vtexassets.com/arquivos/slider-infocard-5.png",
+            "headline": "AQUARACER",
+            "callToActionText": "VER COLECCIÓN",
+            "callToActionUrl": "#",
+            "callToActionMode": "link",
+            "blockClass": ["slider-infocards-5", "slider-infocards"]
+        }
+    },
+    // TAB LAYOUT PRODUCTS
+    "render-children#tab-layout-products-1": {
+        "title": "tab-layout-products-1",
+        "children": ["flex-layout.row#tab-layout-products"],
+        "props": {
+            "blockClass": "tab-layout-products-render"
+        }
+    },
+    "render-children#tab-layout-products-2": {
+        "title": "tab-layout-products-2",
+        "children": ["flex-layout.row#tab-layout-products"],
+        "props": {
+            "blockClass": "tab-layout-products-render"
+        }
+    },
+    "render-children#tab-layout-products-3": {
+        "title": "tab-layout-products-3",
+        "children": ["flex-layout.row#tab-layout-products"],
+        "props": {
+            "blockClass": "tab-layout-products-render"
+        }
+    },
+    "render-children#tab-layout-products-4": {
+        "title": "tab-layout-products-4",
+        "children": ["flex-layout.row#tab-layout-products"],
+        "props": {
+            "blockClass": "tab-layout-products-render"
+        }
+    },
+    "flex-layout.row#tab-layout-products": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["tab-layout-products"]
+        },
+        "children": ["flex-layout.col#tab-layout-products"]
+    },
+    "flex-layout.col#tab-layout-products": {
+        "props": {
+            "blockClass": "tab-layout-products"
+        },
+        "children": [
+            "flex-layout.row#tab-layout-image",
+            "flex-layout.row#row-tab-layout-products"
+        ]
+    },
+    "flex-layout.row#tab-layout-image": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": "tab-layout-products-image"
+        },
+        "children": ["image#tab-layout-products"]
+    },
+    "flex-layout.row#row-tab-layout-products": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": "tab-layout-products-row"
+        },
+        "children": ["tab-layout#tab-layout-products"]
+    },
+    "tab-layout#tab-layout-products": {
+        "children": ["tab-list#products", "tab-content#products"],
+        "props": {
+            "blockClass": "products",
+            "defaultActiveTabId": "tab-list-1"
+        }
+    },
+    "tab-list#products": {
+        "children": ["flex-layout.row#tab-list-products-container"],
+        "props": {
+            "blockClass": "tab-list-container"
+        }
+    },
+    "flex-layout.row#tab-list-products-container": {
+        "children": [
+            "tab-list.item.children#tab-list-products-1",
+            "tab-list.item.children#tab-list-products-2",
+            "tab-list.item.children#tab-list-products-3"
+        ],
+        "props": {
+            "blockClass": "tab-list-container-border"
+        }
+    },
+    "tab-list.item.children#tab-list-products-1": {
+        "children": ["image#tab-layout-icon-1", "rich-text#tab-layout-text-1"],
+        "props": {
+            "tabId": "tab-list-1",
+            "blockClass": ["tab-list-products-1", "tab-list-products"],
+            "defaultActiveTab": true
+        }
+    },
+    "image#tab-layout-products": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/tab-layout-products.png",
+            "blockClass": "tab-layout-products"
+        }
+    },
+    "tab-list.item.children#tab-list-products-2": {
+        "children": ["image#tab-layout-icon-2", "rich-text#tab-layout-text-2"],
+        "props": {
+            "tabId": "tab-list-2",
+            "blockClass": ["tab-list-products-2", "tab-list-products"]
+        }
+    },
+    "tab-list.item.children#tab-list-products-3": {
+        "children": ["image#tab-layout-icon-3", "rich-text#tab-layout-text-3"],
+        "props": {
+            "tabId": "tab-list-3",
+            "blockClass": ["tab-list-products-3", "tab-list-products"]
+        }
+    },
+    "image#tab-layout-icon-1": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/clasic.svg?",
+            "blockClass": ["tab-layout-icon-1", "tab-layout-icon"]
+        }
+    },
+    "image#tab-layout-icon-2": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/premium.svg?",
+            "blockClass": ["tab-layout-icon-2", "tab-layout-icon"]
+        }
+    },
+    "image#tab-layout-icon-3": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/alta-gama.svg?",
+            "blockClass": ["tab-layout-icon-3", "tab-layout-icon"]
+        }
+    },
+    "rich-text#tab-layout-text-1": {
+        "props": {
+            "text": "CLÁSICA",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": ["tab-layout-text-1", "tab-layout-text"]
+        }
+    },
+    "rich-text#tab-layout-text-2": {
+        "props": {
+            "text": "PREMIUM",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": ["tab-layout-text-2", "tab-layout-text"]
+        }
+    },
+    "rich-text#tab-layout-text-3": {
+        "props": {
+            "text": "ALTA GAMA",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": ["tab-layout-text-3", "tab-layout-text"]
+        }
+    },
+    "tab-content#products": {
+        "children": [
+            "tab-content.item#tab-list-products-1",
+            "tab-content.item#tab-list-products-2",
+            "tab-content.item#tab-list-products-3"
+        ]
+    },
+    "tab-content.item#tab-list-products-1": {
+        "children": [
+            "list-context.product-list#products-1",
+            "link#tab-layout-1"
+        ],
+        "props": {
+            "tabId": "tab-list-1"
+        }
+    },
+    "tab-content.item#tab-list-products-2": {
+        "children": [
+            "list-context.product-list#products-2",
+            "link#tab-layout-2"
+        ],
+        "props": {
+            "tabId": "tab-list-2"
+        }
+    },
+    "tab-content.item#tab-list-products-3": {
+        "children": [
+            "list-context.product-list#products-3",
+            "link#tab-layout-3"
+        ],
+        "props": {
+            "tabId": "tab-list-3"
+        }
+    },
+    "list-context.product-list#products-1": {
+        "blocks": ["product-summary.shelf#productGrid"],
+        "children": ["slider-layout#products"],
+        "props": {
+            "collection": "140",
+            "blockClass": ["list-context-products", "list-context-products-1"]
+        }
+    },
+    "list-context.product-list#products-2": {
+        "blocks": ["product-summary.shelf#productGrid"],
+        "children": ["slider-layout#products"],
+        "props": {
+            "collection": "140",
+            "blockClass": ["list-context-products", "list-context-products-2"]
+        }
+    },
+    "list-context.product-list#products-3": {
+        "blocks": ["product-summary.shelf#productGrid"],
+        "children": ["slider-layout#products"],
+        "props": {
+            "collection": "140",
+            "blockClass": ["list-context-products", "list-context-products-3"]
+        }
+    },
+    "slider-layout#products": {
+        "props": {
+            "blockClass": "slider-products",
+            "fullWidth": false,
+            "infinite": false,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "mobileOnly",
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            }
+        }
+    },
+    "link#tab-layout-1": {
+        "props": {
+            "href": "/",
+            "label": "VER COLECCIÓN",
+            "blockClass": ["link-tab-layout-1", "link-tab-layout"]
+        }
+    },
+    "link#tab-layout-2": {
+        "props": {
+            "href": "/",
+            "label": "VER COLECCIÓN",
+            "blockClass": ["link-tab-layout-2", "link-tab-layout"]
+        }
+    },
+    "link#tab-layout-3": {
+        "props": {
+            "href": "/",
+            "label": "VER COLECCIÓN",
+            "blockClass": ["link-tab-layout-3", "link-tab-layout"]
+        }
+    },
+    //BANNER TEXTO
+    "render-children#banner-texto-1": {
+        "title": "texto-banner-1",
+        "children": ["flex-layout.row#texto-banner"]
+    },
+    "render-children#banner-texto-2": {
+        "title": "texto-banner-2",
+        "children": ["flex-layout.row#texto-banner"]
+    },
+    "render-children#banner-texto-3": {
+        "title": "texto-banner-1",
+        "children": ["flex-layout.row#texto-banner"]
+    },
+    "render-children#banner-texto-4": {
+        "title": "texto-banner-1",
+        "children": ["flex-layout.row#texto-banner"]
+    },
+    "render-children#banner-texto-1-invested": {
+        "title": "banner-texto-1-invested",
+        "children": ["flex-layout.row#texto-banner-invested"]
+    },
+    "render-children#banner-texto-2-invested": {
+        "title": "banner-texto-2-invested",
+        "children": ["flex-layout.row#texto-banner-invested"]
+    },
+    "render-children#banner-texto-3-invested": {
+        "title": "banner-texto-4-invested",
+        "children": ["flex-layout.row#texto-banner-invested"]
+    },
+    "render-children#banner-texto-4-invested": {
+        "title": "banner-texto-4-invested",
+        "children": ["flex-layout.row#texto-banner-invested"]
+    },
+    "render-children#banner-image-full-texto": {
+        "title": "banner-image-full-texto-1",
+        "children": ["flex-layout.row#banner1"]
+    },
+    "flex-layout.row#banner-image-full-texto": {
+        "children": ["flex-layout.row#image-full-texto"],
+        "props": {
+            "blockClass": "banner-full-image"
+        }
+    },
+    "flex-layout.row#image-full-texto": {
+        "children": ["flex-layout.row#contentInfo"],
+        "props": {
+            "blockClass": "contenido-texto-full-banner-texto"
+        }
+    },
+    "flex-layout.row#texto-banner-invested": {
+        "children": ["flex-layout.row#content-banner-texto-invested"],
+        "props": {
+            "blockClass": ["background-gray"]
+        }
+    },
+    "flex-layout.row#content-banner-texto-invested": {
+        "children": ["flex-layout.row#content-imageTexto-invested"],
+        "props": {
+            "blockClass": ["content-1200"]
+        }
+    },
+    "flex-layout.row#texto-banner": {
+        "children": ["flex-layout.row#content-banner-texto"],
+        "props": {
+            "blockClass": ["background-gray"]
+        }
+    },
+    "flex-layout.row#content-banner-texto": {
+        "children": ["flex-layout.row#content-imageTexto"],
+        "props": {
+            "blockClass": ["content-1200"]
+        }
+    },
+    "flex-layout.row#content-imageTexto-invested": {
+        "children": [
+            "flex-layout.row#banner-invested",
+            "flex-layout.row#contentInfo-invested"
+        ],
+        "props": {
+            "blockClass": "content-imageText-invested"
+        }
+    },
+    "flex-layout.row#banner-invested": {
+        "children": ["image#bannerTexto-invested"],
+        "props": {
+            "blockClass": "content-image-banner"
+        }
+    },
+    "image#bannerTexto-invested": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "maxHeight": 800,
+            "blockClass": "imageBanner"
+        }
+    },
+    "flex-layout.row#contentInfo-invested": {
+        "children": ["flex-layout.row#info-invested"],
+        "props": {
+            "blockClass": "contnetInfo-banner",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#info-invested": {
+        "children": [
+            "rich-text#uno-invested",
+            "rich-text#dos-invested",
+            "rich-text#tres-invested",
+            "flex-layout.row#link-invested"
+        ],
+        "props": {
+            "blockClass": "content-text",
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#uno-invested": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Estamos en el detalle",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": ["textBannerUno", "colorFontBlue"]
+        }
+    },
+    "rich-text#dos-invested": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "DE CADA MOMENTO",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": ["textBannerDos", "colorFontBlue"]
+        }
+    },
+    "rich-text#tres-invested": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Con los mejores detalles, demostra <br> delizadeza en tu outfit",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": ["textBannerInfo", "colorFontBlue"]
+        }
+    },
+    "flex-layout.row#link-invested": {
+        "children": ["link#info"],
+        "props": {
+            "blockClass": "conntetLinkInfo"
+        }
+    },
+    "link#info-invested": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Ver coleccion",
+            "blockClass": "linkUrl"
+        }
+    },
+    "flex-layout.row#content-imageTexto": {
+        "children": ["flex-layout.row#banner", "flex-layout.row#contentInfo"],
+        "props": {
+            "blockClass": "content-imageText"
+        }
+    },
+    "flex-layout.row#banner": {
+        "children": ["image#bannerTexto"],
+        "props": {
+            "blockClass": "content-image-banner"
+        }
+    },
+    "image#bannerTexto": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "maxHeight": 800,
+            "blockClass": "imageBanner"
+        }
+    },
+    "flex-layout.row#contentInfo": {
+        "children": ["flex-layout.row#info-trinomio"],
+        "props": {
+            "blockClass": "contnetInfo-banner",
+            "preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#info-trinomio": {
+        "children": [
+            "rich-text#uno",
+            "rich-text#dos",
+            "rich-text#tres",
+            "flex-layout.row#link"
+        ],
+        "props": {
+            "blockClass": "content-text",
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#uno": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Estamos en el detalle",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": ["textBannerUno", "colorFontBlue"]
+        }
+    },
+    "rich-text#dos": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "DE CADA MOMENTO",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": ["textBannerDos", "colorFontBlue"]
+        }
+    },
+    "rich-text#tres": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Con los mejores detalles, demostra <br> delizadeza en tu outfit",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-5",
+            "blockClass": ["textBannerInfo", "colorFontBlue"]
+        }
+    },
+    "flex-layout.row#link": {
+        "children": ["link#info"],
+        "props": {
+            "blockClass": "conntetLinkInfo"
+        }
+    },
+    "link#info": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Ver coleccion",
+            "blockClass": "linkUrl"
+        }
+    },
+    // BANNER TITLE DOBLE IMAGE
+    "render-children#banner-title-doble-image-1": {
+        "title": "banner-doble-image-1",
+        "children": ["flex-layout.row#banner-title-doble-image"],
+        "props": {
+            "blockClass": "banner-title-doble-image-render"
+        }
+    },
+    "render-children#banner-title-doble-image-2": {
+        "title": "banner-doble-image-2",
+        "children": ["flex-layout.row#banner-title-doble-image"],
+        "props": {
+            "blockClass": "banner-title-doble-image-render"
+        }
+    },
+    "render-children#banner-title-doble-image-3": {
+        "title": "banner-doble-image-3",
+        "children": ["flex-layout.row#banner-title-doble-image"],
+        "props": {
+            "blockClass": "banner-title-doble-image-render"
+        }
+    },
+    "render-children#banner-title-doble-image-4": {
+        "title": "banner-doble-image-4",
+        "children": ["flex-layout.row#banner-title-doble-image"],
+        "props": {
+            "blockClass": "banner-title-doble-image-render"
+        }
+    },
+    "flex-layout.row#banner-title-doble-image": {
+        "props": {
+            "blockClass": "banner-title-doble-image__container"
+        },
+        "children": [
+            "rich-text#banner-title-doble-image",
+            "flex-layout.col#banner-title-doble-image"
+        ]
+    },
+    "rich-text#banner-title-doble-image": {
+        "props": {
+            "text": "TODAS LAS COLECCIONES, **ESTILOS DIFERENTES**",
+            "blockClass": "banner-title-doble-image_title"
+        }
+    },
+    "flex-layout.col#banner-title-doble-image": {
+        "props": {
+            "blockClass": "col-banner-doble-image"
+        },
+        "children": [
+            "image#first-image-banner-title-doble-image",
+            "image#last-image-banner-title-doble-image"
+        ]
+    },
+    "image#first-image-banner-title-doble-image": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/image-hombre.png",
+            "blockClass": "banner-title-doble-image__image"
+        }
+    },
+    "image#last-image-banner-title-doble-image": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/image-mujer.png",
+            "blockClass": "banner-title-doble-image__image"
+        }
+    },
+    //INFOCARS-TRINOMIO
+    "render-children#infocards-trinomio-1": {
+        "title": "banner-trinomio-1",
+        "children": [
+            "rich-text#banner-title-doble-image",
+            "flex-layout.row#banner-trinomio",
+            "rich-text#banner-title-doble-image-2"
+        ]
+    },
+    "rich-text#banner-title-doble-image-2": {
+        "props": {
+            "text": "[Ver la coleccion completa](/)",
+            "blockClass": "banner-title-doble-image_title-link"
+        }
+    },
+    "flex-layout.row#banner-trinomio": {
+        "children": [
+            "flex-layout.row#infocards1-trinomio",
+            "flex-layout.row#infocards2-trinomio",
+            "flex-layout.row#infocards3-trinomio"
+        ],
+        "props": {
+            "blockClass": "infocardsContent-trinomio"
+            //"preventHorizontalStretch": true
+        }
+    },
+    "flex-layout.row#infocards1-trinomio": {
+        "children": ["info-card#trinomio-1", "flex-layout.col#nombreLink"],
+        "props": {
+            "blockClass": "inforcards-trinomio"
+        }
+    },
+    "info-card#trinomio-1": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-cards-class-trinomio",
+            "textAlignment": "center"
+        }
+    },
+    "flex-layout.col#nombreLink": {
+        "children": ["rich-text#nombreProducto", "link#info-trinomio"],
+        "props": {
+            "blockClass": "content-nombre-link",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#nombreProducto": {
+        "props": {
+            "text": "nombre producto",
+            "blockClass": ["stories-title-trinomio"]
+        }
+    },
+    "link#info-trinomio": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Ver coleccion",
+            "blockClass": "linkUrl-trinomio"
+        }
+    },
+    // TRINOMIO 2
+    "flex-layout.row#infocards2-trinomio": {
+        "children": ["info-card#trinomio-2", "flex-layout.col#nombreLink-2"],
+        "props": {
+            "blockClass": "inforcards-trinomio"
+        }
+    },
+    "info-card#trinomio-2": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-cards-class-trinomio",
+            "textAlignment": "center"
+        }
+    },
+    "flex-layout.col#nombreLink-2": {
+        "children": ["rich-text#nombreProducto-2", "link#info-trinomio-2"],
+        "props": {
+            "blockClass": "content-nombre-link",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#nombreProducto-2": {
+        "props": {
+            "text": "nombre producto",
+            "blockClass": ["stories-title-trinomio"]
+        }
+    },
+    "link#info-trinomio-2": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Ver coleccion",
+            "blockClass": "linkUrl-trinomio"
+        }
+    },
+    // TRINOMIO 3
+    "flex-layout.row#infocards3-trinomio": {
+        "children": ["info-card#trinomio-3", "flex-layout.col#nombreLink-3"],
+        "props": {
+            "blockClass": "inforcards-trinomio"
+        }
+    },
+    "info-card#trinomio-3": {
+        "props": {
+            "id": "info-card-example",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-cards-class-trinomio",
+            "textAlignment": "center"
+        }
+    },
+    "flex-layout.col#nombreLink-3": {
+        "children": ["rich-text#nombreProducto-3", "link#info-trinomio-3"],
+        "props": {
+            "blockClass": "content-nombre-link",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#nombreProducto-3": {
+        "props": {
+            "text": "nombre producto",
+            "blockClass": ["stories-title-trinomio"]
+        }
+    },
+    "link#info-trinomio-3": {
+        "props": {
+            "href": "/login?returnUrl={queryString.returnUrl}",
+            "label": "Ver coleccion",
+            "blockClass": "linkUrl-trinomio"
+        }
+    },
+    //FIN INFOCARS-TRINOMIO
+    // IMAGE + TEXT + BUTTON - ELEGIDOS
+    "render-children#image-text-button-elegidos-1": {
+        "title": "image-text-button-elegidos-1",
+        "children": ["flex-layout.row#image-text-button-elegidos"],
+        "props": {
+            "blockClass": "image-text-button-elegidos-render"
+        }
+    },
+    "render-children#image-text-button-elegidos-2": {
+        "title": "image-text-button-elegidos-1",
+        "children": ["flex-layout.row#image-text-button-elegidos"],
+        "props": {
+            "blockClass": "image-text-button-elegidos-render"
+        }
+    },
+    "render-children#image-text-button-elegidos-3": {
+        "title": "image-text-button-elegidos-1",
+        "children": ["flex-layout.row#image-text-button-elegidos"],
+        "props": {
+            "blockClass": "image-text-button-elegidos-render"
+        }
+    },
+    "render-children#image-text-button-elegidos-4": {
+        "title": "image-text-button-elegidos-1",
+        "children": ["flex-layout.row#image-text-button-elegidos"],
+        "props": {
+            "blockClass": "image-text-button-elegidos-render"
+        }
+    },
+    "flex-layout.row#image-text-button-elegidos": {
+        "props": {
+            "blockClass": "image-text-button-elegidos"
+        },
+        "children": [
+            "flex-layout.col#image-text-button-elegidos-1",
+            "flex-layout.col#image-text-button-elegidos-2",
+            "flex-layout.col#image-text-button-elegidos-3"
+        ]
+    },
+    "flex-layout.col#image-text-button-elegidos-1": {
+        "props": {
+            "blockClass": [
+                "image-text-button-elegidos-1",
+                "image-text-button-elegidos_container"
+            ]
+        },
+        "children": [
+            "image#image-text-button-elegidos-1",
+            "rich-text#title-image-text-button-elegidos-1",
+            "rich-text#description-image-text-button-elegidos-1",
+            "link#image-text-button-elegidos-1"
+        ]
+    },
+    "flex-layout.col#image-text-button-elegidos-2": {
+        "props": {
+            "blockClass": [
+                "image-text-button-elegidos-2",
+                "image-text-button-elegidos_container"
+            ]
+        },
+        "children": [
+            "image#image-text-button-elegidos-2",
+            "rich-text#title-image-text-button-elegidos-2",
+            "rich-text#description-image-text-button-elegidos-2",
+            "link#image-text-button-elegidos-2"
+        ]
+    },
+    "flex-layout.col#image-text-button-elegidos-3": {
+        "props": {
+            "blockClass": [
+                "image-text-button-elegidos-3",
+                "image-text-button-elegidos_container"
+            ]
+        },
+        "children": [
+            "image#image-text-button-elegidos-3",
+            "rich-text#title-image-text-button-elegidos-3",
+            "rich-text#description-image-text-button-elegidos-3",
+            "link#image-text-button-elegidos-3"
+        ]
+    },
+    "image#image-text-button-elegidos-1": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/elegidos-1.png",
+            "blockClass": [
+                "image-text-button-elegidos-1__image",
+                "image-text-button-elegidos__images"
+            ]
+        }
+    },
+    "image#image-text-button-elegidos-2": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/elegidos-2.png",
+            "blockClass": [
+                "image-text-button-elegidos-2__image",
+                "image-text-button-elegidos__images"
+            ]
+        }
+    },
+    "image#image-text-button-elegidos-3": {
+        "props": {
+            "link": "#",
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/elegidos-3.png",
+            "blockClass": [
+                "image-text-button-elegidos-3__image",
+                "image-text-button-elegidos__images"
+            ]
+        }
+    },
+    "rich-text#title-image-text-button-elegidos-1": {
+        "props": {
+            "text": "CONQUEST CLASSIC",
+            "blockClass": [
+                "title-image-text-button-elegidos-1",
+                "title-image-text-button-elegidos"
+            ]
+        }
+    },
+    "rich-text#title-image-text-button-elegidos-2": {
+        "props": {
+            "text": "CLASSIC",
+            "blockClass": [
+                "title-image-text-button-elegidos-2",
+                "title-image-text-button-elegidos"
+            ]
+        }
+    },
+    "rich-text#title-image-text-button-elegidos-3": {
+        "props": {
+            "text": "CLASSIC VHP",
+            "blockClass": [
+                "title-image-text-button-elegidos-3",
+                "title-image-text-button-elegidos"
+            ]
+        }
+    },
+    "rich-text#description-image-text-button-elegidos-1": {
+        "props": {
+            "text": "MÁS VANGUARDISTAS\nY PRECISOS QUE NUNCA",
+            "blockClass": [
+                "description-image-text-button-elegidos-1",
+                "description-image-text-button-elegidos"
+            ]
+        }
+    },
+    "rich-text#description-image-text-button-elegidos-2": {
+        "props": {
+            "text": "MÁS VANGUARDISTAS\nY PRECISOS QUE NUNCA",
+            "blockClass": [
+                "description-image-text-button-elegidos-2",
+                "description-image-text-button-elegidos"
+            ]
+        }
+    },
+    "rich-text#description-image-text-button-elegidos-3": {
+        "props": {
+            "text": "MÁS VANGUARDISTAS\nY PRECISOS QUE NUNCA",
+            "blockClass": [
+                "description-image-text-button-elegidos-3",
+                "description-image-text-button-elegidos"
+            ]
+        }
+    },
+    "link#image-text-button-elegidos-1": {
+        "props": {
+            "href": "#",
+            "label": "VER LOS ELEGIDOS",
+            "blockClass": [
+                "image-text-button-elegidos-1_link",
+                "image-text-button-elegidos_link"
+            ]
+        }
+    },
+    "link#image-text-button-elegidos-2": {
+        "props": {
+            "href": "#",
+            "label": "VER LOS ELEGIDOS",
+            "blockClass": [
+                "image-text-button-elegidos-2_link",
+                "image-text-button-elegidos_link"
+            ]
+        }
+    },
+    "link#image-text-button-elegidos-3": {
+        "props": {
+            "href": "#",
+            "label": "VER LOS ELEGIDOS",
+            "blockClass": [
+                "image-text-button-elegidos-3_link",
+                "image-text-button-elegidos_link"
+            ]
+        }
+    },
+    /*PRODUCT GRID*/
+    "render-children#productGrid-1": {
+        "title": "product-grid",
+        "children": ["product-grid"],
+        "props": {
+            "blockClass": "product-grid"
+        }
+    },
+
+    "product-grid": {
+        "title": "product-grid",
+        "children": ["product-summary.shelf#productGrid"]
+    },
+    "render-children#background-slider": {
+        "title": "background-grid",
+        "children": [
+            "responsive-layout.desktop#background-carrusel",
+            "responsive-layout.phone#background-carrusel"
+        ]
+    },
+    //INICIO BACKGROUND CARRUSEL BLOQUES
+    "responsive-layout.desktop#background-carrusel": {
+        "children": ["background-carrusel", "count-promotion-carrusel"]
+    },
+    "responsive-layout.phone#background-carrusel": {
+        "children": ["background-carrusel", "count-promotion-carrusel"]
+    },
+    "background-carrusel": {
+        "children": ["list-context.product-list#products"]
+    },
+    "list-context.product-list#products": {
+        "blocks": ["product-summary.shelf#productGrid"],
+        "children": [
+            // "slider-layout#products-bg",
+            "slider-layout-custom#products-bg"
+        ],
+        "props": {
+            "collection": "140"
+        }
+    },
+    "slider-layout-custom#products-bg": {
+        "props": {
+            "blockClass": "slider-products-bg",
+            "fullWidth": true,
+            "infinite": false,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 1,
+                "phone": 2
+            }
+        }
+    },
+    "render-children#background-slider-1": {
+        "title": "background-grid-1",
+        "children": [
+            "responsive-layout.desktop#background-carrusel",
+            "responsive-layout.phone#background-carrusel"
+        ]
+    },
+    "render-children#background-slider-2": {
+        "title": "background-grid-2",
+        "children": [
+            "responsive-layout.desktop#background-carrusel",
+            "responsive-layout.phone#background-carrusel"
+        ]
+    },
+    "render-children#background-slider-3": {
+        "title": "background-grid-3",
+        "children": [
+            "responsive-layout.desktop#background-carrusel",
+            "responsive-layout.phone#background-carrusel"
+        ]
+    },
+    "render-children#background-slider-4": {
+        "title": "background-grid-4",
+        "children": [
+            "responsive-layout.desktop#background-carrusel",
+            "responsive-layout.phone#background-carrusel"
+        ]
+    },
+    "render-children#background-slider-5": {
+        "title": "background-grid-5",
+        "children": [
+            "responsive-layout.desktop#background-carrusel",
+            "responsive-layout.phone#background-carrusel"
+        ]
+    },
+    "render-children#background-grid-left-1": {
+        "title": "background-grid-left-1",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-left",
+            "responsive-layout.phone#background-carrusel-left"
+        ]
+    },
+    "responsive-layout.desktop#background-carrusel-left": {
+        "children": ["background-carrusel#left", "count-promotion-carrusel"]
+    },
+    "responsive-layout.phone#background-carrusel-left": {
+        "children": ["background-carrusel#left", "count-promotion-carrusel"]
+    },
+    "background-carrusel#left": {
+        "children": ["list-context.product-list#products"],
+        "props": {
+            "flexItems": "flex-start"
+        }
+    },
+    "render-children#background-grid-left-2": {
+        "title": "background-grid-left-2",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-left",
+            "responsive-layout.phone#background-carrusel-left"
+        ]
+    },
+    "render-children#background-grid-left-3": {
+        "title": "background-grid-left-3",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-left",
+            "responsive-layout.phone#background-carrusel-left"
+        ]
+    },
+    "render-children#background-grid-left-4": {
+        "title": "background-grid-left-4",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-left",
+            "responsive-layout.phone#background-carrusel-left"
+        ]
+    },
+    "render-children#background-grid-right-1": {
+        "title": "background-grid-right-1",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-right",
+            "responsive-layout.phone#background-carrusel-right"
+        ]
+    },
+    "responsive-layout.desktop#background-carrusel-right": {
+        "children": ["background-carrusel#right", "count-promotion-carrusel"]
+    },
+    "responsive-layout.phone#background-carrusel-right": {
+        "children": ["background-carrusel#right", "count-promotion-carrusel"]
+    },
+    "background-carrusel#right": {
+        "children": ["list-context.product-list#products"],
+        "props": {
+            "flexItems": "flex-end"
+        }
+    },
+    "render-children#background-grid-right-2": {
+        "title": "background-grid-right-2",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-right",
+            "responsive-layout.phone#background-carrusel-right"
+        ]
+    },
+    "render-children#background-grid-right-3": {
+        "title": "background-grid-right-3",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-right",
+            "responsive-layout.phone#background-carrusel-right"
+        ]
+    },
+    "render-children#background-grid-right-4": {
+        "title": "background-grid-right-4",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-right",
+            "responsive-layout.phone#background-carrusel-right"
+        ]
+    },
+    "render-children#background-grid-left-small-1": {
+        "title": "background-grid-left-small-1",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-left-small",
+            "responsive-layout.phone#background-carrusel-left-small"
+        ]
+    },
+    "responsive-layout.desktop#background-carrusel-left-small": {
+        "children": [
+            "background-carrusel#left-small",
+            "count-promotion-carrusel"
+        ]
+    },
+    "responsive-layout.phone#background-carrusel-left-small": {
+        "children": [
+            "background-carrusel#left-small",
+            "count-promotion-carrusel"
+        ]
+    },
+    "background-carrusel#left-small": {
+        "children": ["list-context.product-list#products"],
+        "props": {
+            "flexItems": "flex-start",
+            "heightContainer": "681px"
+        }
+    },
+    "render-children#background-grid-left-small-2": {
+        "title": "background-grid-left-small-2",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-left-small",
+            "responsive-layout.phone#background-carrusel-left-small"
+        ]
+    },
+    "render-children#background-grid-left-small-3": {
+        "title": "background-grid-left-small-3",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-left-small",
+            "responsive-layout.phone#background-carrusel-left-small"
+        ]
+    },
+    "render-children#background-grid-left-small-4": {
+        "title": "background-grid-left-small-4",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-left-small",
+            "responsive-layout.phone#background-carrusel-left-small"
+        ]
+    },
+    "render-children#background-grid-right-small-1": {
+        "title": "background-grid-right-small-1",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-right-small",
+            "responsive-layout.phone#background-carrusel-right-small"
+        ]
+    },
+    "responsive-layout.desktop#background-carrusel-right-small": {
+        "children": [
+            "background-carrusel#right-small",
+            "count-promotion-carrusel"
+        ]
+    },
+    "responsive-layout.phone#background-carrusel-right-small": {
+        "children": [
+            "background-carrusel#right-small",
+            "count-promotion-carrusel"
+        ]
+    },
+    "background-carrusel#right-small": {
+        "children": ["list-context.product-list#products"],
+        "props": {
+            "flexItems": "flex-end",
+            "heightContainer": "681px"
+        }
+    },
+    "render-children#background-grid-right-small-2": {
+        "title": "background-grid-right-small-2",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-right-small",
+            "responsive-layout.phone#background-carrusel-right-small"
+        ]
+    },
+    "render-children#background-grid-right-small-3": {
+        "title": "background-grid-right-small-3",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-right-small",
+            "responsive-layout.phone#background-carrusel-right-small"
+        ]
+    },
+    "render-children#background-grid-right-small-4": {
+        "title": "background-grid-right-small-4",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-right-small",
+            "responsive-layout.phone#background-carrusel-right-small"
+        ]
+    },
+    "render-children#background-grid-sin-fondo-1": {
+        "title": "background-grid-sin-fondo-1",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-background-grid-sin-fondo",
+            "responsive-layout.phone#background-carrusel-background-grid-sin-fondo"
+        ]
+    },
+    "responsive-layout.desktop#background-carrusel-background-grid-sin-fondo": {
+        "children": [
+            "background-carrusel#background-grid-sin-fondo",
+            "count-promotion-carrusel"
+        ]
+    },
+    "responsive-layout.phone#background-carrusel-background-grid-sin-fondo": {
+        "children": [
+            "background-carrusel#background-grid-sin-fondo",
+            "count-promotion-carrusel"
+        ]
+    },
+    "background-carrusel#background-grid-sin-fondo": {
+        "children": ["list-context.product-list#products"],
+        "props": {
+            "flexItems": "center",
+            "alingItems": "center",
+            "heightContainer": "681px"
+        }
+    },
+    "render-children#background-grid-sin-fondo-2": {
+        "title": "background-grid-sin-fondo-2",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-background-grid-sin-fondo",
+            "responsive-layout.phone#background-carrusel-background-grid-sin-fondo"
+        ]
+    },
+    "render-children#background-grid-sin-fondo-3": {
+        "title": "background-grid-sin-fondo-3",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-background-grid-sin-fondo",
+            "responsive-layout.phone#background-carrusel-background-grid-sin-fondo"
+        ]
+    },
+    "render-children#background-grid-sin-fondo-4": {
+        "title": "background-grid-sin-fondo-4",
+        "children": [
+            "responsive-layout.desktop#background-carrusel-background-grid-sin-fondo",
+            "responsive-layout.phone#background-carrusel-background-grid-sin-fondo"
+        ]
+    },
+    //FIN BACKGROUND CARRUSEL BLOQUES
+
+    // Banner triple
+    "render-children#banner-triple": {
+        "title": "Banner-Triple",
+        "children": [
+            "responsive-layout.desktop#banner-triple",
+            "responsive-layout.phone#banner-triple"
+        ]
+    },
+    "responsive-layout.desktop#banner-triple": {
+        "children": ["flex-layout.row#banner-triple"]
+    },
+    "responsive-layout.phone#banner-triple": {
+        "children": ["flex-layout.row#banner-triple"]
+    },
+    "flex-layout.row#banner-triple": {
+        "children": [
+            "image#banner-triple-1",
+            "image#banner-triple-2",
+            "image#banner-triple-3"
+        ],
+        "props": {
+            "blockClass": "banner-triple"
+        }
+    },
+    "image#banner-triple-1": {
+        "props": {
+            "blockClass": "banner-triple"
+        }
+    },
+    "image#banner-triple-2": {
+        "props": {
+            "blockClass": "banner-triple"
+        }
+    },
+    "image#banner-triple-3": {
+        "props": {
+            "blockClass": "banner-triple"
+        }
+    },
+
+    // Rich Text - Para bloque de texto solo
+    "render-children#rich-text-1": {
+        "title": "Rich-Text",
+        "children": ["rich-text#rich-text"]
+    },
+    "rich-text#rich-text": {
+        "props": {
+            "blockClass": ["rich-text-home"],
+            "text": "TITULO EJEMPLO",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+
+    "render-children#rich-text-2": {
+        "title": "Rich-Text",
+        "children": ["rich-text#rich-text"]
+    },
+
+    // tab-layout-products-double
+    "render-children#tab-layout-products-double": {
+        "title": "tab-layout-products-double",
+        "children": ["flex-layout.row#tab-layout-products-double"],
+        "props": {
+            "blockClass": "tab-layout-products-render"
+        }
+    },
+    "flex-layout.row#tab-layout-products-double": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": ["tab-layout-products", "tab-layout-products-double"]
+        },
+        "children": ["flex-layout.col#tab-layout-products-double"]
+    },
+    "flex-layout.col#tab-layout-products-double": {
+        "props": {
+            "blockClass": "tab-layout-products"
+        },
+        "children": ["flex-layout.row#row-tab-layout-products-double"]
+    },
+    "flex-layout.row#row-tab-layout-products-double": {
+        "props": {
+            "fullWidth": true,
+            "blockClass": "tab-layout-products-row"
+        },
+        "children": ["tab-layout#tab-layout-products-double"]
+    },
+    "tab-layout#tab-layout-products-double": {
+        "children": ["tab-list#products-double", "tab-content#products"],
+        "props": {
+            "blockClass": "products",
+            "defaultActiveTabId": "tab-list-1"
+        }
+    },
+    "tab-list#products-double": {
+        "children": ["flex-layout.row#tab-list-products-container-double"],
+        "props": {
+            "blockClass": "tab-list-container"
+        }
+    },
+    "flex-layout.row#tab-list-products-container-double": {
+        "children": [
+            "tab-list.item.children#tab-list-products-1",
+            "tab-list.item.children#tab-list-products-2"
+        ],
+        "props": {
+            "blockClass": "tab-list-container-border"
+        }
+    },
+
+    // images-grid
+    "render-children#images-grid": {
+        "title": "images-grid",
+        "children": ["flex-layout.row#images-grid"],
+        "props": {
+            "blockClass": "images-grid-render"
+        }
+    },
+    "flex-layout.row#images-grid": {
+        "children": [
+            "list-context.media-list#images-grid-1",
+            "list-context.media-list#images-grid-2",
+            "list-context.media-list#images-grid-3",
+            "list-context.media-list#images-grid-4"
+        ],
+        "props": {
+            "blockClass": ["images-grid-render"],
+            "preventHorizontalStretch": true
+        }
+    },
+    "list-context.media-list#images-grid-1": {
+        "children": ["slider-layout#images-grid"],
+        "props": {
+            "mediaList": [
+                {
+                    "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+                    "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+                }
+            ],
+            "blockClass": ["images-grid-1"]
+        }
+    },
+    "list-context.media-list#images-grid-2": {
+        "children": ["slider-layout#images-grid"],
+        "props": {
+            "mediaList": [
+                {
+                    "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+                    "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+                }
+            ]
+        }
+    },
+    "list-context.media-list#images-grid-3": {
+        "children": ["slider-layout#images-grid"],
+        "props": {
+            "mediaList": [
+                {
+                    "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+                    "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+                }
+            ]
+        }
+    },
+    "list-context.media-list#images-grid-4": {
+        "children": ["slider-layout#images-grid"],
+        "props": {
+            "mediaList": [
+                {
+                    "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+                    "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+                }
+            ]
+        }
+    },
+    "slider-layout#images-grid": {
+        "props": {
+            "itemsPerPage": 1,
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "blockClass": "images-grid"
+        }
+    },
+    // Bloque Iframe
+    "render-children#iframe-block": {
+        "title": "iframe-video",
+        "children": ["flex-layout.row#iframe-video"],
+        "props": {
+            "blockClass": "iframe-video"
+        }
+    },
+    "flex-layout.row#iframe-video": {
+        "children": ["iframe#video"],
+        "props": {
+            "blockClass": "iframe-video"
+        }
+    },
+    "iframe#video": {
+        "props": {
+            "src": "https://youtu.be/xcJtL7QggTI?si=91oUlMO8OQDuBRL0"
+        }
+    }
+}

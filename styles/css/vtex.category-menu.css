@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* ------------------------------GENERAL ------------------------------*/
+/* Breackpoints */
+/* Colores */
+/* Fuentes */
+/* Ciculo Cantidad - Favoritos, Minicart... */
+/* HEADER */
+.menuIcon {
+  color: #bc1920;
+  width: 17px;
+  height: 17px;
+}
+
+.sidebarContainer {
+  align-self: center;
+}
+
+.sidebarContainer {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+/* ------------------------------DESKTOP ------------------------------*/
+/* HEADER */
+:global(.vtex-flex-layout-0-x-flexColChild--logo-desktop) .sidebarContainer {
+  margin: 0 15px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--logo-desktop) .sidebarContainer::after {
+  content: "CATEGORÍAS";
+  font-weight: 400;
+  font-size: 15.3488px;
+  line-height: 23px;
+  color: #fff;
+}
+
+/* ------------------------------TABLET ------------------------------*/
+/* HEADER */
+:global(.vtex-flex-layout-0-x-flexColChild--logo-tablet) .sidebarContainer {
+  margin: 0 5px;
+}

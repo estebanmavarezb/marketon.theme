@@ -1,0 +1,109 @@
+@import '../VARS.scss';
+
+.flexRow--headerOrderPlace {
+    width: 100vw;
+    height: 61px;
+    padding: 0;
+    background: #2b2b2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexRow--headerOrderPlace :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRowContent--headerOrderPlace {
+    max-width: 1280px;
+    padding: 0 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexRowContent--orderPlacedSafeSite {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flexRowContent--confirmationButtons {
+    .flexCol {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        :global(.vtex-button) {
+            border-radius: 48.917px;
+            background: $main-color;
+            border: none;
+            height: 34px;
+            margin-right: 1rem;
+        }
+        :global(.vtex-store-link-0-x-link--op-back-btn) {
+            @include border-button;
+            :global(.vtex-store-link-0-x-label--op-back-btn) {
+                padding: 0;
+            }
+        }
+    }
+}
+
+.flexRowContent--confirmationButtons :global(.vtex-button__label) {
+    color: #fff;
+    text-align: center;
+    font-size: 14.494px;
+    font-weight: 700;
+    line-height: 135.9%;
+    padding: 7.247px 14.494px !important;
+}
+
+.flexRowContent--confirmationButtons {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flexRow--order-footer {
+    margin: 124px -90px;
+}
+
+.flexRow--order-footer :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRow--confirmationButtons {
+    max-width: 100px;
+    margin: auto;
+    :global(.vtex-store-components-3-x-container) {
+        border-radius: 49px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .flexRowContent--headerOrderPlace
+        :global(.vtex-store-components-3-x-logoContainer) {
+        display: none;
+    }
+
+    .flexRow--headerOrderPlace {
+        height: 75px;
+    }
+
+    .flexRow--order-footer {
+        margin-left: 0;
+        margin-right: 0;
+        margin: 32px 0;
+    }
+
+    .flexRow--confirmationButtons
+        :global(.vtex-store-components-3-x-container) {
+        text-align: center;
+        padding: 0;
+        margin: 20px 0 36px 0;
+    }
+
+    .flexRowContent--confirmationButtons :global(.vtex-button__label) {
+        font-size: 12px;
+    }
+}

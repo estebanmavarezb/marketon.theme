@@ -1,0 +1,36 @@
+{
+    "menu-base": {
+        "children": ["closePage", "header.full"]
+    },
+
+    "closePage": {
+        "props": {
+            "image": ""
+        }
+    },
+
+    // "header": {
+    //   "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    // },
+
+    "header.full": {
+        "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+
+    // BLOQUES USADOS EN HEADER DESK Y MOBLIE
+    "logo": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "height": 63,
+            "width": 55,
+            "url": "assets/icons/header-logo.svg"
+        }
+    },
+
+    "image#wishlist": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/mywishlist.svg"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import '../VARS.scss';
+
+:global(.madeofpartnerar-componentes-0-x-container_menuLista) {
+    justify-content: center;
+    margin-left: 0.5rem;
+    :global(.madeofpartnerar-componentes-0-x-menuLista_link) {
+        white-space: nowrap;
+        > a {
+            font-size: 0.87rem;
+            font-weight: 600;
+        }
+    }
+    :global(.madeofpartnerar-componentes-0-x-menuLista_link_active) {
+        > a {
+            background: url('assets/icons/offers-cat.svg') no-repeat center
+                center;
+            background-color: transparent !important;
+            color: transparent !important;
+        }
+    }
+
+    @media (max-width: $phone) {
+        :global(.madeofpartnerar-componentes-0-x-menuLista_link) {
+            margin: 0;
+            > a {
+                font-size: 0.68rem;
+                font-weight: 700;
+            }
+        }
+    }
+}

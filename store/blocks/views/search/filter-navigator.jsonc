@@ -1,0 +1,19 @@
+{
+    "filter-navigator.v3": {
+        "blocks":["sidebar-close-button"],
+        "props": {
+            "facetOrdering": [
+                {
+                    "key": "brand",
+                    "orderBy": "name",
+                    "order": "ASC"
+                }
+            ],
+            "initiallyCollapsed": true,
+            "appliedFiltersOverview": "hide",
+            "blockClass": "filter-navigation",
+            "totalProductsOnMobile": "show",
+            "navigationTypeOnMobile": "collapsible"
+        }
+    }
+}

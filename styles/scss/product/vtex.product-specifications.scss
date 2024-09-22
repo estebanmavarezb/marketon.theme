@@ -1,0 +1,17 @@
+@import '../VARS.scss';
+
+:global(.vtex-flex-layout-0-x-flexRowContent--view-product-row) {
+    .specificationName {
+        color: $third-gray;
+        margin-bottom: 0.1rem;
+        display: inline-block;
+    }
+    .specificationValue {
+        color: $main-gray;
+    }
+    @media (max-width: $phone) {
+        .specificationValue {
+            font-size: 0.7rem;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "shelf.relatedProducts": {
+        "props": {
+            "recommendation": "buy",
+            "productList": {
+                "maxItems": 5,
+                "minItemsPerPage": 2,
+                "titleText": "TAMBIÉN TE PUEDE INTERESAR:",
+                "itemsPerPage": 4,
+                "arrows": false
+            }
+        },
+        "blocks":["product-summary.shelf#productGrid"]
+    }
+}
