@@ -68,11 +68,8 @@
     "madeofpartnerar.product-price": "0.x",
     "madeofpartnerar.slider-layout": "0.x",
     "madeofpartnerar.componentes": "0.x",
-    "marketon.merlinosrl-checkout-ui-settings": "0.x",
     "madeofpartnerar.connectif": "0.x"
   },
-  "peerDependencies": {
-    "connectif.connectif": "1.x"
-  },
+  "peerDependencies": {},
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

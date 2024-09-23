@@ -1,473 +1,473 @@
 {
     //Home 1
-    "render-children#releated-products-home-one": {
-        "title": "Releated Products Home One",
-        "children": [
-            "flex-layout.row#releated-products-home-one"
-        ],
-        "props": {
-            "blockClass": "releated-products-home"
-        }
-    },
-    "flex-layout.row#releated-products-home-one": {
-        "title": "connectif releated-products-home-one",
-        "children": [
-            "responsive-layout.desktop#releated-products-home-one",
-            "responsive-layout.phone#releated-products-home-one"
-        ],
-        "props": {
-            "blockClass": "connectif-block"
-        }
-    },
-    "responsive-layout.desktop#releated-products-home-one": {
-        "title": "desktop",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-one"
-        ]
-    },
-    "responsive-layout.phone#releated-products-home-one": {
-        "title": "mobile",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-one"
-        ]
-    },
-    "madeofpartnerar-connectif#releated-products-home-one": {
-        "children": [
-            "product-summary.shelf#productGrid",
-            "connectif#related-products-ids-test-new"
-        ],
-        "props": {
-            "classId": "related-products-ids-test-new"
-        }
-    },
-    "connectif#related-products-ids-test-new": {
-        "props": {
-            "classId": "related-products-ids-test-new",
-            "elementId": "related-products-ids-test-new"
-        }
-    },
+    // "render-children#releated-products-home-one": {
+    //     "title": "Releated Products Home One",
+    //     "children": [
+    //         "flex-layout.row#releated-products-home-one"
+    //     ],
+    //     "props": {
+    //         "blockClass": "releated-products-home"
+    //     }
+    // },
+    // "flex-layout.row#releated-products-home-one": {
+    //     "title": "connectif releated-products-home-one",
+    //     "children": [
+    //         "responsive-layout.desktop#releated-products-home-one",
+    //         "responsive-layout.phone#releated-products-home-one"
+    //     ],
+    //     "props": {
+    //         "blockClass": "connectif-block"
+    //     }
+    // },
+    // "responsive-layout.desktop#releated-products-home-one": {
+    //     "title": "desktop",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-one"
+    //     ]
+    // },
+    // "responsive-layout.phone#releated-products-home-one": {
+    //     "title": "mobile",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-one"
+    //     ]
+    // },
+    // "madeofpartnerar-connectif#releated-products-home-one": {
+    //     "children": [
+    //         "product-summary.shelf#productGrid",
+    //         "connectif#related-products-ids-test-new"
+    //     ],
+    //     "props": {
+    //         "classId": "related-products-ids-test-new"
+    //     }
+    // },
+    // "connectif#related-products-ids-test-new": {
+    //     "props": {
+    //         "classId": "related-products-ids-test-new",
+    //         "elementId": "related-products-ids-test-new"
+    //     }
+    // },
     
-    //Home 2
-    "render-children#releated-products-home-two": {
-        "title": "Releated Products Home Two",
-        "children": [
-            "flex-layout.row#releated-products-home-two"
-        ],
-        "props": {
-            "blockClass": "releated-products-home"
-        }
-    },
-    "flex-layout.row#releated-products-home-two": {
-        "title": "connectif releated-products-home-two",
-        "children": [
-            "responsive-layout.desktop#releated-products-home-two",
-            "responsive-layout.phone#releated-products-home-two"
-        ],
-        "props": {
-            "blockClass": "connectif-block"
-        }
-    },
-    "responsive-layout.desktop#releated-products-home-two": {
-        "title": "desktop",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-two"
-        ]
-    },
-    "responsive-layout.phone#releated-products-home-two": {
-        "title": "mobile",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-two"
-        ]
-    },
-    "madeofpartnerar-connectif#releated-products-home-two": {
-        "children": [
-            "product-summary.shelf#productGrid",
-            "connectif#releated-products-home-two"
-        ],
-        "props": {
-            "classId": "releated-products-home-two"
-        }
-    },
-    "connectif#releated-products-home-two": {
-        "props": {
-            "classId": "releated-products-home-two",
-            "elementId": "releated-products-home-two"
-        }
-    },
-    //Home 3
-    "render-children#releated-products-home-three": {
-        "title": "Releated Products Home three",
-        "children": [
-            "flex-layout.row#releated-products-home-three"
-        ],
-        "props": {
-            "blockClass": "releated-products-home"
-        }
-    },
-    "flex-layout.row#releated-products-home-three": {
-        "title": "connectif releated-products-home-three",
-        "children": [
-            "responsive-layout.desktop#releated-products-home-three",
-            "responsive-layout.phone#releated-products-home-three"
-        ],
-        "props": {
-            "blockClass": "connectif-block"
-        }
-    },
-    "responsive-layout.desktop#releated-products-home-three": {
-        "title": "desktop",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-three"
-        ]
-    },
-    "responsive-layout.phone#releated-products-home-three": {
-        "title": "mobile",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-three"
-        ]
-    },
-    "madeofpartnerar-connectif#releated-products-home-three": {
-        "children": [
-            "product-summary.shelf#productGrid",
-            "connectif#releated-products-home-three"
-        ],
-        "props": {
-            "classId": "releated-products-home-three"
-        }
-    },
-    "connectif#releated-products-home-three": {
-        "props": {
-            "classId": "releated-products-home-three",
-            "elementId": "releated-products-home-three"
-        }
-    },
-    //Home 4
-    "render-children#releated-products-home-four": {
-        "title": "Releated Products Home four",
-        "children": [
-            "flex-layout.row#releated-products-home-four"
-        ],
-        "props": {
-            "blockClass": "releated-products-home"
-        }
-    },
-    "flex-layout.row#releated-products-home-four": {
-        "title": "connectif releated-products-home-four",
-        "children": [
-            "responsive-layout.desktop#releated-products-home-four",
-            "responsive-layout.phone#releated-products-home-four"
-        ],
-        "props": {
-            "blockClass": "connectif-block"
-        }
-    },
-    "responsive-layout.desktop#releated-products-home-four": {
-        "title": "desktop",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-four"
-        ]
-    },
-    "responsive-layout.phone#releated-products-home-four": {
-        "title": "mobile",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-four"
-        ]
-    },
-    "madeofpartnerar-connectif#releated-products-home-four": {
-        "children": [
-            "product-summary.shelf#productGrid",
-            "connectif#releated-products-home-four"
-        ],
-        "props": {
-            "classId": "releated-products-home-four"
-        }
-    },
-    "connectif#releated-products-home-four": {
-        "props": {
-            "classId": "releated-products-home-four",
-            "elementId": "releated-products-home-four"
-        }
-    },
-    //Home 5
-    "render-children#releated-products-home-five": {
-        "title": "Releated Products Home five",
-        "children": [
-            "flex-layout.row#releated-products-home-five"
-        ],
-        "props": {
-            "blockClass": "releated-products-home"
-        }
-    },
-    "flex-layout.row#releated-products-home-five": {
-        "title": "connectif releated-products-home-five",
-        "children": [
-            "responsive-layout.desktop#releated-products-home-five",
-            "responsive-layout.phone#releated-products-home-five"
-        ],
-        "props": {
-            "blockClass": "connectif-block"
-        }
-    },
-    "responsive-layout.desktop#releated-products-home-five": {
-        "title": "desktop",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-five"
-        ]
-    },
-    "responsive-layout.phone#releated-products-home-five": {
-        "title": "mobile",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-five"
-        ]
-    },
-    "madeofpartnerar-connectif#releated-products-home-five": {
-        "children": [
-            "product-summary.shelf#productGrid",
-            "connectif#releated-products-home-five"
-        ],
-        "props": {
-            "classId": "releated-products-home-five"
-        }
-    },
-    "connectif#releated-products-home-five": {
-        "props": {
-            "classId": "releated-products-home-five",
-            "elementId": "releated-products-home-five"
-        }
-    },
-    //Home 6
-    "render-children#releated-products-home-six": {
-        "title": "Releated Products Home six",
-        "children": [
-            "flex-layout.row#releated-products-home-six"
-        ],
-        "props": {
-            "blockClass": "releated-products-home"
-        }
-    },
-    "flex-layout.row#releated-products-home-six": {
-        "title": "connectif releated-products-home-six",
-        "children": [
-            "responsive-layout.desktop#releated-products-home-six",
-            "responsive-layout.phone#releated-products-home-six"
-        ],
-        "props": {
-            "blockClass": "connectif-block"
-        }
-    },
-    "responsive-layout.desktop#releated-products-home-six": {
-        "title": "desktop",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-six"
-        ]
-    },
-    "responsive-layout.phone#releated-products-home-six": {
-        "title": "mobile",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-six"
-        ]
-    },
-    "madeofpartnerar-connectif#releated-products-home-six": {
-        "children": [
-            "product-summary.shelf#productGrid",
-            "connectif#releated-products-home-six"
-        ],
-        "props": {
-            "classId": "releated-products-home-six"
-        }
-    },
-    "connectif#releated-products-home-six": {
-        "props": {
-            "classId": "releated-products-home-six",
-            "elementId": "releated-products-home-six"
-        }
-    },
-    //Home 7
-    "render-children#releated-products-home-seven": {
-        "title": "Releated Products Home seven",
-        "children": [
-            "flex-layout.row#releated-products-home-seven"
-        ],
-        "props": {
-            "blockClass": "releated-products-home"
-        }
-    },
-    "flex-layout.row#releated-products-home-seven": {
-        "title": "connectif releated-products-home-seven",
-        "children": [
-            "responsive-layout.desktop#releated-products-home-seven",
-            "responsive-layout.phone#releated-products-home-seven"
-        ],
-        "props": {
-            "blockClass": "connectif-block"
-        }
-    },
-    "responsive-layout.desktop#releated-products-home-seven": {
-        "title": "desktop",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-seven"
-        ]
-    },
-    "responsive-layout.phone#releated-products-home-seven": {
-        "title": "mobile",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-seven"
-        ]
-    },
-    "madeofpartnerar-connectif#releated-products-home-seven": {
-        "children": [
-            "product-summary.shelf#productGrid",
-            "connectif#releated-products-home-seven"
-        ],
-        "props": {
-            "classId": "releated-products-home-seven"
-        }
-    },
-    "connectif#releated-products-home-seven": {
-        "props": {
-            "classId": "releated-products-home-seven",
-            "elementId": "releated-products-home-seven"
-        }
-    },
-    //Home 8
-    "render-children#releated-products-home-eight": {
-        "title": "Releated Products Home eight",
-        "children": [
-            "flex-layout.row#releated-products-home-eight"
-        ],
-        "props": {
-            "blockClass": "releated-products-home"
-        }
-    },
-    "flex-layout.row#releated-products-home-eight": {
-        "title": "connectif releated-products-home-eight",
-        "children": [
-            "responsive-layout.desktop#releated-products-home-eight",
-            "responsive-layout.phone#releated-products-home-eight"
-        ],
-        "props": {
-            "blockClass": "connectif-block"
-        }
-    },
-    "responsive-layout.desktop#releated-products-home-eight": {
-        "title": "desktop",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-eight"
-        ]
-    },
-    "responsive-layout.phone#releated-products-home-eight": {
-        "title": "mobile",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-eight"
-        ]
-    },
-    "madeofpartnerar-connectif#releated-products-home-eight": {
-        "children": [
-            "product-summary.shelf#productGrid",
-            "connectif#releated-products-home-eight"
-        ],
-        "props": {
-            "classId": "releated-products-home-eight"
-        }
-    },
-    "connectif#releated-products-home-eight": {
-        "props": {
-            "classId": "releated-products-home-eight",
-            "elementId": "releated-products-home-eight"
-        }
-    },
-    //Home 9
-    "render-children#releated-products-home-nine": {
-        "title": "Releated Products Home nine",
-        "children": [
-            "flex-layout.row#releated-products-home-nine"
-        ],
-        "props": {
-            "blockClass": "releated-products-home"
-        }
-    },
-    "flex-layout.row#releated-products-home-nine": {
-        "title": "connectif releated-products-home-nine",
-        "children": [
-            "responsive-layout.desktop#releated-products-home-nine",
-            "responsive-layout.phone#releated-products-home-nine"
-        ],
-        "props": {
-            "blockClass": "connectif-block"
-        }
-    },
-    "responsive-layout.desktop#releated-products-home-nine": {
-        "title": "desktop",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-nine"
-        ]
-    },
-    "responsive-layout.phone#releated-products-home-nine": {
-        "title": "mobile",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-nine"
-        ]
-    },
-    "madeofpartnerar-connectif#releated-products-home-nine": {
-        "children": [
-            "product-summary.shelf#productGrid",
-            "connectif#releated-products-home-nine"
-        ],
-        "props": {
-            "classId": "releated-products-home-nine"
-        }
-    },
-    "connectif#releated-products-home-nine": {
-        "props": {
-            "classId": "releated-products-home-nine",
-            "elementId": "releated-products-home-nine"
-        }
-    },
-    //Home 10
-    "render-children#releated-products-home-teen": {
-        "title": "Releated Products Home teen",
-        "children": [
-            "flex-layout.row#releated-products-home-teen"
-        ],
-        "props": {
-            "blockClass": "releated-products-home"
-        }
-    },
-    "flex-layout.row#releated-products-home-teen": {
-        "title": "connectif releated-products-home-teen",
-        "children": [
-            "responsive-layout.desktop#releated-products-home-teen",
-            "responsive-layout.phone#releated-products-home-teen"
-        ],
-        "props": {
-            "blockClass": "connectif-block"
-        }
-    },
-    "responsive-layout.desktop#releated-products-home-teen": {
-        "title": "desktop",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-teen"
-        ]
-    },
-    "responsive-layout.phone#releated-products-home-teen": {
-        "title": "mobile",
-        "children": [
-            "madeofpartnerar-connectif#releated-products-home-teen"
-        ]
-    },
-    "madeofpartnerar-connectif#releated-products-home-teen": {
-        "children": [
-            "product-summary.shelf#productGrid",
-            "connectif#releated-products-home-teen"
-        ],
-        "props": {
-            "classId": "releated-products-home-teen"
-        }
-    },
-    "connectif#releated-products-home-teen": {
-        "props": {
-            "classId": "releated-products-home-teen",
-            "elementId": "releated-products-home-teen"
-        }
-    }
+    // //Home 2
+    // "render-children#releated-products-home-two": {
+    //     "title": "Releated Products Home Two",
+    //     "children": [
+    //         "flex-layout.row#releated-products-home-two"
+    //     ],
+    //     "props": {
+    //         "blockClass": "releated-products-home"
+    //     }
+    // },
+    // "flex-layout.row#releated-products-home-two": {
+    //     "title": "connectif releated-products-home-two",
+    //     "children": [
+    //         "responsive-layout.desktop#releated-products-home-two",
+    //         "responsive-layout.phone#releated-products-home-two"
+    //     ],
+    //     "props": {
+    //         "blockClass": "connectif-block"
+    //     }
+    // },
+    // "responsive-layout.desktop#releated-products-home-two": {
+    //     "title": "desktop",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-two"
+    //     ]
+    // },
+    // "responsive-layout.phone#releated-products-home-two": {
+    //     "title": "mobile",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-two"
+    //     ]
+    // },
+    // "madeofpartnerar-connectif#releated-products-home-two": {
+    //     "children": [
+    //         "product-summary.shelf#productGrid",
+    //         "connectif#releated-products-home-two"
+    //     ],
+    //     "props": {
+    //         "classId": "releated-products-home-two"
+    //     }
+    // },
+    // "connectif#releated-products-home-two": {
+    //     "props": {
+    //         "classId": "releated-products-home-two",
+    //         "elementId": "releated-products-home-two"
+    //     }
+    // },
+    // //Home 3
+    // "render-children#releated-products-home-three": {
+    //     "title": "Releated Products Home three",
+    //     "children": [
+    //         "flex-layout.row#releated-products-home-three"
+    //     ],
+    //     "props": {
+    //         "blockClass": "releated-products-home"
+    //     }
+    // },
+    // "flex-layout.row#releated-products-home-three": {
+    //     "title": "connectif releated-products-home-three",
+    //     "children": [
+    //         "responsive-layout.desktop#releated-products-home-three",
+    //         "responsive-layout.phone#releated-products-home-three"
+    //     ],
+    //     "props": {
+    //         "blockClass": "connectif-block"
+    //     }
+    // },
+    // "responsive-layout.desktop#releated-products-home-three": {
+    //     "title": "desktop",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-three"
+    //     ]
+    // },
+    // "responsive-layout.phone#releated-products-home-three": {
+    //     "title": "mobile",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-three"
+    //     ]
+    // },
+    // "madeofpartnerar-connectif#releated-products-home-three": {
+    //     "children": [
+    //         "product-summary.shelf#productGrid",
+    //         "connectif#releated-products-home-three"
+    //     ],
+    //     "props": {
+    //         "classId": "releated-products-home-three"
+    //     }
+    // },
+    // "connectif#releated-products-home-three": {
+    //     "props": {
+    //         "classId": "releated-products-home-three",
+    //         "elementId": "releated-products-home-three"
+    //     }
+    // },
+    // //Home 4
+    // "render-children#releated-products-home-four": {
+    //     "title": "Releated Products Home four",
+    //     "children": [
+    //         "flex-layout.row#releated-products-home-four"
+    //     ],
+    //     "props": {
+    //         "blockClass": "releated-products-home"
+    //     }
+    // },
+    // "flex-layout.row#releated-products-home-four": {
+    //     "title": "connectif releated-products-home-four",
+    //     "children": [
+    //         "responsive-layout.desktop#releated-products-home-four",
+    //         "responsive-layout.phone#releated-products-home-four"
+    //     ],
+    //     "props": {
+    //         "blockClass": "connectif-block"
+    //     }
+    // },
+    // "responsive-layout.desktop#releated-products-home-four": {
+    //     "title": "desktop",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-four"
+    //     ]
+    // },
+    // "responsive-layout.phone#releated-products-home-four": {
+    //     "title": "mobile",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-four"
+    //     ]
+    // },
+    // "madeofpartnerar-connectif#releated-products-home-four": {
+    //     "children": [
+    //         "product-summary.shelf#productGrid",
+    //         "connectif#releated-products-home-four"
+    //     ],
+    //     "props": {
+    //         "classId": "releated-products-home-four"
+    //     }
+    // },
+    // "connectif#releated-products-home-four": {
+    //     "props": {
+    //         "classId": "releated-products-home-four",
+    //         "elementId": "releated-products-home-four"
+    //     }
+    // },
+    // //Home 5
+    // "render-children#releated-products-home-five": {
+    //     "title": "Releated Products Home five",
+    //     "children": [
+    //         "flex-layout.row#releated-products-home-five"
+    //     ],
+    //     "props": {
+    //         "blockClass": "releated-products-home"
+    //     }
+    // },
+    // "flex-layout.row#releated-products-home-five": {
+    //     "title": "connectif releated-products-home-five",
+    //     "children": [
+    //         "responsive-layout.desktop#releated-products-home-five",
+    //         "responsive-layout.phone#releated-products-home-five"
+    //     ],
+    //     "props": {
+    //         "blockClass": "connectif-block"
+    //     }
+    // },
+    // "responsive-layout.desktop#releated-products-home-five": {
+    //     "title": "desktop",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-five"
+    //     ]
+    // },
+    // "responsive-layout.phone#releated-products-home-five": {
+    //     "title": "mobile",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-five"
+    //     ]
+    // },
+    // "madeofpartnerar-connectif#releated-products-home-five": {
+    //     "children": [
+    //         "product-summary.shelf#productGrid",
+    //         "connectif#releated-products-home-five"
+    //     ],
+    //     "props": {
+    //         "classId": "releated-products-home-five"
+    //     }
+    // },
+    // "connectif#releated-products-home-five": {
+    //     "props": {
+    //         "classId": "releated-products-home-five",
+    //         "elementId": "releated-products-home-five"
+    //     }
+    // },
+    // //Home 6
+    // "render-children#releated-products-home-six": {
+    //     "title": "Releated Products Home six",
+    //     "children": [
+    //         "flex-layout.row#releated-products-home-six"
+    //     ],
+    //     "props": {
+    //         "blockClass": "releated-products-home"
+    //     }
+    // },
+    // "flex-layout.row#releated-products-home-six": {
+    //     "title": "connectif releated-products-home-six",
+    //     "children": [
+    //         "responsive-layout.desktop#releated-products-home-six",
+    //         "responsive-layout.phone#releated-products-home-six"
+    //     ],
+    //     "props": {
+    //         "blockClass": "connectif-block"
+    //     }
+    // },
+    // "responsive-layout.desktop#releated-products-home-six": {
+    //     "title": "desktop",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-six"
+    //     ]
+    // },
+    // "responsive-layout.phone#releated-products-home-six": {
+    //     "title": "mobile",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-six"
+    //     ]
+    // },
+    // "madeofpartnerar-connectif#releated-products-home-six": {
+    //     "children": [
+    //         "product-summary.shelf#productGrid",
+    //         "connectif#releated-products-home-six"
+    //     ],
+    //     "props": {
+    //         "classId": "releated-products-home-six"
+    //     }
+    // },
+    // "connectif#releated-products-home-six": {
+    //     "props": {
+    //         "classId": "releated-products-home-six",
+    //         "elementId": "releated-products-home-six"
+    //     }
+    // },
+    // //Home 7
+    // "render-children#releated-products-home-seven": {
+    //     "title": "Releated Products Home seven",
+    //     "children": [
+    //         "flex-layout.row#releated-products-home-seven"
+    //     ],
+    //     "props": {
+    //         "blockClass": "releated-products-home"
+    //     }
+    // },
+    // "flex-layout.row#releated-products-home-seven": {
+    //     "title": "connectif releated-products-home-seven",
+    //     "children": [
+    //         "responsive-layout.desktop#releated-products-home-seven",
+    //         "responsive-layout.phone#releated-products-home-seven"
+    //     ],
+    //     "props": {
+    //         "blockClass": "connectif-block"
+    //     }
+    // },
+    // "responsive-layout.desktop#releated-products-home-seven": {
+    //     "title": "desktop",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-seven"
+    //     ]
+    // },
+    // "responsive-layout.phone#releated-products-home-seven": {
+    //     "title": "mobile",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-seven"
+    //     ]
+    // },
+    // "madeofpartnerar-connectif#releated-products-home-seven": {
+    //     "children": [
+    //         "product-summary.shelf#productGrid",
+    //         "connectif#releated-products-home-seven"
+    //     ],
+    //     "props": {
+    //         "classId": "releated-products-home-seven"
+    //     }
+    // },
+    // "connectif#releated-products-home-seven": {
+    //     "props": {
+    //         "classId": "releated-products-home-seven",
+    //         "elementId": "releated-products-home-seven"
+    //     }
+    // },
+    // //Home 8
+    // "render-children#releated-products-home-eight": {
+    //     "title": "Releated Products Home eight",
+    //     "children": [
+    //         "flex-layout.row#releated-products-home-eight"
+    //     ],
+    //     "props": {
+    //         "blockClass": "releated-products-home"
+    //     }
+    // },
+    // "flex-layout.row#releated-products-home-eight": {
+    //     "title": "connectif releated-products-home-eight",
+    //     "children": [
+    //         "responsive-layout.desktop#releated-products-home-eight",
+    //         "responsive-layout.phone#releated-products-home-eight"
+    //     ],
+    //     "props": {
+    //         "blockClass": "connectif-block"
+    //     }
+    // },
+    // "responsive-layout.desktop#releated-products-home-eight": {
+    //     "title": "desktop",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-eight"
+    //     ]
+    // },
+    // "responsive-layout.phone#releated-products-home-eight": {
+    //     "title": "mobile",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-eight"
+    //     ]
+    // },
+    // "madeofpartnerar-connectif#releated-products-home-eight": {
+    //     "children": [
+    //         "product-summary.shelf#productGrid",
+    //         "connectif#releated-products-home-eight"
+    //     ],
+    //     "props": {
+    //         "classId": "releated-products-home-eight"
+    //     }
+    // },
+    // "connectif#releated-products-home-eight": {
+    //     "props": {
+    //         "classId": "releated-products-home-eight",
+    //         "elementId": "releated-products-home-eight"
+    //     }
+    // },
+    // //Home 9
+    // "render-children#releated-products-home-nine": {
+    //     "title": "Releated Products Home nine",
+    //     "children": [
+    //         "flex-layout.row#releated-products-home-nine"
+    //     ],
+    //     "props": {
+    //         "blockClass": "releated-products-home"
+    //     }
+    // },
+    // "flex-layout.row#releated-products-home-nine": {
+    //     "title": "connectif releated-products-home-nine",
+    //     "children": [
+    //         "responsive-layout.desktop#releated-products-home-nine",
+    //         "responsive-layout.phone#releated-products-home-nine"
+    //     ],
+    //     "props": {
+    //         "blockClass": "connectif-block"
+    //     }
+    // },
+    // "responsive-layout.desktop#releated-products-home-nine": {
+    //     "title": "desktop",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-nine"
+    //     ]
+    // },
+    // "responsive-layout.phone#releated-products-home-nine": {
+    //     "title": "mobile",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-nine"
+    //     ]
+    // },
+    // "madeofpartnerar-connectif#releated-products-home-nine": {
+    //     "children": [
+    //         "product-summary.shelf#productGrid",
+    //         "connectif#releated-products-home-nine"
+    //     ],
+    //     "props": {
+    //         "classId": "releated-products-home-nine"
+    //     }
+    // },
+    // "connectif#releated-products-home-nine": {
+    //     "props": {
+    //         "classId": "releated-products-home-nine",
+    //         "elementId": "releated-products-home-nine"
+    //     }
+    // },
+    // //Home 10
+    // "render-children#releated-products-home-teen": {
+    //     "title": "Releated Products Home teen",
+    //     "children": [
+    //         "flex-layout.row#releated-products-home-teen"
+    //     ],
+    //     "props": {
+    //         "blockClass": "releated-products-home"
+    //     }
+    // },
+    // "flex-layout.row#releated-products-home-teen": {
+    //     "title": "connectif releated-products-home-teen",
+    //     "children": [
+    //         "responsive-layout.desktop#releated-products-home-teen",
+    //         "responsive-layout.phone#releated-products-home-teen"
+    //     ],
+    //     "props": {
+    //         "blockClass": "connectif-block"
+    //     }
+    // },
+    // "responsive-layout.desktop#releated-products-home-teen": {
+    //     "title": "desktop",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-teen"
+    //     ]
+    // },
+    // "responsive-layout.phone#releated-products-home-teen": {
+    //     "title": "mobile",
+    //     "children": [
+    //         "madeofpartnerar-connectif#releated-products-home-teen"
+    //     ]
+    // },
+    // "madeofpartnerar-connectif#releated-products-home-teen": {
+    //     "children": [
+    //         "product-summary.shelf#productGrid",
+    //         "connectif#releated-products-home-teen"
+    //     ],
+    //     "props": {
+    //         "classId": "releated-products-home-teen"
+    //     }
+    // },
+    // "connectif#releated-products-home-teen": {
+    //     "props": {
+    //         "classId": "releated-products-home-teen",
+    //         "elementId": "releated-products-home-teen"
+    //     }
+    // }
 }

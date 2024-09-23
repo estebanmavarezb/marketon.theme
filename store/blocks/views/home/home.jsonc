@@ -1,13 +1,13 @@
 {
     "store.home.custom": {
         "children": [
-            "render-manager#home-cachavachaar"
+            "render-manager#home-marketon"
         ],
         "parent": {
             "header": "menu-base"
         }
     },
-    "render-manager#home-cachavachaar": {
+    "render-manager#home-marketon": {
         "title": "Render Home",
         "children": [
             "render-children#stories-content-1",
@@ -121,18 +121,18 @@
             "render-children#tab-layout-products-double",
             "render-children#images-grid",
             "render-children#iframe-block",
-            "render-children#double-col-slider", //,
+            "render-children#double-col-slider" //,
             //"render-children#connectif"
-            "render-children#releated-products-home-one",
-            "render-children#releated-products-home-two",
-            "render-children#releated-products-home-three",
-            "render-children#releated-products-home-four",
-            "render-children#releated-products-home-five",
-            "render-children#releated-products-home-six",
-            "render-children#releated-products-home-seven",
-            "render-children#releated-products-home-eight",
-            "render-children#releated-products-home-nine",
-            "render-children#releated-products-home-teen"
+            // "render-children#releated-products-home-one",
+            // "render-children#releated-products-home-two",
+            // "render-children#releated-products-home-three",
+            // "render-children#releated-products-home-four",
+            // "render-children#releated-products-home-five",
+            // "render-children#releated-products-home-six",
+            // "render-children#releated-products-home-seven",
+            // "render-children#releated-products-home-eight",
+            // "render-children#releated-products-home-nine",
+            // "render-children#releated-products-home-teen"
         ],
         "props": {
             "componentList": [

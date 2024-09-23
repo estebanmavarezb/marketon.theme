@@ -18,7 +18,7 @@
 }
 
 .flexRow--container-promo-header {
-  background-color: #f4c226;
+  background-color: #FC2774;
 }
 
 .flexRow--row-slider-principal {
@@ -953,7 +953,7 @@
 .flexColChild--search-desktop :global(.vtex-input__suffix) {
   padding: 0 8px;
   border-radius: initial;
-  background-color: #bc1920;
+  background-color: #848484;
 }
 
 .flexColChild--icons-desktop {
