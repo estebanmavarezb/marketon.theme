@@ -1,9 +1,9 @@
 {
-    "name": "cachavachaar",
+    "name": "marketon",
     "version": "1.0.0",
-    "description": "Implementación de Vtex cachavachaar",
+    "description": "Implementación de Vtex marketon",
     "repository": "",
-    "author": "cachavachaar",
+    "author": "marketon",
     "private": true,
     "devDependencies": {
         "husky": "^8.0.3",
