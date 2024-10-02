@@ -3,5 +3,11 @@
 /* Fuentes */
 /* Ciculo Cantidad - Favoritos, Minicart... */
 .flexRow--footer-container {
-  background-color: #2b2b2b;
+  background-color: transparent;
+  padding: 3rem 4rem 1rem 4rem;
+}
+
+.flexRow--footer-firts-container {
+  padding: 0.5rem 1rem 2rem 1rem;
+  border-bottom: 1px solid #c4c4c4;
 }

@@ -1,6 +1,18 @@
 @import '../VARS.scss';
 
-.link--footer-info-title {
-    color: #fff;
-    text-decoration: none;
+.paragraph--footer-cols,
+.link--footer-cols {
+    &__text {
+        color: $main-gray;
+        text-decoration: none !important;
+        text-transform: none;
+        font-size: 10.671px;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+    }
+
+    &__text-bold {
+        font-weight: 700;
+    }
 }

@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#footer-copyright-container": {
+        "children": [
+            "flex-layout.col#footer-copyright-1",
+            "flex-layout.col#footer-copyright-2"
+        ],
+        "props": {
+            "blockClass": "footer-copyright-container"
+        }
+    },
+
+    "flex-layout.col#footer-copyright-1": {
+        "children": ["rich-text#copyright"],
+        "props": {
+            "blockClass": ["footer-copyright-1", "footer-copyright"]
+        }
+    },
+
+    "flex-layout.col#footer-copyright-2": {
+        "children": [
+            "image#copyright-1",
+            "image#copyright-2",
+            "image#copyright-3"
+        ],
+        "props": {
+            "blockClass": ["footer-copyright-2", "footer-copyright"]
+        }
+    },
+
+    "rich-text#copyright": {
+        "props": {
+            "text": "Copyright 2020 | Todos los derechos reservados MadeOf.",
+            "blockClass": ["text-copyright", "footer-text"]
+        }
+    },
+
+    "image#copyright-1": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/logo-vtex.png",
+            "blockClass": "logo-vtex"
+        }
+    },
+
+    "image#copyright-2": {
+        "props": {
+            "src": "https://madeofpartnerar.vtexassets.com/arquivos/logo-madeof.png",
+            "blockClass": "logo-madeof"
+        }
+    },
+
+    "image#copyright-3": {
+        "props": {
+            "src": "assets/icons/footer-logo.svg",
+            "blockClass": "footer-logo"
+        }
+    }
+}

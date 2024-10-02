@@ -2,7 +2,17 @@
 /* Colores */
 /* Fuentes */
 /* Ciculo Cantidad - Favoritos, Minicart... */
-.link--footer-info-title {
-  color: #fff;
-  text-decoration: none;
+.paragraph--footer-cols__text,
+.link--footer-cols__text {
+  color: #2b2b2b;
+  text-decoration: none !important;
+  text-transform: none;
+  font-size: 10.671px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.paragraph--footer-cols__text-bold,
+.link--footer-cols__text-bold {
+  font-weight: 700;
 }
