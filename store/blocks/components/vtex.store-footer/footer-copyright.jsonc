@@ -20,7 +20,8 @@
         "children": [
             "image#copyright-1",
             "image#copyright-2",
-            "image#copyright-3"
+            "image#copyright-3",
+            "image#copyright-4"
         ],
         "props": {
             "blockClass": ["footer-copyright-2", "footer-copyright"]
@@ -36,22 +37,28 @@
 
     "image#copyright-1": {
         "props": {
-            "src": "https://madeofpartnerar.vtexassets.com/arquivos/logo-vtex.png",
+            "src": "assets/icons/footer-logo-vtex.svg",
             "blockClass": "logo-vtex"
         }
     },
 
     "image#copyright-2": {
         "props": {
-            "src": "https://madeofpartnerar.vtexassets.com/arquivos/logo-madeof.png",
+            "src": "assets/icons/footer-logo-made-of.svg",
             "blockClass": "logo-madeof"
         }
     },
 
     "image#copyright-3": {
         "props": {
-            "src": "assets/icons/footer-logo.svg",
-            "blockClass": "footer-logo"
+            "src": "assets/icons/footer-logo-marketon.svg",
+            "blockClass": "footer-logo-marketon"
+        }
+    },
+    "image#copyright-4": {
+        "props": {
+            "src": "assets/icons/footer-data-fiscal.png",
+            "blockClass": "footer-data-fiscal"
         }
     }
 }
