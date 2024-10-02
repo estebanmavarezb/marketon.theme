@@ -215,7 +215,7 @@
     },
     "rich-text#footer-col-5__text-1": {
         "props": {
-            "text": "Servicios a empresa ",
+            "text": "[Servicios a empresa]()",
             "blockClass": [
                 "footer-cols__text",
                 "footer-col-5__text",
@@ -225,7 +225,7 @@
     },
     "rich-text#footer-col-5__text-2": {
         "props": {
-            "text": "Ventas corporativas",
+            "text": "[Ventas corporativas]()",
             "blockClass": [
                 "footer-cols__text",
                 "footer-col-5__text",

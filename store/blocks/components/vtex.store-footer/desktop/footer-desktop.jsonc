@@ -2,6 +2,7 @@
     "flex-layout.row#footer": {
         "children": [
             "flex-layout.row#footer-firts-container",
+            "flex-layout.row#footer-second-container",
             "flex-layout.row#footer-copyright-container"
         ],
         "props": {
