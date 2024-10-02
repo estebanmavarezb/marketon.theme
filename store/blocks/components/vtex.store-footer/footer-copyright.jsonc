@@ -1,0 +1,64 @@
+{
+    "flex-layout.row#footer-copyright-container": {
+        "children": [
+            "flex-layout.col#footer-copyright-1",
+            "flex-layout.col#footer-copyright-2"
+        ],
+        "props": {
+            "blockClass": "footer-copyright-container"
+        }
+    },
+
+    "flex-layout.col#footer-copyright-1": {
+        "children": ["rich-text#copyright"],
+        "props": {
+            "blockClass": ["footer-copyright-1", "footer-copyright"]
+        }
+    },
+
+    "flex-layout.col#footer-copyright-2": {
+        "children": [
+            "image#copyright-1",
+            "image#copyright-2",
+            "image#copyright-3",
+            "image#copyright-4"
+        ],
+        "props": {
+            "blockClass": ["footer-copyright-2", "footer-copyright"]
+        }
+    },
+
+    "rich-text#copyright": {
+        "props": {
+            "text": "Copyright 2020 | Todos los derechos reservados MadeOf.",
+            "blockClass": ["text-copyright", "footer-text"]
+        }
+    },
+
+    "image#copyright-1": {
+        "props": {
+            "src": "assets/icons/footer-logo-vtex.svg",
+            "blockClass": "logo-vtex"
+        }
+    },
+
+    "image#copyright-2": {
+        "props": {
+            "src": "assets/icons/footer-logo-made-of.svg",
+            "blockClass": "logo-madeof"
+        }
+    },
+
+    "image#copyright-3": {
+        "props": {
+            "src": "assets/icons/footer-logo-marketon.svg",
+            "blockClass": "footer-logo-marketon"
+        }
+    },
+    "image#copyright-4": {
+        "props": {
+            "src": "assets/icons/footer-data-fiscal.png",
+            "blockClass": "footer-data-fiscal"
+        }
+    }
+}

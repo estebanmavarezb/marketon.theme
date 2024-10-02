@@ -1,0 +1,237 @@
+{
+    "flex-layout.row#footer-firts-container": {
+        "children": [
+            "flex-layout.col#footer-col-1",
+            "flex-layout.col#footer-col-2",
+            "flex-layout.col#footer-col-3",
+            "flex-layout.col#footer-col-4",
+            "flex-layout.col#footer-col-5"
+        ],
+        "props": {
+            "blockClass": "footer-firts-container"
+        }
+    },
+
+    // COL 1
+    "flex-layout.col#footer-col-1": {
+        "children": ["image#footer-col-1__logo", "flex-layout.row#social"],
+        "props": {
+            "blockClass": "footer-col-1",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#footer-col-1__logo": {
+        "props": {
+            "blockClass": ["footer-col-1__logo"],
+            "maxHeight": 56,
+            "src": "assets/icons/logo-color.svg"
+        }
+    },
+    "flex-layout.row#social": {
+        "children": [
+            "image#facebook-footer",
+            "image#instagram-footer",
+            "image#youtube-footer",
+            "image#tiktok-footer",
+            "image#x-footer"
+        ],
+        "props": {
+            "blockClass": "footer-info-social"
+        }
+    },
+    "image#facebook-footer": {
+        "props": {
+            "src": "assets/icons/facebook-footer.svg",
+            "blockClass": "facebook-footer"
+        }
+    },
+    "image#instagram-footer": {
+        "props": {
+            "src": "assets/icons/instagram-footer.svg",
+            "blockClass": "instagram-footer"
+        }
+    },
+    "image#youtube-footer": {
+        "props": {
+            "src": "assets/icons/youtube-footer.svg",
+            "blockClass": "youtube-footer"
+        }
+    },
+    "image#tiktok-footer": {
+        "props": {
+            "src": "assets/icons/tiktok-footer.svg",
+            "blockClass": "tiktok-footer"
+        }
+    },
+    "image#x-footer": {
+        "props": {
+            "src": "assets/icons/x-footer.svg",
+            "blockClass": "x-footer"
+        }
+    },
+
+    // COL 2
+    "flex-layout.col#footer-col-2": {
+        "children": [
+            "rich-text#footer-col-2__text-1",
+            "rich-text#footer-col-2__text-2",
+            "rich-text#footer-col-2__text-3",
+            "rich-text#footer-col-2__text-4"
+        ],
+        "props": {
+            "blockClass": "footer-col-2",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#footer-col-2__text-1": {
+        "props": {
+            "text": "Atención al cliente",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-2__text",
+                "footer-col-2__text-1"
+            ]
+        }
+    },
+    "rich-text#footer-col-2__text-2": {
+        "props": {
+            "text": "0800-12345-123",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-2__text",
+                "footer-col-2__text-2",
+                "footer-cols__text-bold"
+            ]
+        }
+    },
+    "rich-text#footer-col-2__text-3": {
+        "props": {
+            "text": "Lun-Dom 08:00 a 19:00",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-2__text",
+                "footer-col-2__text-3"
+            ]
+        }
+    },
+    "rich-text#footer-col-2__text-4": {
+        "props": {
+            "text": "marketon@contacto.com",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-2__text",
+                "footer-col-2__text-4"
+            ]
+        }
+    },
+
+    // COL 3
+    "flex-layout.col#footer-col-3": {
+        "children": [
+            "rich-text#footer-col-3__text-1",
+            "rich-text#footer-col-3__text-2"
+        ],
+        "props": {
+            "blockClass": "footer-col-3",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#footer-col-3__text-1": {
+        "props": {
+            "text": "Cobranza de créditos",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-3__text",
+                "footer-col-3__text-1"
+            ]
+        }
+    },
+    "rich-text#footer-col-3__text-2": {
+        "props": {
+            "text": "cobranza@marketon.com",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-3__text",
+                "footer-col-3__text-2",
+                "footer-cols__text-bold"
+            ]
+        }
+    },
+
+    // COL 4
+    "flex-layout.col#footer-col-4": {
+        "children": [
+            "rich-text#footer-col-4__text-1",
+            "rich-text#footer-col-4__text-2",
+            "rich-text#footer-col-4__text-3"
+        ],
+        "props": {
+            "blockClass": "footer-col-4",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#footer-col-4__text-1": {
+        "props": {
+            "text": "Venta telefónica",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-4__text",
+                "footer-col-4__text-1"
+            ]
+        }
+    },
+    "rich-text#footer-col-4__text-2": {
+        "props": {
+            "text": "0800-12345-123",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-4__text",
+                "footer-col-4__text-2",
+                "footer-cols__text-bold"
+            ]
+        }
+    },
+    "rich-text#footer-col-4__text-3": {
+        "props": {
+            "text": "Lun-Dom 08:00 a 19:00",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-4__text",
+                "footer-col-4__text-3"
+            ]
+        }
+    },
+
+    // COL 5
+    "flex-layout.col#footer-col-5": {
+        "children": [
+            "rich-text#footer-col-5__text-1",
+            "rich-text#footer-col-5__text-2"
+        ],
+        "props": {
+            "blockClass": "footer-col-5",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#footer-col-5__text-1": {
+        "props": {
+            "text": "[Servicios a empresa]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-5__text",
+                "footer-col-5__text-1"
+            ]
+        }
+    },
+    "rich-text#footer-col-5__text-2": {
+        "props": {
+            "text": "[Ventas corporativas]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-5__text",
+                "footer-col-5__text-2",
+                "footer-cols__text-bold"
+            ]
+        }
+    }
+}

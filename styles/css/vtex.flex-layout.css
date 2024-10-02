@@ -18,7 +18,7 @@
 }
 
 .flexRow--container-promo-header {
-  background-color: #FC2774;
+  background-color: #fc2774;
 }
 
 .flexRow--row-slider-principal {
@@ -192,7 +192,7 @@
   width: 100% !important;
 }
 
-.emailInputContainer {
+.emailInputContainer--render-newsletter-email {
   width: 100%;
 }
 

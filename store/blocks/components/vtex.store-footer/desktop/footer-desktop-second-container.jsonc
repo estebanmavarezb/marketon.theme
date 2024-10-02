@@ -1,0 +1,284 @@
+{
+    "flex-layout.row#footer-second-container": {
+        "children": [
+            "flex-layout.col#footer-second-col-1",
+            "flex-layout.col#footer-second-col-2",
+            "flex-layout.col#footer-second-col-3",
+            "flex-layout.col#footer-second-col-4",
+            "flex-layout.col#footer-second-col-5"
+        ],
+        "props": {
+            "blockClass": "footer-second-container"
+        }
+    },
+
+    // COL 1
+    "flex-layout.col#footer-second-col-1": {
+        "children": ["newsletter-form#footer-newsletter"],
+        "props": {
+            "blockClass": "footer-col-1",
+            "preventVerticalStretch": true
+        }
+    },
+    "newsletter-form#footer-newsletter": {
+        "children": [
+            "rich-text#footer-newsletter-title",
+            "newsletter-input-email#footer-newsletter",
+            "newsletter-submit#footer-newsletter"
+        ],
+        "props": { "blockClass": "footer-newsletter" }
+    },
+    "rich-text#footer-newsletter-title": {
+        "props": {
+            "blockClass": [
+                "footer-cols__text",
+                "footer-cols__text-bold",
+                "footer-cols__text-bold",
+                "footer-newsletter-title"
+            ],
+            "text": "Recibí ofertas y promociones",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        }
+    },
+    "newsletter-input-email#footer-newsletter": {
+        "props": {
+            "placeholderText": "Ingresá tu email",
+            "blockClass": "footer-newsletter"
+        }
+    },
+    "newsletter-submit#footer-newsletter": {
+        "props": {
+            "submitButtonLabel": "SUSCRIBIRME",
+            "blockClass": "footer-newsletter"
+        }
+    },
+
+    // COL 2
+    "flex-layout.col#footer-second-col-2": {
+        "children": [
+            "rich-text#footer-col-second-2__text-1",
+            "rich-text#footer-col-second-2__text-2",
+            "rich-text#footer-col-second-2__text-3",
+            "rich-text#footer-col-second-2__text-4"
+        ],
+        "props": {
+            "blockClass": "footer-col-2",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#footer-col-second-2__text-1": {
+        "props": {
+            "text": "[Comprar en Marketon]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-2__text",
+                "footer-col-2__text-1",
+                "footer-cols__text-bold"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-2__text-2": {
+        "props": {
+            "text": "[Servicio técnico]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-2__text",
+                "footer-col-2__text-2"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-2__text-3": {
+        "props": {
+            "text": "[Protección de usuarios]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-2__text",
+                "footer-col-2__text-3"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-2__text-4": {
+        "props": {
+            "text": "[Financieros]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-2__text",
+                "footer-col-2__text-4"
+            ]
+        }
+    },
+
+    // COL 3
+    "flex-layout.col#footer-second-col-3": {
+        "children": [
+            "rich-text#footer-col-second-3__text-1",
+            "rich-text#footer-col-second-3__text-2",
+            "rich-text#footer-col-second-3__text-3",
+            "rich-text#footer-col-second-3__text-4",
+            "rich-text#footer-col-second-3__text-5",
+            "rich-text#footer-col-second-3__text-6",
+            "rich-text#footer-col-second-3__text-7"
+        ],
+        "props": {
+            "blockClass": "footer-col-3",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#footer-col-second-3__text-1": {
+        "props": {
+            "text": "[Ayuda]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-3__text",
+                "footer-col-3__text-1",
+                "footer-cols__text-bold"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-3__text-2": {
+        "props": {
+            "text": "[Centro de ayuda]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-3__text",
+                "footer-col-3__text-2"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-3__text-3": {
+        "props": {
+            "text": "[Sucursales]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-3__text",
+                "footer-col-3__text-2"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-3__text-4": {
+        "props": {
+            "text": "[Preguntas frecuentes]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-3__text",
+                "footer-col-3__text-2"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-3__text-5": {
+        "props": {
+            "text": "[Medios de pago]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-3__text",
+                "footer-col-3__text-2"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-3__text-6": {
+        "props": {
+            "text": "[Métodos de envío]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-3__text",
+                "footer-col-3__text-2"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-3__text-7": {
+        "props": {
+            "text": "[Trabajá con nosotros]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-3__text",
+                "footer-col-3__text-2"
+            ]
+        }
+    },
+
+    // COL 4
+    "flex-layout.col#footer-second-col-4": {
+        "children": [
+            "rich-text#footer-col-second-4__text-1",
+            "rich-text#footer-col-second-4__text-2",
+            "rich-text#footer-col-second-4__text-3",
+            "link#footer-regret-button"
+        ],
+        "props": {
+            "blockClass": "footer-col-4",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#footer-col-second-4__text-1": {
+        "props": {
+            "text": "[Políticas]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-4__text",
+                "footer-col-4__text-1",
+                "footer-cols__text-bold"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-4__text-2": {
+        "props": {
+            "text": "[Políticas de privacidad y seguridad]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-4__text",
+                "footer-col-4__text-2"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-4__text-3": {
+        "props": {
+            "text": "[Políticas de cambio y devolución]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-4__text",
+                "footer-col-4__text-3"
+            ]
+        }
+    },
+    "link#footer-regret-button": {
+        "props": {
+            "href": "#",
+            "label": "BOTÓN DE ARREPENTIMIENTO",
+            "blockClass": "footer-regret-button"
+        }
+    },
+
+    // COL 5
+    "flex-layout.col#footer-second-col-5": {
+        "children": [
+            "rich-text#footer-col-second-5__text-1",
+            "rich-text#footer-col-second-5__text-2"
+        ],
+        "props": {
+            "blockClass": "footer-col-5",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#footer-col-second-5__text-1": {
+        "props": {
+            "text": "[Nuestros partners]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-5__text",
+                "footer-col-5__text-1",
+                "footer-cols__text-bold"
+            ]
+        }
+    },
+    "rich-text#footer-col-second-5__text-2": {
+        "props": {
+            "text": "[Disfrutá de beneficios \n exclusivos]()",
+            "blockClass": [
+                "footer-cols__text",
+                "footer-col-5__text",
+                "footer-col-5__text-2"
+            ]
+        }
+    }
+}

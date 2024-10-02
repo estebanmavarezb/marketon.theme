@@ -1,13 +1,12 @@
 @import '../VARS.scss';
 
-.imageElement--footer-curve {
-    width: 100vw;
-    margin-bottom: -2px;
-}
-
 .imageElement--facebook-footer,
 .imageElement--instagram-footer,
 .imageElement--youtube-footer,
 .imageElement--tiktok-footer {
     margin-right: 0.5rem;
+}
+
+.imageElement--footer-col-1__logo {
+    margin-bottom: 1rem;
 }

@@ -1,0 +1,25 @@
+.emailInputContainer--footer-newsletter {
+  margin: 0.5rem 0;
+  max-width: 160px;
+}
+.emailInputContainer--footer-newsletter :global(.vtex-input-prefix__group) {
+  height: 30px;
+  background: #fff;
+}
+.emailInputContainer--footer-newsletter :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  font-size: 10.634px;
+  font-weight: 400;
+}
+.emailInputContainer--footer-newsletter :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #333;
+}
+
+.formSubmitContainer--footer-newsletter :global(.vtex-button) {
+  border-radius: 32.51px;
+  background: #0b0b6d;
+  width: 84px;
+  min-height: 22px;
+  padding: 5px 9px;
+  font-size: 10px;
+  font-weight: 700;
+}
