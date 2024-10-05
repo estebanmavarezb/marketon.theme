@@ -25,3 +25,27 @@
         font-weight: 700;
     }
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile) {
+    .newsletterForm--footer-newsletter {
+        margin-top: 2rem;
+        :global(.vtex-rich-text-0-x-paragraph--footer-cols__text) {
+            font-weight: 500;
+        }
+    }
+
+    .emailInputContainer--footer-newsletter {
+        max-width: 100%;
+        :global(.vtex-input-prefix__group) {
+            height: 45px;
+        }
+    }
+
+    .formSubmitContainer--footer-newsletter {
+        margin-top: 0.7rem;
+        :global(.vtex-button) {
+            width: 100%;
+            font-size: 14px;
+        }
+    }
+}

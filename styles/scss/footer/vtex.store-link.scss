@@ -1,6 +1,8 @@
+@import '../VARS.scss';
+
 .link--footer-regret-button {
     border-radius: 17.53px;
-    border: 0.665px solid #2b2b2b;
+    border: 0.665px solid $third-gray;
     background: rgba(43, 43, 43, 0);
     text-decoration: none;
     max-width: 170px;
@@ -10,9 +12,22 @@
     align-items: center;
     justify-content: center;
     .label {
-        color: #2b2b2b;
+        color: $third-gray;
         text-align: center;
         font-size: 9.739px;
         font-weight: 500;
+    }
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile) {
+    .link--footer-regret-button {
+        max-width: unset;
+        height: 28px;
+        width: 250px;
+        margin-bottom: 1.5rem;
+        padding: 5.862px 23.446px;
+        .label {
+            font-size: 14px;
+        }
     }
 }

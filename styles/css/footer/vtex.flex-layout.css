@@ -12,3 +12,18 @@
   padding: 2rem 1rem;
   border-bottom: 1px solid #c4c4c4;
 }
+
+.flexCol--footer-mobile {
+  justify-content: center;
+  padding: 2rem;
+  border-bottom: 1px solid #848484;
+}
+.flexCol--footer-mobile .flexColChild--footer-mobile {
+  margin: auto;
+}
+.flexCol--footer-mobile .flexColChild--footer-mobile .flexRowContent--footer-info-social {
+  margin-bottom: 1rem;
+}
+.flexCol--footer-mobile .flexColChild--footer-mobile .flexRowContent--footer-info-social :global(.vtex-store-components-3-x-imageElement) {
+  margin: 0 0.7rem;
+}

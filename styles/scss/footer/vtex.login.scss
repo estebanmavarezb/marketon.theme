@@ -1,0 +1,10 @@
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile) {
+    :global(.vtex-flex-layout-0-x-flexColChild--footer-mobile):has(
+            :global(.vtex-disclosure-layout-1-x-trigger)
+        ) {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+}

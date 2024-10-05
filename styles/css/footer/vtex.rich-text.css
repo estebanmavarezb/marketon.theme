@@ -4,7 +4,7 @@
 /* Ciculo Cantidad - Favoritos, Minicart... */
 .paragraph--footer-cols__text,
 .link--footer-cols__text {
-  color: #2b2b2b;
+  color: #848484;
   text-decoration: none !important;
   text-transform: none;
   font-size: 10.671px;
@@ -15,4 +15,31 @@
 .paragraph--footer-cols__text-bold,
 .link--footer-cols__text-bold {
   font-weight: 700;
+}
+
+.paragraph--text-copyright {
+  font-size: 10px;
+  font-style: italic;
+  color: #848484;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile) .paragraph--footer-cols__text {
+  font-size: 12px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile) .paragraph--footer-cols__text-bold {
+  color: #0b0b6d;
+  font-size: 14px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile) .paragraph--footer-dropdown__title {
+  font-size: 12px;
+  color: #848484;
+  margin: 0.5rem 0 0.3rem 0;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile) .paragraph--footer-dropdown__content {
+  margin: 0;
+}
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile) .paragraph--footer-dropdown__content .link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #848484;
 }

@@ -2,6 +2,8 @@
 /* Colores */
 /* Fuentes */
 /* Ciculo Cantidad - Favoritos, Minicart... */
-.caretIcon {
+.caretIcon--footer-dropdown-indicator__arrow {
   color: #848484;
+  width: 10px;
+  height: 10px;
 }

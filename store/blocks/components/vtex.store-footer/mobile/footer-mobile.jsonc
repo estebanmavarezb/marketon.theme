@@ -1,0 +1,283 @@
+{
+    "flex-layout.row#footer-mobile": {
+        "children": [
+            "flex-layout.col#footer-mobile",
+            "flex-layout.row#footer-copyright-container"
+        ],
+        "props": {
+            "blockClass": "footer-container-mobile"
+        }
+    },
+    "flex-layout.col#footer-mobile": {
+        "children": [
+            "image#footer-col-1__logo",
+            "flex-layout.row#social",
+            "rich-text#footer-col-2__text-2",
+            "rich-text#footer-col-2__text-1",
+            "rich-text#footer-col-2__text-3",
+            "link#footer-regret-button",
+            "disclosure-layout-group#group",
+            "newsletter-form#footer-newsletter"
+        ],
+        "props": {
+            "blockClass": "footer-mobile",
+            "preventVerticalStretch": true
+        }
+    },
+
+    "disclosure-layout-group#group": {
+        "children": [
+            "disclosure-layout#first",
+            "disclosure-layout#second",
+            "disclosure-layout#thirth",
+            "disclosure-layout#fourth",
+            "disclosure-layout#fifth",
+            "disclosure-layout#sixth"
+        ],
+        "props": {
+            "animated": true
+        }
+    },
+
+    // FIRST
+    "disclosure-layout#first": {
+        "children": ["disclosure-trigger#first", "disclosure-content#first"]
+    },
+    "disclosure-trigger#first": {
+        "children": ["disclosure-state-indicator", "rich-text#first-title-1"],
+        "props": {
+            "blockClass": "question",
+            "as": "div"
+        }
+    },
+    "disclosure-content#first": {
+        "children": [
+            "rich-text#first-content-1",
+            "rich-text#first-content-2",
+            "rich-text#first-content-3"
+        ]
+    },
+    "rich-text#first-title-1": {
+        "props": {
+            "text": "Comprar en marketon",
+            "blockClass": "footer-dropdown__title"
+        }
+    },
+    "rich-text#first-content-1": {
+        "props": {
+            "text": "[Servicio técnico]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+    "rich-text#first-content-2": {
+        "props": {
+            "text": "[Protección de usuarios]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+    "rich-text#first-content-3": {
+        "props": {
+            "text": "[Financieros]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+
+    // SECOND
+    "disclosure-layout#second": {
+        "children": ["disclosure-trigger#second", "disclosure-content#second"]
+    },
+    "disclosure-trigger#second": {
+        "children": ["disclosure-state-indicator", "rich-text#second-title-1"],
+        "props": {
+            "blockClass": "question",
+            "as": "div"
+        }
+    },
+    "disclosure-content#second": {
+        "children": [
+            "rich-text#second-content-1",
+            "rich-text#second-content-2",
+            "rich-text#second-content-3",
+            "rich-text#second-content-4",
+            "rich-text#second-content-5",
+            "rich-text#second-content-6"
+        ]
+    },
+    "rich-text#second-title-1": {
+        "props": {
+            "text": "Ayuda",
+            "blockClass": "footer-dropdown__title"
+        }
+    },
+    "rich-text#second-content-1": {
+        "props": {
+            "text": "[Centro de ayuda]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+    "rich-text#second-content-2": {
+        "props": {
+            "text": "[Sucursales]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+    "rich-text#second-content-3": {
+        "props": {
+            "text": "[Preguntas frecuentes]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+    "rich-text#second-content-4": {
+        "props": {
+            "text": "[Medios de pago]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+    "rich-text#second-content-5": {
+        "props": {
+            "text": "[Métodos de envío]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+    "rich-text#second-content-6": {
+        "props": {
+            "text": "[Trabajá con nosotros]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+
+    // THIRTH
+    "disclosure-layout#thirth": {
+        "children": ["disclosure-trigger#thirth", "disclosure-content#thirth"]
+    },
+    "disclosure-trigger#thirth": {
+        "children": ["disclosure-state-indicator", "rich-text#thirth-title-1"],
+        "props": {
+            "blockClass": "question",
+            "as": "div"
+        }
+    },
+    "disclosure-content#thirth": {
+        "children": ["rich-text#thirth-content-1", "rich-text#thirth-content-2"]
+    },
+    "rich-text#thirth-title-1": {
+        "props": {
+            "text": "Políticas",
+            "blockClass": "footer-dropdown__title"
+        }
+    },
+    "rich-text#thirth-content-1": {
+        "props": {
+            "text": "[Políticas de privacidad y seguridad]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+    "rich-text#thirth-content-2": {
+        "props": {
+            "text": "[Políticas de cambio y devolución]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+
+    // FOURTH
+    "disclosure-layout#fourth": {
+        "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+    },
+    "disclosure-trigger#fourth": {
+        "children": ["disclosure-state-indicator", "rich-text#fourth-title-1"],
+        "props": {
+            "blockClass": "question",
+            "as": "div"
+        }
+    },
+    "disclosure-content#fourth": {
+        "children": ["rich-text#fourth-content-1"]
+    },
+    "rich-text#fourth-title-1": {
+        "props": {
+            "text": "Servicios a empresa",
+            "blockClass": "footer-dropdown__title"
+        }
+    },
+    "rich-text#fourth-content-1": {
+        "props": {
+            "text": "[Ventas corporativas]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+
+    // FIFTH
+    "disclosure-layout#fifth": {
+        "children": ["disclosure-trigger#fifth", "disclosure-content#fifth"]
+    },
+    "disclosure-trigger#fifth": {
+        "children": ["disclosure-state-indicator", "rich-text#fifth-title-1"],
+        "props": {
+            "blockClass": "question",
+            "as": "div"
+        }
+    },
+    "disclosure-content#fifth": {
+        "children": ["rich-text#fifth-content-1"]
+    },
+    "rich-text#fifth-title-1": {
+        "props": {
+            "text": "Cobranza de créditos",
+            "blockClass": "footer-dropdown__title"
+        }
+    },
+    "rich-text#fifth-content-1": {
+        "props": {
+            "text": "cobranza@marketon.com",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+
+    // SIXTH
+    "disclosure-layout#sixth": {
+        "children": ["disclosure-trigger#sixth", "disclosure-content#sixth"]
+    },
+    "disclosure-trigger#sixth": {
+        "children": ["disclosure-state-indicator", "rich-text#sixth-title-1"],
+        "props": {
+            "blockClass": "question",
+            "as": "div"
+        }
+    },
+    "disclosure-content#sixth": {
+        "children": ["rich-text#sixth-content-1"]
+    },
+    "rich-text#sixth-title-1": {
+        "props": {
+            "text": "Nuestros partners",
+            "blockClass": "footer-dropdown__title"
+        }
+    },
+    "rich-text#sixth-content-1": {
+        "props": {
+            "text": "[Disfrutá de beneficios exclusivos]()",
+            "blockClass": "footer-dropdown__content"
+        }
+    },
+
+    // ARROW
+    "disclosure-state-indicator": {
+        "props": {
+            "Show": "icon-caret#down",
+            "Hide": "icon-caret#up",
+            "blockClass": "footer-dropdown__indicator"
+        }
+    },
+    "icon-caret#down": {
+        "props": {
+            "orientation": "down",
+            "blockClass": "footer-dropdown-indicator__arrow"
+        }
+    },
+    "icon-caret#up": {
+        "props": {
+            "orientation": "up",
+            "blockClass": "footer-dropdown-indicator__arrow"
+        }
+    }
+}
