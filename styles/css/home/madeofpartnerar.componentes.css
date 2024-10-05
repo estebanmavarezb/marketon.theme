@@ -26,14 +26,14 @@
   margin: 4rem auto;
 }
 .managerChildContent--slider-custom-bubbles .text {
-  color: #898989;
+  color: #848484;
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 20px;
   text-align: center;
 }
 .managerChildContent--slider-custom-bubbles .caretIcon {
-  color: #898989;
+  color: #848484;
 }
 @media (max-width: 768px) {
   .managerChildContent--slider-custom-bubbles {
@@ -55,7 +55,7 @@
   display: none;
 }
 .managerChildContent--tab-layout-products-home-1 :global(.vtex-slider-layout-0-x-caretIcon--slider-products) {
-  color: #898989;
+  color: #848484;
 }
 
 .managerChildContent--inforcards-home :global(.vtex-flex-layout-0-x-flexRowContent--infocardsContent) {
@@ -168,10 +168,10 @@
   max-width: 1000px;
 }
 .managerChildContent--banks-information-home :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-row-information) :global(.vtex-rich-text-0-x-paragraph--text-row-information) {
-  color: #898989;
+  color: #848484;
 }
 .managerChildContent--banks-information-home :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-row-information) :global(.vtex-rich-text-0-x-strong--text-row-information) {
-  color: #898989;
+  color: #848484;
 }
 .managerChildContent--banks-information-home :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-row-information) :global(.vtex-rich-text-0-x-strong--text-row-information) {
   font-size: 0.93rem;

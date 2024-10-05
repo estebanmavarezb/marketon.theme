@@ -20,7 +20,7 @@
             "newsletter-form#footer-newsletter"
         ],
         "props": {
-            "blockClass": "footer-col-1",
+            "blockClass": "footer-mobile",
             "preventVerticalStretch": true
         }
     },

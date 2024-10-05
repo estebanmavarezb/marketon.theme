@@ -603,7 +603,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--minicart-product-list-container) :global(.vtex-product-list-0-x-quantitySelectorDecrease) svg {
-  color: #898989;
+  color: #848484;
 }
 
 /* ------------------------------DESKTOP ------------------------------*/

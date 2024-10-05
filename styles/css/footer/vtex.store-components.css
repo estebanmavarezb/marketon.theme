@@ -12,3 +12,7 @@
 .imageElement--footer-col-1__logo {
   margin-bottom: 1rem;
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--footer-mobile) .imageElement--footer-col-1__logo {
+  width: 193px;
+}
