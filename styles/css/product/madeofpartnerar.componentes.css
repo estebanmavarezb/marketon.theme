@@ -17,7 +17,7 @@
   justify-content: flex-start;
 }
 .container_promocionBancaria .button_modal :first-child {
-  color: #bc1920;
+  color: #0b0b6d;
   text-decoration: underline;
 }
 @media (max-width: 768px) {
@@ -34,7 +34,7 @@
 }
 
 .tituloSinContador :first-child {
-  color: #bc1920;
+  color: #0b0b6d;
 }
 
 .contenedorContador .contenedorHijo {
@@ -44,7 +44,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--view-product-row) .fa-heart::before {
-  color: #bc1920;
+  color: #0b0b6d;
 }
 
 .icono_cuotaActive {

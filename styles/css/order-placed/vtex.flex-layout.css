@@ -38,18 +38,18 @@
 }
 .flexRowContent--confirmationButtons .flexCol :global(.vtex-button) {
   border-radius: 48.917px;
-  background: #bc1920;
+  background: #0b0b6d;
   border: none;
   height: 34px;
   margin-right: 1rem;
 }
 .flexRowContent--confirmationButtons .flexCol :global(.vtex-store-link-0-x-link--op-back-btn) {
   background-color: transparent;
-  border: 1px solid #bc1920;
+  border: 1px solid #0b0b6d;
   border-radius: 49px;
   width: 177px;
   height: 34px;
-  color: #bc1920;
+  color: #0b0b6d;
   font-size: 14px;
   font-weight: 700;
 }

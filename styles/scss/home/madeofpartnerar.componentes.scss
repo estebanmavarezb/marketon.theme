@@ -292,3 +292,16 @@
         }
     }
 }
+
+.managerChildContent--background-text-inline {
+    .bloque_arriba {
+        margin-bottom: 0;
+    }
+    .contenedor_texto_arriba {
+        display: flex;
+        align-items: center;
+        .link_product {
+            margin-left: 1rem;
+        }
+    }
+}
