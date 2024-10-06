@@ -272,9 +272,12 @@
     .sliderLayoutContainer {
         padding-left: 0 !important;
         padding-right: 0 !important;
-        .image {
-            max-height: unset;
-            max-width: 204px;
+        .sliderTrack {
+            width: 115% !important;
+            .image {
+                max-height: unset;
+                max-width: 204px;
+            }
         }
     }
     @media (max-width: $phone) {

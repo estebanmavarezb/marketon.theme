@@ -245,7 +245,10 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-.managerChildContent--slider-custom-cards .sliderLayoutContainer .image {
+.managerChildContent--slider-custom-cards .sliderLayoutContainer .sliderTrack {
+  width: 115% !important;
+}
+.managerChildContent--slider-custom-cards .sliderLayoutContainer .sliderTrack .image {
   max-height: unset;
   max-width: 204px;
 }
