@@ -267,3 +267,25 @@
         justify-content: center;
     }
 }
+
+.managerChildContent--slider-custom-cards {
+    .sliderLayoutContainer {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        .image {
+            max-height: unset;
+            max-width: 204px;
+        }
+    }
+    @media (max-width: $phone) {
+        .sliderLayoutContainer {
+            padding-left: 1rem !important;
+            .sliderTrack {
+                width: 400% !important;
+                .slide {
+                    max-width: 270px;
+                }
+            }
+        }
+    }
+}
