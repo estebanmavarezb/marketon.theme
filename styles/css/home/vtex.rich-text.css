@@ -19,3 +19,14 @@
     font-size: 20px;
   }
 }
+:global(.vtex-flex-layout-0-x-flexRow--infocard-banner-text) .paragraph {
+  font-size: 24px;
+  color: #000;
+  text-align: right;
+}
+:global(.vtex-flex-layout-0-x-flexRow--infocard-banner-text) .paragraph--textBannerInfo {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 100.4%;
+  height: auto !important;
+}

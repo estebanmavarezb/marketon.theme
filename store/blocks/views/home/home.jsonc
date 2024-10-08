@@ -64,10 +64,10 @@
             "render-children#banner-texto-2",
             "render-children#banner-texto-3",
             "render-children#banner-texto-4",
-            "render-children#banner-texto-1-invested",
-            "render-children#banner-texto-2-invested",
-            "render-children#banner-texto-3-invested",
-            "render-children#banner-texto-4-invested",
+            "render-children#banner-texto-1-inverted",
+            "render-children#banner-texto-2-inverted",
+            "render-children#banner-texto-3-inverted",
+            "render-children#banner-texto-4-inverted",
             "render-children#banner-title-doble-image-1",
             "render-children#banner-title-doble-image-2",
             "render-children#banner-title-doble-image-3",
@@ -119,18 +119,9 @@
             "render-children#tab-layout-products-double",
             "render-children#images-grid",
             "render-children#iframe-block",
-            "render-children#double-col-slider" //,
-            //"render-children#connectif"
-            // "render-children#releated-products-home-one",
-            // "render-children#releated-products-home-two",
-            // "render-children#releated-products-home-three",
-            // "render-children#releated-products-home-four",
-            // "render-children#releated-products-home-five",
-            // "render-children#releated-products-home-six",
-            // "render-children#releated-products-home-seven",
-            // "render-children#releated-products-home-eight",
-            // "render-children#releated-products-home-nine",
-            // "render-children#releated-products-home-teen"
+            "render-children#double-col-slider",
+            "render-children#banner-infocard-double-1",
+            "render-children#banner-infocard-double-2"
         ],
         "props": {
             "componentList": [
@@ -391,20 +382,20 @@
                     "__editorItemTitle": "banner-texto-4"
                 },
                 {
-                    "keyComponent": "render-children#banner-texto-1-invested",
-                    "__editorItemTitle": "banner-texto-1-invested"
+                    "keyComponent": "render-children#banner-texto-1-inverted",
+                    "__editorItemTitle": "banner-texto-1-inverted"
                 },
                 {
-                    "keyComponent": "render-children#banner-texto-2-invested",
-                    "__editorItemTitle": "banner-texto-2-invested"
+                    "keyComponent": "render-children#banner-texto-2-inverted",
+                    "__editorItemTitle": "banner-texto-2-inverted"
                 },
                 {
-                    "keyComponent": "render-children#banner-texto-3-invested",
-                    "__editorItemTitle": "banner-texto-3-invested"
+                    "keyComponent": "render-children#banner-texto-3-inverted",
+                    "__editorItemTitle": "banner-texto-3-inverted"
                 },
                 {
-                    "keyComponent": "render-children#banner-texto-4-invested",
-                    "__editorItemTitle": "banner-texto-4-invested"
+                    "keyComponent": "render-children#banner-texto-4-inverted",
+                    "__editorItemTitle": "banner-texto-4-inverted"
                 },
                 {
                     "keyComponent": "render-children#banner",
@@ -633,6 +624,14 @@
                 {
                     "keyComponent": "render-children#releated-products-home-teen",
                     "__editorItemTitle": "Releated Products Home teen"
+                },
+                {
+                    "keyComponent": "render-children#banner-infocard-double-1",
+                    "__editorItemTitle": "banner-infocards-double-1"
+                },
+                {
+                    "keyComponent": "render-children#banner-infocard-double-2",
+                    "__editorItemTitle": "banner-infocards-double-2"
                 }
             ]
         }
@@ -2581,21 +2580,21 @@
         "title": "texto-banner-1",
         "children": ["flex-layout.row#texto-banner"]
     },
-    "render-children#banner-texto-1-invested": {
-        "title": "banner-texto-1-invested",
-        "children": ["flex-layout.row#texto-banner-invested"]
+    "render-children#banner-texto-1-inverted": {
+        "title": "banner-texto-1-inverted",
+        "children": ["flex-layout.row#texto-banner-inverted"]
     },
-    "render-children#banner-texto-2-invested": {
-        "title": "banner-texto-2-invested",
-        "children": ["flex-layout.row#texto-banner-invested"]
+    "render-children#banner-texto-2-inverted": {
+        "title": "banner-texto-2-inverted",
+        "children": ["flex-layout.row#texto-banner-inverted"]
     },
-    "render-children#banner-texto-3-invested": {
-        "title": "banner-texto-4-invested",
-        "children": ["flex-layout.row#texto-banner-invested"]
+    "render-children#banner-texto-3-inverted": {
+        "title": "banner-texto-4-inverted",
+        "children": ["flex-layout.row#texto-banner-inverted"]
     },
-    "render-children#banner-texto-4-invested": {
-        "title": "banner-texto-4-invested",
-        "children": ["flex-layout.row#texto-banner-invested"]
+    "render-children#banner-texto-4-inverted": {
+        "title": "banner-texto-4-inverted",
+        "children": ["flex-layout.row#texto-banner-inverted"]
     },
     "render-children#banner-image-full-texto": {
         "title": "banner-image-full-texto-1",
@@ -2613,14 +2612,17 @@
             "blockClass": "contenido-texto-full-banner-texto"
         }
     },
-    "flex-layout.row#texto-banner-invested": {
-        "children": ["flex-layout.row#content-banner-texto-invested"],
+    "flex-layout.row#texto-banner-inverted": {
+        "children": ["flex-layout.row#content-banner-texto-inverted"],
         "props": {
-            "blockClass": ["background-gray"]
+            "blockClass": [
+                "infocard-banner-text",
+                "infocard-banner-text-inverted"
+            ]
         }
     },
-    "flex-layout.row#content-banner-texto-invested": {
-        "children": ["flex-layout.row#content-imageTexto-invested"],
+    "flex-layout.row#content-banner-texto-inverted": {
+        "children": ["flex-layout.row#content-imageTexto-inverted"],
         "props": {
             "blockClass": ["content-1200"]
         }
@@ -2628,7 +2630,7 @@
     "flex-layout.row#texto-banner": {
         "children": ["flex-layout.row#content-banner-texto"],
         "props": {
-            "blockClass": ["background-gray"]
+            "blockClass": ["infocard-banner-text"]
         }
     },
     "flex-layout.row#content-banner-texto": {
@@ -2637,48 +2639,48 @@
             "blockClass": ["content-1200"]
         }
     },
-    "flex-layout.row#content-imageTexto-invested": {
+    "flex-layout.row#content-imageTexto-inverted": {
         "children": [
-            "flex-layout.row#banner-invested",
-            "flex-layout.row#contentInfo-invested"
+            "flex-layout.row#banner-inverted",
+            "flex-layout.row#contentInfo-inverted"
         ],
         "props": {
-            "blockClass": "content-imageText-invested"
+            "blockClass": "content-imageText-inverted"
         }
     },
-    "flex-layout.row#banner-invested": {
-        "children": ["image#bannerTexto-invested"],
+    "flex-layout.row#banner-inverted": {
+        "children": ["image#bannerTexto-inverted"],
         "props": {
             "blockClass": "content-image-banner"
         }
     },
-    "image#bannerTexto-invested": {
+    "image#bannerTexto-inverted": {
         "props": {
             "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
             "maxHeight": 800,
             "blockClass": "imageBanner"
         }
     },
-    "flex-layout.row#contentInfo-invested": {
-        "children": ["flex-layout.row#info-invested"],
+    "flex-layout.row#contentInfo-inverted": {
+        "children": ["flex-layout.row#info-inverted"],
         "props": {
             "blockClass": "contnetInfo-banner",
             "preventHorizontalStretch": true
         }
     },
-    "flex-layout.row#info-invested": {
+    "flex-layout.row#info-inverted": {
         "children": [
-            "rich-text#uno-invested",
-            "rich-text#dos-invested",
-            "rich-text#tres-invested",
-            "flex-layout.row#link-invested"
+            "rich-text#uno-inverted",
+            "rich-text#dos-inverted",
+            "rich-text#tres-inverted",
+            "flex-layout.row#link-inverted"
         ],
         "props": {
             "blockClass": "content-text",
             "preventHorizontalStretch": true
         }
     },
-    "rich-text#uno-invested": {
+    "rich-text#uno-inverted": {
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -2688,7 +2690,7 @@
             "blockClass": ["textBannerUno", "colorFontBlue"]
         }
     },
-    "rich-text#dos-invested": {
+    "rich-text#dos-inverted": {
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -2698,7 +2700,7 @@
             "blockClass": ["textBannerDos", "colorFontBlue"]
         }
     },
-    "rich-text#tres-invested": {
+    "rich-text#tres-inverted": {
         "props": {
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
@@ -2708,13 +2710,13 @@
             "blockClass": ["textBannerInfo", "colorFontBlue"]
         }
     },
-    "flex-layout.row#link-invested": {
+    "flex-layout.row#link-inverted": {
         "children": ["link#info"],
         "props": {
             "blockClass": "conntetLinkInfo"
         }
     },
-    "link#info-invested": {
+    "link#info-inverted": {
         "props": {
             "href": "/login?returnUrl={queryString.returnUrl}",
             "label": "Ver coleccion",
@@ -3785,20 +3787,59 @@
             "showPaginationDots": "never",
             "blockClass": "double-col-slider"
         }
-    } //,
-    // "render-children#connectif": {
-    //     "title": "block connectif",
-    //     "children": [
-    //         "connectif#test-connectif-block"
-    //     ],
-    //     "props": {
-    //         "blockClass": "block-connectif"
-    //     }
-    // },
-    // "connectif#test-connectif-block": {
-    //     "props": {
-    //         "classId": "test-connectif-block",
-    //         "elementId": "test-connectif-block-elem-id"
-    //     }
-    // }
+    },
+
+    "render-children#banner-infocard-double-1": {
+        "title": "banner-infocard-double-1",
+        "children": [
+            "responsive-layout.desktop#banner-infocard-double-1",
+            "responsive-layout.tablet#banner-infocard-double-1",
+            "responsive-layout.phone#banner-infocard-double-1"
+        ]
+    },
+    "responsive-layout.desktop#banner-infocard-double-1": {
+        "children": [
+            "flex-layout.row#texto-banner-inverted",
+            "flex-layout.row#texto-banner"
+        ]
+    },
+    "responsive-layout.tablet#banner-infocard-double-1": {
+        "children": [
+            "flex-layout.row#texto-banner-inverted",
+            "flex-layout.row#texto-banner"
+        ]
+    },
+    "responsive-layout.phone#banner-infocard-double-1": {
+        "children": [
+            "flex-layout.row#texto-banner-inverted",
+            "flex-layout.row#texto-banner-inverted"
+        ]
+    },
+
+    "render-children#banner-infocard-double-2": {
+        "title": "banner-infocard-double-2",
+        "children": [
+            "responsive-layout.desktop#banner-infocard-double-2",
+            "responsive-layout.tablet#banner-infocard-double-2",
+            "responsive-layout.phone#banner-infocard-double-2"
+        ]
+    },
+    "responsive-layout.desktop#banner-infocard-double-2": {
+        "children": [
+            "flex-layout.row#texto-banner-inverted",
+            "flex-layout.row#texto-banner"
+        ]
+    },
+    "responsive-layout.tablet#banner-infocard-double-2": {
+        "children": [
+            "flex-layout.row#texto-banner-inverted",
+            "flex-layout.row#texto-banner"
+        ]
+    },
+    "responsive-layout.phone#banner-infocard-double-2": {
+        "children": [
+            "flex-layout.row#texto-banner",
+            "flex-layout.row#texto-banner"
+        ]
+    }
 }

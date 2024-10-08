@@ -83,3 +83,68 @@
         }
     }
 }
+
+.flexRow--infocard-banner-text {
+    background-color: #fff;
+    width: 100%;
+    max-height: 295px;
+    max-width: 600px;
+    border-radius: 24px;
+    box-shadow: -1px 4px 4px -1px rgba(135, 135, 135, 0.75);
+    -webkit-box-shadow: -1px 4px 4px -1px rgba(135, 135, 135, 0.75);
+    -moz-box-shadow: -1px 4px 4px -1px rgba(135, 135, 135, 0.75);
+    :global(.vtex-store-components-3-x-container) {
+        padding: 0;
+    }
+    .flexRowContent--content-text {
+        align-items: flex-end;
+    }
+
+    .flexRow--content-1200 {
+        padding: 0;
+        .flexRowContent--content-imageText,
+        .flexRowContent--content-imageText-inverted {
+            .stretchChildrenWidth {
+                width: 50% !important;
+                .flexRow--content-image-banner {
+                    .stretchChildrenWidth {
+                        width: unset !important;
+                    }
+                }
+            }
+        }
+    }
+    :global(.vtex-store-components-3-x-imageElement--imageBanner) {
+        max-width: 290px !important;
+        border-radius: 0;
+    }
+    .flexRow--conntetLinkInfo {
+        margin: 1.5rem 0 0;
+        .flexRowContent--conntetLinkInfo {
+            background-color: #000;
+            height: 35px;
+            padding: 5px 22px;
+            .stretchChildrenWidth {
+                :global(.vtex-store-link-0-x-link--linkUrl) {
+                    font-weight: 500;
+                    display: flex;
+                    align-items: center;
+                    font-size: 17px;
+                    text-wrap: nowrap;
+                }
+            }
+        }
+    }
+}
+
+.flexRow--infocard-banner-text-inverted {
+    margin-right: 1rem;
+    .flexRowContent--content-imageText-inverted {
+        .flexRowContent--content-text {
+            align-items: flex-start;
+            :global(.vtex-rich-text-0-x-paragraph--textBannerInfo) {
+                text-align: left;
+            }
+        }
+    }
+}

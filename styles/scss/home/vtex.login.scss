@@ -292,11 +292,21 @@
     }
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--connectif-block){
+:global(.vtex-flex-layout-0-x-flexRowContent--connectif-block) {
     & > div {
         width: 100% !important;
-        &:empty{
+        &:empty {
             width: auto !important;
         }
     }
+}
+
+:global(.madeofpartnerar-componentes-0-x-managerChildContent):has(
+        :global(.vtex-flex-layout-0-x-flexRow--infocard-banner-text)
+    ) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0;
 }
