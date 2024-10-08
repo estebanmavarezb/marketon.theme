@@ -211,3 +211,8 @@
   width: 100%;
   margin: 1rem 0;
 }
+@media (max-width: 768px) {
+  :global(.madeofpartnerar-componentes-0-x-managerChildContent):has(:global(.vtex-flex-layout-0-x-flexRow--infocard-banner-text)) {
+    flex-direction: column;
+  }
+}

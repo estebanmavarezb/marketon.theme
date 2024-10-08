@@ -121,6 +121,54 @@
   font-size: 17px;
   text-wrap: nowrap;
 }
+@media (max-width: 768px) {
+  .flexRow--infocard-banner-text {
+    margin: 0.5rem 0;
+  }
+  .flexRow--infocard-banner-text .flexRow--contnetInfo-banner {
+    padding: 1rem;
+  }
+  .flexRow--infocard-banner-text .flexRow--contnetInfo-banner .flexRowContent--contnetInfo-banner {
+    padding: 0;
+  }
+  .flexRow--infocard-banner-text .flexRow--contnetInfo-banner .flexRowContent--contnetInfo-banner .flexRow--content-text {
+    width: 100%;
+  }
+  .flexRow--infocard-banner-text .flexRow--content-imageText {
+    padding: 0;
+  }
+  .flexRow--infocard-banner-text .flexRowContent--content-imageText {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+  .flexRow--infocard-banner-text .flexRowContent--content-imageText .flexRowContent--content-image-banner {
+    height: 100%;
+  }
+  .flexRow--infocard-banner-text .flexRowContent--content-imageText .flexRowContent--content-image-banner .stretchChildrenWidth {
+    height: 100%;
+  }
+  .flexRow--infocard-banner-text .flexRow--conntetLinkInfo {
+    margin: 0;
+  }
+  .flexRow--infocard-banner-text .flexRow--conntetLinkInfo .flexRowContent--conntetLinkInfo {
+    height: 24px;
+    width: 100px;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .flexRow--infocard-banner-text .flexRow--conntetLinkInfo .flexRowContent--conntetLinkInfo .stretchChildrenWidth {
+    width: 100%;
+  }
+  .flexRow--infocard-banner-text .flexRow--conntetLinkInfo .flexRowContent--conntetLinkInfo .stretchChildrenWidth :global(.vtex-store-link-0-x-link--linkUrl) {
+    font-weight: normal;
+    font-size: 10px;
+    display: block;
+    width: 100%;
+  }
+}
 
 .flexRow--infocard-banner-text-inverted {
   margin-right: 1rem;
@@ -130,4 +178,17 @@
 }
 .flexRow--infocard-banner-text-inverted .flexRowContent--content-imageText-inverted .flexRowContent--content-text :global(.vtex-rich-text-0-x-paragraph--textBannerInfo) {
   text-align: left;
+}
+@media (max-width: 768px) {
+  .flexRow--infocard-banner-text-inverted .flexRowContent--content-imageText-inverted {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+  }
+  .flexRow--infocard-banner-text-inverted .flexRowContent--content-imageText-inverted .flexRowContent--content-image-banner {
+    height: 100%;
+  }
+  .flexRow--infocard-banner-text-inverted .flexRowContent--content-imageText-inverted .flexRowContent--content-image-banner .stretchChildrenWidth {
+    height: 100%;
+  }
 }

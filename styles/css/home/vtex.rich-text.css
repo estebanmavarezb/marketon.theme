@@ -30,3 +30,11 @@
   line-height: 100.4%;
   height: auto !important;
 }
+@media (max-width: 768px) {
+  :global(.vtex-flex-layout-0-x-flexRow--infocard-banner-text) .paragraph {
+    font-size: 18px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRow--infocard-banner-text) .paragraph--textBannerInfo {
+    font-size: 11px;
+  }
+}

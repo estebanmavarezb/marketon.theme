@@ -32,4 +32,12 @@
         line-height: 100.4%;
         height: auto !important;
     }
+    @media (max-width: $phone) {
+        .paragraph {
+            font-size: 18px;
+        }
+        .paragraph--textBannerInfo {
+            font-size: 11px;
+        }
+    }
 }
