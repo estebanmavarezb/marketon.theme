@@ -218,7 +218,7 @@
   width: 29px;
   display: block;
   font-size: 29px;
-  color: #bc1920;
+  color: #0b0b6d;
 }
 
 /* DESTAQUES INFO */
@@ -315,7 +315,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--view-product-row) .badge_discount {
-  color: #bc1920;
+  color: #0b0b6d;
   font-size: 12px;
   font-weight: 500;
   line-height: 135.9%;
@@ -456,7 +456,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--cuotas-container) .badge_discount {
-  color: #bc1920;
+  color: #0b0b6d;
   font-family: "Poppins", sans-serif;
   font-size: 9px;
   font-style: normal;
@@ -482,7 +482,7 @@
 }
 
 .favorites_quantity {
-  background-color: #bc1920;
+  background-color: #0b0b6d;
   color: #fff;
   width: 20px;
   height: 20px;
@@ -706,7 +706,7 @@
 }
 
 .componente-icono--is-active {
-  color: #bc1920;
+  color: #0b0b6d;
   font-size: 25px;
 }
 
@@ -795,17 +795,17 @@
   align-items: center;
   border: none;
   margin-bottom: 20px;
-  border-bottom: 1px solid #bc1920;
+  border-bottom: 1px solid #0b0b6d;
 }
 .container_maps .content_block_map .trigger .title_map {
-  color: #bc1920;
+  color: #0b0b6d;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
 }
 .container_maps .content_block_map .trigger .caretIcon {
-  color: #bc1920;
+  color: #0b0b6d;
 }
 .container_maps .content_block_map .content_information_map .information_content_text .information_text {
   color: #2b2b2b;
@@ -822,7 +822,7 @@
   font-weight: 400;
 }
 .container_maps .content_block_map .content_information_map .information_content_text .information_text_whatsapp .link_whatsapp {
-  color: #bc1920;
+  color: #0b0b6d;
 }
 @media screen and (max-width: 1024px) {
   .container_maps .content_information_map .information_content_text .information_text {

@@ -9,7 +9,7 @@
 }
 
 .link_product_abajo {
-  border-bottom: 2px solid #bc1920;
+  border-bottom: 2px solid #0b0b6d;
 }
 
 @media (max-width: 768px) {
@@ -145,7 +145,7 @@
     margin: 0 auto;
   }
   .managerChildContent--bg-grid-left-home .slider_product .productos .link_product {
-    border-bottom: 2px solid #bc1920;
+    border-bottom: 2px solid #0b0b6d;
   }
 }
 
@@ -185,7 +185,7 @@
   margin-bottom: 2.5rem;
 }
 .managerChildContent--product-grid-home .link {
-  border-bottom: 2px solid #bc1920;
+  border-bottom: 2px solid #0b0b6d;
 }
 @media (max-width: 768px) {
   .managerChildContent--product-grid-home .banner {
@@ -195,11 +195,11 @@
 }
 
 .link_product {
-  border-bottom: 2px solid #bc1920;
+  border-bottom: 2px solid #0b0b6d;
 }
 
 .link {
-  border-bottom: 2px solid #bc1920 !important;
+  border-bottom: 2px solid #0b0b6d !important;
 }
 
 .container_background_component--4 .contenedor_texto_arriba--4 {
@@ -218,7 +218,7 @@
     margin-bottom: 0.8rem;
   }
   .managerChildContent--five-images :global(.vtex-rich-text-0-x-paragraph--title-slider-infocards) {
-    color: #bc1920;
+    color: #0b0b6d;
   }
   .managerChildContent--five-images :global(.vtex-store-components-3-x-infoCardContainer--slider-infocards) {
     height: 60vw !important;
@@ -240,4 +240,37 @@
     display: flex;
     justify-content: center;
   }
+}
+.managerChildContent--slider-custom-cards .sliderLayoutContainer {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.managerChildContent--slider-custom-cards .sliderLayoutContainer .sliderTrack {
+  width: 115% !important;
+}
+.managerChildContent--slider-custom-cards .sliderLayoutContainer .sliderTrack .image {
+  max-height: unset;
+  max-width: 204px;
+}
+@media (max-width: 768px) {
+  .managerChildContent--slider-custom-cards .sliderLayoutContainer {
+    padding-left: 1rem !important;
+  }
+  .managerChildContent--slider-custom-cards .sliderLayoutContainer .sliderTrack {
+    width: 400% !important;
+  }
+  .managerChildContent--slider-custom-cards .sliderLayoutContainer .sliderTrack .slide {
+    max-width: 270px;
+  }
+}
+
+.managerChildContent--background-text-inline .bloque_arriba {
+  margin-bottom: 0;
+}
+.managerChildContent--background-text-inline .contenedor_texto_arriba {
+  display: flex;
+  align-items: center;
+}
+.managerChildContent--background-text-inline .contenedor_texto_arriba .link_product {
+  margin-left: 1rem;
 }

@@ -7,7 +7,7 @@
 /* SHELF */
 .savingsPercentage,
 .savings--percentage {
-  color: #bc1920;
+  color: #0b0b6d;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
@@ -275,7 +275,7 @@
   font-family: "Poppins";
   align-self: center;
   margin-left: 14px;
-  color: #bc1920;
+  color: #0b0b6d;
   font-size: 16px;
   font-weight: 600;
   line-height: 135.9%;
@@ -284,7 +284,7 @@
 :global(.vtex-flex-layout-0-x-flexRow--view-product-row) :global(.vtex-flex-layout-0-x-flexCol--right-col-desktop) .savings--percentage,
 :global(.vtex-flex-layout-0-x-flexRow--view-product-row) :global(.vtex-flex-layout-0-x-flexRowContent--view-product-col-product-main-mobile) .savingsPercentage,
 :global(.vtex-flex-layout-0-x-flexRow--view-product-row) :global(.vtex-flex-layout-0-x-flexRowContent--view-product-col-product-main-mobile) .savings--percentage {
-  color: #bc1920;
+  color: #0b0b6d;
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 16px;

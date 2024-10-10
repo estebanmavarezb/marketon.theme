@@ -30,7 +30,7 @@
 }
 
 .listItemActive--tab-list-home :global(.vtex-button) {
-  border-bottom: solid 3px #bc1920;
+  border-bottom: solid 3px #0b0b6d;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--tab-layout-home) .contentItem {
@@ -66,7 +66,7 @@
 }
 
 .listItemChildrenActive--tab-list-products {
-  border-bottom: 4px solid #bc1920 !important;
+  border-bottom: 4px solid #0b0b6d !important;
 }
 
 /* TABLET  */
@@ -84,7 +84,7 @@
     margin: 0;
   }
   .listItemChildrenActive--tab-list-products {
-    border-bottom: 3px solid #bc1920 !important;
+    border-bottom: 3px solid #0b0b6d !important;
   }
   /* TAB LAYOUT HOME */
   .infoCardContainer--infocard-tabs-home {

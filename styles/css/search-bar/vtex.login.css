@@ -41,7 +41,7 @@
 }
 
 :global(.vtex-product-summary-2-x-containerNormal--search-bar) :global(.madeofpartnerar-product-price-0-x-price_sellingPrice) {
-  color: #bc1920;
+  color: #0b0b6d;
 }
 
 @media (max-width: 768px) {

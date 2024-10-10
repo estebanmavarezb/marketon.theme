@@ -19,7 +19,7 @@ body::-webkit-scrollbar-track {
   background: #e4e4e4;
 }
 body::-webkit-scrollbar-thumb {
-  background: #bc1920;
+  background: #0b0b6d;
   border-radius: 50px;
 }
 
@@ -67,7 +67,7 @@ body::-webkit-scrollbar-thumb {
 }
 :not(:global(.render-route-store-login)) .optionsListItem:has(.googleOptionBtn) .oauthLabel::before {
   content: "INGRESAR CON GOOGLE";
-  color: #bc1920;
+  color: #0b0b6d;
   text-align: center;
   font-size: 11px;
   font-weight: 700;
@@ -163,7 +163,7 @@ body::-webkit-scrollbar-thumb {
 .contentForm .formTitle,
 .contentForm .forgotPasswordForm .formSubtitle {
   margin: 16px 0 14px;
-  color: #bc1920;
+  color: #0b0b6d;
   text-align: center;
   font-size: 12px;
   font-weight: 700;
@@ -202,7 +202,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .formLinkContainer .dontHaveAccount {
-  color: #bc1920;
+  color: #0b0b6d;
   text-align: center;
   font-size: 12px;
   font-weight: 400;
@@ -286,8 +286,8 @@ body::-webkit-scrollbar-thumb {
 
 .formFooter :global(.vtex-button) {
   min-height: fit-content;
-  border: 1px solid #bc1920;
-  background: #bc1920;
+  border: 1px solid #0b0b6d;
+  background: #0b0b6d;
   border-radius: 55px;
   width: 85px;
 }
@@ -316,7 +316,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .backButton :global(.vtex-button__label) span {
-  color: #bc1920;
+  color: #0b0b6d;
 }
 
 .backButton :global(.vtex-button__label) > span > div:has(svg.arrowBackIcon) {
@@ -425,13 +425,13 @@ body::-webkit-scrollbar-thumb {
 
 .box .optionsListItem :global(.vtex-button) {
   border-radius: 55px;
-  border: 1px solid #bc1920;
+  border: 1px solid #0b0b6d;
   width: 100%;
 }
 
 .box .optionsListItem :global(.vtex-button__label) {
   padding: 5px 14px !important;
-  color: #bc1920;
+  color: #0b0b6d;
   text-align: center;
   font-size: 11px;
   font-weight: 700;
@@ -500,7 +500,7 @@ body::-webkit-scrollbar-thumb {
 :global(.vtex-flex-layout-0-x-flexRowContent--view-product-row) :global(.repdealberdiar-componentes-0-x-tituloSinContador) span,
 :global(.vtex-flex-layout-0-x-flexRowContent--view-product-row) :global(.repdealberdiar-componentes-0-x-tituloContador) span,
 :global(.vtex-flex-layout-0-x-flexRowContent--view-product-row) :global(.repdealberdiar-componentes-0-x-tituloConContador) span {
-  color: #bc1920;
+  color: #0b0b6d;
   font-size: 10.023px;
   font-weight: 700;
   line-height: 99.4%;
@@ -554,7 +554,7 @@ body::-webkit-scrollbar-thumb {
 
 :global(.vtex-numeric-stepper__plus-button),
 :global(.vtex-numeric-stepper__minus-button) {
-  color: #bc1920;
+  color: #0b0b6d;
 }
 
 :global(.vtex-numeric-stepper__plus-button):disabled,
@@ -576,7 +576,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 :global(.repdealberdiar-componentes-0-x-menuLista_link_active) a {
-  background-color: #bc1920 !important;
+  background-color: #0b0b6d !important;
 }
 
 :global(.vtex-breadcrumb-1-x-arrow):nth-child(3) {
@@ -594,12 +594,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 :global(.vtex-product-list-0-x-quantitySelectorButton) svg {
-  color: #bc1920;
+  color: #0b0b6d;
   width: 10px;
 }
 
 :global(.vtex-toast) {
-  background: #bc1920;
+  background: #0b0b6d;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--minicart-product-list-container) :global(.vtex-product-list-0-x-quantitySelectorDecrease) svg {
@@ -775,7 +775,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 :global(.repdealberdiar-componentes-0-x-componente-icono--)::before {
-  color: #bc1920;
+  color: #0b0b6d;
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--tab-layout-products:last-child) {
@@ -853,7 +853,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 :global(.vtex-slider__base-internal) :global(.vtex-slider__selector) {
-  background-color: #bc1920;
+  background-color: #0b0b6d;
 }
 
 @media screen and (max-width: 768px) {

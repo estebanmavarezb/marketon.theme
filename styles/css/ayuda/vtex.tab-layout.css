@@ -40,7 +40,7 @@
 
 .listItem--ayuda.listItemActive--ayuda :global(.vtex-button) {
   background: transparent;
-  color: #bc1920;
+  color: #0b0b6d;
 }
 
 .listItemActive--ayuda :global(.vtex-button__label),
@@ -63,7 +63,7 @@
 
 .listItem--ayuda.listItemActive--ayuda :global(.vtex-button)::after {
   content: "";
-  background: #bc1920;
+  background: #0b0b6d;
   width: 100%;
   height: 1px;
   display: block;
