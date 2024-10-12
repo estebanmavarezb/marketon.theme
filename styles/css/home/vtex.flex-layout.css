@@ -165,7 +165,9 @@
   .flexRow--infocard-banner-text .flexRow--conntetLinkInfo .flexRowContent--conntetLinkInfo .stretchChildrenWidth :global(.vtex-store-link-0-x-link--linkUrl) {
     font-weight: normal;
     font-size: 10px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
   }
 }

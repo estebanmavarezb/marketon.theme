@@ -304,4 +304,10 @@
             margin-left: 1rem;
         }
     }
+
+    @media (max-width: $phone) {
+        .contenedor_texto_arriba {
+            justify-content: center;
+        }
+    }
 }

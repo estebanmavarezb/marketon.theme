@@ -274,3 +274,8 @@
 .managerChildContent--background-text-inline .contenedor_texto_arriba .link_product {
   margin-left: 1rem;
 }
+@media (max-width: 768px) {
+  .managerChildContent--background-text-inline .contenedor_texto_arriba {
+    justify-content: center;
+  }
+}
