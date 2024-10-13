@@ -4,19 +4,25 @@
 /* Ciculo Cantidad - Favoritos, Minicart... */
 .biggy-autocomplete {
   border-radius: 24px;
+  flex-direction: column !important;
+  padding: 1rem 1.5rem;
 }
 .biggy-autocomplete .itemList {
-  max-width: 204px;
+  max-width: 100%;
+  overflow: auto;
   background: #fff;
 }
 .biggy-autocomplete .itemList .itemListTitle {
-  color: #BC1920;
+  color: #2b2b2b;
   font-size: 14px;
   font-weight: 500;
+  margin-bottom: 1rem;
+  padding: 0 0 1rem 0;
+  border-bottom: 1px solid #c4c4c4;
 }
 .biggy-autocomplete .itemList .itemListLinkTitle,
 .biggy-autocomplete .itemList .itemListSubItemLink {
-  color: #848484;
+  color: #0b0b6d;
   font-size: 14px;
   font-weight: 500;
 }
@@ -24,19 +30,21 @@
   font-size: 13px;
 }
 .biggy-autocomplete .tileList {
-  background: #f6f6f8;
+  background: #fff;
+  border: none;
 }
 .biggy-autocomplete .tileList .tileListTitle {
-  color: #2b2b2b;
+  color: #0b0b6d;
   font-size: 14px;
+  padding-left: 0;
+  font-weight: 500;
 }
 .biggy-autocomplete .tileList .tileListList {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 5px;
-  grid-row-gap: 15px;
-  align-items: center;
+  flex-direction: column !important;
+  align-items: flex-start;
+}
+.biggy-autocomplete .tileListItem {
+  width: 100%;
 }
 
 @media (max-width: 768px) {
