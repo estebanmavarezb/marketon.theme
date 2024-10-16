@@ -1,12 +1,93 @@
 @import '.././VARS.scss';
 
-// :global(.vtex-product-summary-2-x-containerNormal--product-shelf) {
-//     :global(.vtex-flex-layout-0-x-flexColChild--container-data-grid):has(
-//             div:empty
-//         ) {
-//         display: none;
-//     }
-// }
+:global(.vtex-flex-layout-0-x-flexRow--product-shelf__info) {
+    :global(.vtex-product-summary-2-x-brandName) {
+        color: $main-gray;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 131.5%;
+        padding: 0 0.5rem;
+        text-transform: capitalize !important;
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--container-data-price):has(
+            :global(
+                    .vtex-flex-layout-0-x-flexColChild--container-data-price
+                ):last-child:not(:empty)
+        ) {
+        :global(.vtex-flex-layout-0-x-flexColChild--container-data-price) {
+            width: 80px;
+        }
+    }
+
+    :global(.vtex-flex-layout-0-x-flexColChild--container-data-grid) {
+        justify-content: center;
+        :global(.madeofpartnerar-product-price-0-x-savings--percentage) {
+            color: #fff;
+            border-radius: 4px;
+            background: #4c4cea;
+            display: inline-flex;
+            padding: 3px 5px;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            font-weight: 500;
+            max-height: 12px;
+            :global(
+                    .madeofpartnerar-product-price-0-x-savingsPercentage--percentage
+                ) {
+                font-weight: 500;
+                color: #fff;
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+        :global(.madeofpartnerar-product-price-0-x-price_className) {
+            :global(
+                    .madeofpartnerar-product-price-0-x-price_listPriceContainer
+                ) {
+                :global(.madeofpartnerar-product-price-0-x-currencyContainer) {
+                    font-size: 12px;
+                }
+            }
+            :global(
+                    .madeofpartnerar-product-price-0-x-price_sellingPriceContainer
+                ) {
+                :global(.madeofpartnerar-product-price-0-x-currencyContainer) {
+                    font-size: 22px;
+                }
+            }
+
+            &:has(
+                    :global(
+                            .madeofpartnerar-product-price-0-x-price_listPriceContainer
+                        )
+                ) {
+                :global(
+                        .madeofpartnerar-product-price-0-x-price_sellingPriceContainer
+                    ) {
+                    transform: translateX(15%);
+                }
+            }
+        }
+    }
+}
+:global(.vtex-flex-layout-0-x-flexCol--container-image-grid) {
+    :global(
+            .madeofpartnerar-componentes-0-x-destaquesTipoImagen--superior-izquierda
+        ),
+    :global(
+            .madeofpartnerar-componentes-0-x-destaquesTipoImagen--superior-derecha
+        ) {
+        max-width: 60px;
+    }
+    :global(
+            .madeofpartnerar-componentes-0-x-destaquesTipoImagen--inferior-izquierda
+        ) {
+        max-width: 70px;
+    }
+}
 
 @media (max-width: $phone) {
     :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-products) {
@@ -26,6 +107,31 @@
             :global(.madeofpartnerar-componentes-0-x-badge_discount) {
                 margin: 0;
             }
+        }
+    }
+    :global(.vtex-flex-layout-0-x-flexColChild--container-data-price):has(
+            :global(.madeofpartnerar-product-price-0-x-savings--percentage)
+        ) {
+        width: 100% !important;
+    }
+    :global(.madeofpartnerar-product-price-0-x-price_className):has(
+            :global(.madeofpartnerar-product-price-0-x-price_listPriceContainer)
+        ) {
+        :global(
+                .madeofpartnerar-product-price-0-x-price_sellingPriceContainer
+            ) {
+            transform: translateX(7%) !important;
+        }
+    }
+
+    :global(.vtex-flex-layout-0-x-flexCol--container-image-grid) {
+        :global(
+                .madeofpartnerar-componentes-0-x-destaquesTipoImagen--superior-izquierda
+            ),
+        :global(
+                .madeofpartnerar-componentes-0-x-destaquesTipoImagen--superior-derecha
+            ) {
+            max-width: 46px;
         }
     }
 }

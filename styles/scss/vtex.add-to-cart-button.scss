@@ -1,20 +1,22 @@
 /* ------------------------------GENERAL ------------------------------*/
 
 /* SHELF */
-:global(.vtex-product-summary-2-x-element--basic-shelf) .buttonDataContainer::before {
+:global(.vtex-product-summary-2-x-element--basic-shelf)
+    .buttonDataContainer::before {
     content: '';
     width: 24px;
     height: 24px;
-    background: url(https://repdealberdiar.vtexassets.com/arquivos/icono-mas.svg) no-repeat;
+    background: url(assets/icons/header-cart-icon.svg) no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-:global(.vtex-product-summary-2-x-element--product-shelf) .buttonDataContainer::before {
+:global(.vtex-product-summary-2-x-element--product-shelf)
+    .buttonDataContainer::before {
     content: '';
     width: 24px;
     height: 24px;
-    background: url(https://repdealberdiar.vtexassets.com/arquivos/icono-mas.svg) no-repeat;
+    background: url(assets/icons/header-cart-icon.svg) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -26,7 +28,8 @@
 
 /*---------- FICHA -------------*/
 
-:global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart-button-view-product) .buttonText {
+:global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart-button-view-product)
+    .buttonText {
     color: #fff;
     text-align: center;
     font-size: 14px;
@@ -37,16 +40,21 @@
 /* ------------------------------TABLET ------------------------------*/
 
 @media screen and (max-width: 768px) {
-    :global(.vtex-flex-layout-0-x-flexRowContent--add-to-cart-button-view-product) .buttonText {
+    :global(
+            .vtex-flex-layout-0-x-flexRowContent--add-to-cart-button-view-product
+        )
+        .buttonText {
         font-size: 18px;
     }
 
-    :global(.vtex-product-summary-2-x-element--basic-shelf) .buttonDataContainer::before {
+    :global(.vtex-product-summary-2-x-element--basic-shelf)
+        .buttonDataContainer::before {
         width: 2.57vw;
         height: 3.09vw;
     }
 
-    :global(.vtex-product-summary-2-x-element--product-shelf) .buttonDataContainer::before {
+    :global(.vtex-product-summary-2-x-element--product-shelf)
+        .buttonDataContainer::before {
         width: 2.57vw;
         height: 3.09vw;
     }
@@ -55,12 +63,14 @@
 /* ------------------------------MOBILE ------------------------------*/
 
 @media screen and (max-width: 639px) {
-    :global(.vtex-product-summary-2-x-element--basic-shelf) .buttonDataContainer::before {
+    :global(.vtex-product-summary-2-x-element--basic-shelf)
+        .buttonDataContainer::before {
         width: 3.57vw;
         height: 4.09vw;
     }
 
-    :global(.vtex-product-summary-2-x-element--product-shelf) .buttonDataContainer::before {
+    :global(.vtex-product-summary-2-x-element--product-shelf)
+        .buttonDataContainer::before {
         width: 21px;
         height: 21px;
     }

@@ -132,8 +132,8 @@
 .flexColChild--container-button-selector :global(.vtex-button) {
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.1);
   min-height: auto;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
 }
 
 .flexColChild--container-button-selector :global(.vtex-button__label) {
