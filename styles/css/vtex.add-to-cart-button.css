@@ -4,7 +4,7 @@
   content: "";
   width: 24px;
   height: 24px;
-  background: url(https://repdealberdiar.vtexassets.com/arquivos/icono-mas.svg) no-repeat;
+  background: url(assets/icons/header-cart-icon.svg) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -13,7 +13,7 @@
   content: "";
   width: 24px;
   height: 24px;
-  background: url(https://repdealberdiar.vtexassets.com/arquivos/icono-mas.svg) no-repeat;
+  background: url(assets/icons/header-cart-icon.svg) no-repeat;
   background-position: center;
   background-size: cover;
 }

@@ -2,6 +2,57 @@
 /* Colores */
 /* Fuentes */
 /* Ciculo Cantidad - Favoritos, Minicart... */
+:global(.vtex-flex-layout-0-x-flexRow--product-shelf__info) :global(.vtex-product-summary-2-x-brandName) {
+  color: #2b2b2b;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 131.5%;
+  padding: 0 0.5rem;
+  text-transform: capitalize !important;
+}
+:global(.vtex-flex-layout-0-x-flexRow--product-shelf__info) :global(.vtex-flex-layout-0-x-flexCol--container-data-price):has(:global(.vtex-flex-layout-0-x-flexColChild--container-data-price):last-child:not(:empty)) :global(.vtex-flex-layout-0-x-flexColChild--container-data-price) {
+  width: 80px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--product-shelf__info) :global(.vtex-flex-layout-0-x-flexColChild--container-data-grid) {
+  justify-content: center;
+}
+:global(.vtex-flex-layout-0-x-flexRow--product-shelf__info) :global(.vtex-flex-layout-0-x-flexColChild--container-data-grid) :global(.madeofpartnerar-product-price-0-x-savings--percentage) {
+  color: #fff;
+  border-radius: 4px;
+  background: #4c4cea;
+  display: inline-flex;
+  padding: 3px 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-weight: 500;
+  max-height: 12px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--product-shelf__info) :global(.vtex-flex-layout-0-x-flexColChild--container-data-grid) :global(.madeofpartnerar-product-price-0-x-savings--percentage) :global(.madeofpartnerar-product-price-0-x-savingsPercentage--percentage) {
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--product-shelf__info) :global(.vtex-flex-layout-0-x-flexColChild--container-data-grid) :global(.madeofpartnerar-product-price-0-x-price_className) :global(.madeofpartnerar-product-price-0-x-price_listPriceContainer) :global(.madeofpartnerar-product-price-0-x-currencyContainer) {
+  font-size: 12px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--product-shelf__info) :global(.vtex-flex-layout-0-x-flexColChild--container-data-grid) :global(.madeofpartnerar-product-price-0-x-price_className) :global(.madeofpartnerar-product-price-0-x-price_sellingPriceContainer) :global(.madeofpartnerar-product-price-0-x-currencyContainer) {
+  font-size: 22px;
+}
+:global(.vtex-flex-layout-0-x-flexRow--product-shelf__info) :global(.vtex-flex-layout-0-x-flexColChild--container-data-grid) :global(.madeofpartnerar-product-price-0-x-price_className):has(:global(.madeofpartnerar-product-price-0-x-price_listPriceContainer)) :global(.madeofpartnerar-product-price-0-x-price_sellingPriceContainer) {
+  transform: translateX(15%);
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--container-image-grid) :global(.madeofpartnerar-componentes-0-x-destaquesTipoImagen--superior-izquierda),
+:global(.vtex-flex-layout-0-x-flexCol--container-image-grid) :global(.madeofpartnerar-componentes-0-x-destaquesTipoImagen--superior-derecha) {
+  max-width: 60px;
+}
+:global(.vtex-flex-layout-0-x-flexCol--container-image-grid) :global(.madeofpartnerar-componentes-0-x-destaquesTipoImagen--inferior-izquierda) {
+  max-width: 70px;
+}
+
 @media (max-width: 768px) {
   :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-products) :global(.vtex-flex-layout-0-x-flexCol--cuotas-container) {
     flex-wrap: wrap;
@@ -19,5 +70,15 @@
   }
   :global(.vtex-slider-layout-0-x-sliderLayoutContainer--slider-products) :global(.madeofpartnerar-componentes-0-x-container_discount) :global(.madeofpartnerar-componentes-0-x-badge_discount) {
     margin: 0;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--container-data-price):has(:global(.madeofpartnerar-product-price-0-x-savings--percentage)) {
+    width: 100% !important;
+  }
+  :global(.madeofpartnerar-product-price-0-x-price_className):has(:global(.madeofpartnerar-product-price-0-x-price_listPriceContainer)) :global(.madeofpartnerar-product-price-0-x-price_sellingPriceContainer) {
+    transform: translateX(7%) !important;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--container-image-grid) :global(.madeofpartnerar-componentes-0-x-destaquesTipoImagen--superior-izquierda),
+  :global(.vtex-flex-layout-0-x-flexCol--container-image-grid) :global(.madeofpartnerar-componentes-0-x-destaquesTipoImagen--superior-derecha) {
+    max-width: 46px;
   }
 }
