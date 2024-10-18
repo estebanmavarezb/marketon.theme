@@ -533,8 +533,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 :global(.vtex-numeric-stepper__input) {
-  width: 65px;
-  font-weight: 500;
+  width: 55px;
+  font-weight: 600;
   font-size: 12px;
 }
 

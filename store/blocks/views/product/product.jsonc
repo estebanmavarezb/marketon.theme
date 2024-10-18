@@ -3,9 +3,7 @@
         "props": {
             "blockClass": "productDetail"
         },
-        "children": [
-            "flex-layout.row#view-product-row"
-        ],
+        "children": ["flex-layout.row#view-product-row"],
         "parent": {
             "header": "menu-base"
         }
@@ -14,9 +12,7 @@
         "props": {
             "blockClass": "view-product-row"
         },
-        "children": [
-            "flex-layout.col#view-product-col"
-        ]
+        "children": ["flex-layout.col#view-product-col"]
     },
     "flex-layout.col#view-product-col": {
         "props": {
@@ -36,9 +32,7 @@
         "props": {
             "blockClass": "view-product-col-breadcrumb"
         },
-        "children": [
-            "breadcrumb"
-        ]
+        "children": ["breadcrumb"]
     },
     "breadcrumb": {
         "props": {
@@ -49,6 +43,7 @@
         "children": [
             "flex-layout.row#product-main-desktop",
             "flex-layout.row#render-manager-desktop",
+            "flex-layout.row#specification-and-description",
             "shelf.relatedProducts"
         ]
     },
@@ -96,21 +91,25 @@
         ]
     },
     "flex-layout.col#stack-desktop": {
-        "children": [
-            "stack-layout",
-            "disclosure-layout-group#specification-and-description"
-        ],
+        "children": ["stack-layout"],
         "props": {
             "rowGap": 0
         }
     },
     "flex-layout.col#stack-mobile": {
-        "children": [
-            "stack-layout"
-        ],
+        "children": ["stack-layout"],
         "props": {
             "width": "60%",
             "rowGap": 0
+        }
+    },
+    "flex-layout.row#specification-and-description": {
+        "children": [
+            "disclosure-layout#specification",
+            "disclosure-layout#description"
+        ],
+        "props": {
+            "blockClass": ["specification-and-description-desk"]
         }
     },
     "disclosure-layout-group#specification-and-description": {
@@ -134,9 +133,7 @@
         }
     },
     "disclosure-trigger#specification": {
-        "children": [
-            "rich-text#specification"
-        ],
+        "children": ["rich-text#specification"],
         "props": {
             "blockClass": [
                 "trigger-specification",
@@ -145,9 +142,7 @@
         }
     },
     "disclosure-content#specification": {
-        "children": [
-            "product-specification-group#table"
-        ],
+        "children": ["product-specification-group#table"],
         "props": {
             "blockClass": [
                 "content-specification",
@@ -156,9 +151,7 @@
         }
     },
     "product-specification-group#table": {
-        "children": [
-            "flex-layout.row#spec-group"
-        ],
+        "children": ["flex-layout.row#spec-group"],
         "props": {
             "blockClass": "product-specification-group-table"
         }
@@ -167,9 +160,7 @@
         "props": {
             "blockClass": "row-spec-group"
         },
-        "children": [
-            "flex-layout.col#spec-group"
-        ]
+        "children": ["flex-layout.col#spec-group"]
     },
     "flex-layout.col#spec-group": {
         "children": [
@@ -184,47 +175,34 @@
         "props": {
             "blockClass": "spec-group-name"
         },
-        "children": [
-            "product-specification-text#group"
-        ]
+        "children": ["product-specification-text#group"]
     },
     "product-specification": {
-        "children": [
-            "flex-layout.row#spec-item"
-        ]
+        "children": ["flex-layout.row#spec-item"]
     },
     "flex-layout.row#spec-item": {
         "props": {
             "blockClass": "spec-item"
         },
-        "children": [
-            "flex-layout.col#spec-name",
-            "flex-layout.col#spec-value"
-        ]
+        "children": ["flex-layout.col#spec-name", "flex-layout.col#spec-value"]
     },
     "flex-layout.col#spec-name": {
         "props": {
             "blockClass": "spec-name"
         },
-        "children": [
-            "product-specification-text#specification"
-        ]
+        "children": ["product-specification-text#specification"]
     },
     "flex-layout.col#spec-value": {
         "props": {
             "blockClass": "spec-value"
         },
-        "children": [
-            "product-specification-values"
-        ]
+        "children": ["product-specification-values"]
     },
     "product-specification-values": {
         "props": {
             "blockClass": "product-specification-values"
         },
-        "children": [
-            "product-specification-text#value"
-        ]
+        "children": ["product-specification-text#value"]
     },
     "product-specification-text#group": {
         "props": {
@@ -261,9 +239,7 @@
         }
     },
     "disclosure-trigger#description": {
-        "children": [
-            "rich-text#description"
-        ],
+        "children": ["rich-text#description"],
         "props": {
             "blockClass": [
                 "trigger-description",
@@ -272,9 +248,7 @@
         }
     },
     "disclosure-content#description": {
-        "children": [
-            "product-description"
-        ],
+        "children": ["product-description"],
         "props": {
             "blockClass": [
                 "content-description",
@@ -307,9 +281,7 @@
         ]
     },
     "flex-layout.row#product-image": {
-        "children": [
-            "product-images"
-        ]
+        "children": ["product-images"]
     },
     "product-images": {
         "props": {
@@ -381,33 +353,25 @@
         ]
     },
     "flex-layout.row#special-discount": {
-        "children": [
-            "special-discount"
-        ],
+        "children": ["special-discount"],
         "props": {
             "blockClass": "special-discount"
         }
     },
     "flex-layout.row#credit-promotion": {
-        "children": [
-            "credit-promotion"
-        ],
+        "children": ["credit-promotion"],
         "props": {
             "blockClass": "credit-promotion"
         }
     },
     "flex-layout.row#foot-calculator": {
-        "children": [
-            "foot-calculator"
-        ],
+        "children": ["foot-calculator"],
         "props": {
             "blockClass": "foot-calculator"
         }
     },
     "flex-layout.row#contador-envios": {
-        "children": [
-            "countDown-envio"
-        ],
+        "children": ["countDown-envio"],
         "props": {
             "blockClass": "countDown-envio"
         }
@@ -416,9 +380,7 @@
         "props": {
             "blockClass": "shipping-simulator-view-product"
         },
-        "children": [
-            "shipping-simulator"
-        ]
+        "children": ["shipping-simulator"]
     },
     "condition-layout.product#conditional-kit-look-mobile": {
         "props": {
@@ -487,9 +449,7 @@
             "preventHorizontalStretch": true,
             "blockClass": "view-product-product-list-price"
         },
-        "children": [
-            "madeofpartnerar.product-price:product-list-price"
-        ]
+        "children": ["madeofpartnerar.product-price:product-list-price"]
     },
     "madeofpartnerar.product-price:product-list-price": {
         "props": {
@@ -514,9 +474,7 @@
         }
     },
     "flex-layout.row#product-total-prices": {
-        "children": [
-            "product-total-prices#product"
-        ],
+        "children": ["product-total-prices#product"],
         "props": {
             "blockClass": "total-prices"
         }
@@ -529,9 +487,7 @@
         }
     },
     "flex-layout.row#tablatalles": {
-        "children": [
-            "table-size"
-        ],
+        "children": ["table-size"],
         "props": {
             "blockClass": "tabla-talles"
         }
@@ -540,23 +496,16 @@
         "props": {
             "blockClass": "quantity-and-last-units"
         },
-        "children": [
-            "product-quantity",
-            "stock-alert"
-        ]
+        "children": ["product-quantity", "stock-alert"]
     },
     "flex-layout.row#product-assembly-options": {
-        "children": [
-            "container-assembly"
-        ],
+        "children": ["container-assembly"],
         "props": {
             "blockClass": "product-assembly-options-container"
         }
     },
     "container-assembly": {
-        "children": [
-            "product-assembly-options"
-        ]
+        "children": ["product-assembly-options"]
     },
     "product-assembly-options": {
         "children": [
@@ -577,18 +526,13 @@
         }
     },
     "flex-layout.col#assembly-name-and-price": {
-        "children": [
-            "assembly-option-item-name",
-            "assembly-option-item-price"
-        ],
+        "children": ["assembly-option-item-name", "assembly-option-item-price"],
         "props": {
             "blockClass": "-assembly-name-and-price"
         }
     },
     "kitlook": {
-        "children": [
-            "product-summary.shelf#kitlook"
-        ],
+        "children": ["product-summary.shelf#kitlook"],
         "props": {
             "Then": "flex-layout.row#view-product#add-to-cart-kitlook"
         }
@@ -597,19 +541,13 @@
         "props": {
             "blockClass": "add-to-cart-button-view-product"
         },
-        "children": [
-            "add-to-cart-button#view-product",
-            "add-favorites"
-        ]
+        "children": ["add-to-cart-button#view-product", "add-favorites"]
     },
     "flex-layout.row#view-product#add-to-cart-kitlook": {
         "props": {
             "blockClass": "add-to-cart-button-view-product"
         },
-        "children": [
-            "kitlook.button",
-            "add-favorites"
-        ]
+        "children": ["kitlook.button", "add-favorites"]
     },
     "product-summary.shelf#kitlook": {
         "children": [
@@ -621,9 +559,7 @@
         }
     },
     "flex-layout.row#kitlook-image": {
-        "children": [
-            "kitlook.images"
-        ],
+        "children": ["kitlook.images"],
         "props": {
             "blockClass": "kitlook-image"
         }
@@ -638,12 +574,12 @@
             "blockClass": "kitlook-content"
         }
     },
-    "flex-layout.row#price-kit":{
-        "children":[
-           "madeofpartnerar.product-price:product-list-price",
-           "madeofpartnerar.product-price:product-selling-price"
+    "flex-layout.row#price-kit": {
+        "children": [
+            "madeofpartnerar.product-price:product-list-price",
+            "madeofpartnerar.product-price:product-selling-price"
         ],
-        "props":{
+        "props": {
             "blockClass": "price-kit"
         }
     },
@@ -654,9 +590,7 @@
     },
     // DESTAQUES AUTOADMINISTRABLES INFO
     "flex-layout.row#destaques-autoadministrables-mobile-info-1": {
-        "children": [
-            "destaques-autoadministrables"
-        ],
+        "children": ["destaques-autoadministrables"],
         "props": {
             "blockClass": [
                 "destaques-autoadministrables-mobile-info-1",
@@ -665,9 +599,7 @@
         }
     },
     "flex-layout.row#destaques-autoadministrables-desktop-info-1": {
-        "children": [
-            "destaques-autoadministrables"
-        ],
+        "children": ["destaques-autoadministrables"],
         "props": {
             "blockClass": [
                 "destaques-autoadministrables-desktop-info-1",
@@ -679,17 +611,13 @@
         "props": {
             "blockClass": "render-manager-product"
         },
-        "children": [
-            "render-manager#product#2"
-        ]
+        "children": ["render-manager#product#2"]
     },
     "flex-layout.row#render-manager-mobile": {
         "props": {
             "blockClass": "render-manager-product"
         },
-        "children": [
-            "render-manager#product#2"
-        ]
+        "children": ["render-manager#product#2"]
     },
     "render-manager#product#2": {
         "title": "Render product",
@@ -1028,98 +956,76 @@
     // IMAGE FULL WIDTH
     "render-children#image-full-width-1": {
         "title": "image-full-width-1",
-        "children": [
-            "flex-layout.row#image-full-width"
-        ],
+        "children": ["flex-layout.row#image-full-width"],
         "props": {
             "blockClass": "image-full-width-render"
         }
     },
     "render-children#image-full-width-2": {
         "title": "image-full-width-2",
-        "children": [
-            "flex-layout.row#image-full-width"
-        ],
+        "children": ["flex-layout.row#image-full-width"],
         "props": {
             "blockClass": "image-full-width-render"
         }
     },
     "render-children#image-full-width-3": {
         "title": "image-full-width-3",
-        "children": [
-            "flex-layout.row#image-full-width"
-        ],
+        "children": ["flex-layout.row#image-full-width"],
         "props": {
             "blockClass": "image-full-width-render"
         }
     },
     "render-children#image-full-width-4": {
         "title": "image-full-width-4",
-        "children": [
-            "flex-layout.row#image-full-width"
-        ],
+        "children": ["flex-layout.row#image-full-width"],
         "props": {
             "blockClass": "image-full-width-render"
         }
     },
     "render-children#image-full-width-5": {
         "title": "image-full-width-5",
-        "children": [
-            "flex-layout.row#image-full-width"
-        ],
+        "children": ["flex-layout.row#image-full-width"],
         "props": {
             "blockClass": "image-full-width-render"
         }
     },
     "render-children#image-full-width-6": {
         "title": "image-full-width-6",
-        "children": [
-            "flex-layout.row#image-full-width"
-        ],
+        "children": ["flex-layout.row#image-full-width"],
         "props": {
             "blockClass": "image-full-width-render"
         }
     },
     "render-children#image-full-width-7": {
         "title": "image-full-width-7",
-        "children": [
-            "flex-layout.row#image-full-width"
-        ],
+        "children": ["flex-layout.row#image-full-width"],
         "props": {
             "blockClass": "image-full-width-render"
         }
     },
     "render-children#image-full-width-8": {
         "title": "image-full-width-8",
-        "children": [
-            "flex-layout.row#image-full-width"
-        ],
+        "children": ["flex-layout.row#image-full-width"],
         "props": {
             "blockClass": "image-full-width-render"
         }
     },
     "render-children#image-full-width-9": {
         "title": "image-full-width-9",
-        "children": [
-            "flex-layout.row#image-full-width"
-        ],
+        "children": ["flex-layout.row#image-full-width"],
         "props": {
             "blockClass": "image-full-width-render"
         }
     },
     "render-children#image-full-width-10": {
         "title": "image-full-width-10",
-        "children": [
-            "flex-layout.row#image-full-width"
-        ],
+        "children": ["flex-layout.row#image-full-width"],
         "props": {
             "blockClass": "image-full-width-render"
         }
     },
     "flex-layout.row#image-full-width": {
-        "children": [
-            "image#image-full-width"
-        ],
+        "children": ["image#image-full-width"],
         "props": {
             "blockClass": "image-full-width-container"
         }
@@ -1133,53 +1039,41 @@
     // VIDEO FULL WIDTH
     "render-children#video-full-width-1": {
         "title": "video-full-width-1",
-        "children": [
-            "flex-layout.row#video-full-width"
-        ],
+        "children": ["flex-layout.row#video-full-width"],
         "props": {
             "blockClass": "video-full-width-render"
         }
     },
     "render-children#video-full-width-2": {
         "title": "video-full-width-2",
-        "children": [
-            "flex-layout.row#video-full-width"
-        ],
+        "children": ["flex-layout.row#video-full-width"],
         "props": {
             "blockClass": "video-full-width-render"
         }
     },
     "render-children#video-full-width-3": {
         "title": "video-full-width-3",
-        "children": [
-            "flex-layout.row#video-full-width"
-        ],
+        "children": ["flex-layout.row#video-full-width"],
         "props": {
             "blockClass": "video-full-width-render"
         }
     },
     "render-children#video-full-width-4": {
         "title": "video-full-width-4",
-        "children": [
-            "flex-layout.row#video-full-width"
-        ],
+        "children": ["flex-layout.row#video-full-width"],
         "props": {
             "blockClass": "video-full-width-render"
         }
     },
     "render-children#video-full-width-5": {
         "title": "video-full-width-5",
-        "children": [
-            "flex-layout.row#video-full-width"
-        ],
+        "children": ["flex-layout.row#video-full-width"],
         "props": {
             "blockClass": "video-full-width-render"
         }
     },
     "flex-layout.row#video-full-width": {
-        "children": [
-            "video#video-full-width"
-        ],
+        "children": ["video#video-full-width"],
         "props": {
             "blockClass": "video-full-width-container"
         }
@@ -1198,98 +1092,76 @@
     // IMAGE ROUNDED BORDER
     "render-children#image-rounded-border-1": {
         "title": "image-rounded-border-1",
-        "children": [
-            "flex-layout.row#image-rounded-border"
-        ],
+        "children": ["flex-layout.row#image-rounded-border"],
         "props": {
             "blockClass": "image-rounded-border-render"
         }
     },
     "render-children#image-rounded-border-2": {
         "title": "image-rounded-border-2",
-        "children": [
-            "flex-layout.row#image-rounded-border"
-        ],
+        "children": ["flex-layout.row#image-rounded-border"],
         "props": {
             "blockClass": "image-rounded-border-render"
         }
     },
     "render-children#image-rounded-border-3": {
         "title": "image-rounded-border-3",
-        "children": [
-            "flex-layout.row#image-rounded-border"
-        ],
+        "children": ["flex-layout.row#image-rounded-border"],
         "props": {
             "blockClass": "image-rounded-border-render"
         }
     },
     "render-children#image-rounded-border-4": {
         "title": "image-rounded-border-4",
-        "children": [
-            "flex-layout.row#image-rounded-border"
-        ],
+        "children": ["flex-layout.row#image-rounded-border"],
         "props": {
             "blockClass": "image-rounded-border-render"
         }
     },
     "render-children#image-rounded-border-5": {
         "title": "image-rounded-border-5",
-        "children": [
-            "flex-layout.row#image-rounded-border"
-        ],
+        "children": ["flex-layout.row#image-rounded-border"],
         "props": {
             "blockClass": "image-rounded-border-render"
         }
     },
     "render-children#image-rounded-border-6": {
         "title": "image-rounded-border-6",
-        "children": [
-            "flex-layout.row#image-rounded-border"
-        ],
+        "children": ["flex-layout.row#image-rounded-border"],
         "props": {
             "blockClass": "image-rounded-border-render"
         }
     },
     "render-children#image-rounded-border-7": {
         "title": "image-rounded-border-7",
-        "children": [
-            "flex-layout.row#image-rounded-border"
-        ],
+        "children": ["flex-layout.row#image-rounded-border"],
         "props": {
             "blockClass": "image-rounded-border-render"
         }
     },
     "render-children#image-rounded-border-8": {
         "title": "image-rounded-border-8",
-        "children": [
-            "flex-layout.row#image-rounded-border"
-        ],
+        "children": ["flex-layout.row#image-rounded-border"],
         "props": {
             "blockClass": "image-rounded-border-render"
         }
     },
     "render-children#image-rounded-border-9": {
         "title": "image-rounded-border-9",
-        "children": [
-            "flex-layout.row#image-rounded-border"
-        ],
+        "children": ["flex-layout.row#image-rounded-border"],
         "props": {
             "blockClass": "image-rounded-border-render"
         }
     },
     "render-children#image-rounded-border-10": {
         "title": "image-rounded-border-10",
-        "children": [
-            "flex-layout.row#image-rounded-border"
-        ],
+        "children": ["flex-layout.row#image-rounded-border"],
         "props": {
             "blockClass": "image-rounded-border-render"
         }
     },
     "flex-layout.row#image-rounded-border": {
-        "children": [
-            "image#image-rounded-border"
-        ],
+        "children": ["image#image-rounded-border"],
         "props": {
             "blockClass": "image-rounded-border-container"
         }
@@ -1303,90 +1175,70 @@
     // TITLE AND DESCRIPTION
     "render-children#title-and-description-1": {
         "title": "title-and-description-1",
-        "children": [
-            "flex-layout.row#title-and-description"
-        ],
+        "children": ["flex-layout.row#title-and-description"],
         "props": {
             "blockClass": "title-and-description-render"
         }
     },
     "render-children#title-and-description-2": {
         "title": "title-and-description-2",
-        "children": [
-            "flex-layout.row#title-and-description"
-        ],
+        "children": ["flex-layout.row#title-and-description"],
         "props": {
             "blockClass": "title-and-description-render"
         }
     },
     "render-children#title-and-description-3": {
         "title": "title-and-description-3",
-        "children": [
-            "flex-layout.row#title-and-description"
-        ],
+        "children": ["flex-layout.row#title-and-description"],
         "props": {
             "blockClass": "title-and-description-render"
         }
     },
     "render-children#title-and-description-4": {
         "title": "title-and-description-4",
-        "children": [
-            "flex-layout.row#title-and-description"
-        ],
+        "children": ["flex-layout.row#title-and-description"],
         "props": {
             "blockClass": "title-and-description-render"
         }
     },
     "render-children#title-and-description-5": {
         "title": "title-and-description-5",
-        "children": [
-            "flex-layout.row#title-and-description"
-        ],
+        "children": ["flex-layout.row#title-and-description"],
         "props": {
             "blockClass": "title-and-description-render"
         }
     },
     "render-children#title-and-description-6": {
         "title": "title-and-description-6",
-        "children": [
-            "flex-layout.row#title-and-description"
-        ],
+        "children": ["flex-layout.row#title-and-description"],
         "props": {
             "blockClass": "title-and-description-render"
         }
     },
     "render-children#title-and-description-7": {
         "title": "title-and-description-7",
-        "children": [
-            "flex-layout.row#title-and-description"
-        ],
+        "children": ["flex-layout.row#title-and-description"],
         "props": {
             "blockClass": "title-and-description-render"
         }
     },
     "render-children#title-and-description-8": {
         "title": "title-and-description-8",
-        "children": [
-            "flex-layout.row#title-and-description"
-        ],
+        "children": ["flex-layout.row#title-and-description"],
         "props": {
             "blockClass": "title-and-description-render"
         }
     },
     "render-children#title-and-description-9": {
         "title": "title-and-description-9",
-        "children": [
-            "flex-layout.row#title-and-description"
-        ],
+        "children": ["flex-layout.row#title-and-description"],
         "props": {
             "blockClass": "title-and-description-render"
         }
     },
     "render-children#title-and-description-10": {
         "title": "title-and-description-10",
-        "children": [
-            "flex-layout.row#title-and-description"
-        ],
+        "children": ["flex-layout.row#title-and-description"],
         "props": {
             "blockClass": "title-and-description-render"
         }
@@ -1421,98 +1273,76 @@
     // IMAGE COMMON
     "render-children#image-common-1": {
         "title": "image-common-1",
-        "children": [
-            "flex-layout.row#image-common"
-        ],
+        "children": ["flex-layout.row#image-common"],
         "props": {
             "blockClass": "image-common-render"
         }
     },
     "render-children#image-common-2": {
         "title": "image-common-2",
-        "children": [
-            "flex-layout.row#image-common"
-        ],
+        "children": ["flex-layout.row#image-common"],
         "props": {
             "blockClass": "image-common-render"
         }
     },
     "render-children#image-common-3": {
         "title": "image-common-3",
-        "children": [
-            "flex-layout.row#image-common"
-        ],
+        "children": ["flex-layout.row#image-common"],
         "props": {
             "blockClass": "image-common-render"
         }
     },
     "render-children#image-common-4": {
         "title": "image-common-4",
-        "children": [
-            "flex-layout.row#image-common"
-        ],
+        "children": ["flex-layout.row#image-common"],
         "props": {
             "blockClass": "image-common-render"
         }
     },
     "render-children#image-common-5": {
         "title": "image-common-5",
-        "children": [
-            "flex-layout.row#image-common"
-        ],
+        "children": ["flex-layout.row#image-common"],
         "props": {
             "blockClass": "image-common-render"
         }
     },
     "render-children#image-common-6": {
         "title": "image-common-6",
-        "children": [
-            "flex-layout.row#image-common"
-        ],
+        "children": ["flex-layout.row#image-common"],
         "props": {
             "blockClass": "image-common-render"
         }
     },
     "render-children#image-common-7": {
         "title": "image-common-7",
-        "children": [
-            "flex-layout.row#image-common"
-        ],
+        "children": ["flex-layout.row#image-common"],
         "props": {
             "blockClass": "image-common-render"
         }
     },
     "render-children#image-common-8": {
         "title": "image-common-8",
-        "children": [
-            "flex-layout.row#image-common"
-        ],
+        "children": ["flex-layout.row#image-common"],
         "props": {
             "blockClass": "image-common-render"
         }
     },
     "render-children#image-common-9": {
         "title": "image-common-9",
-        "children": [
-            "flex-layout.row#image-common"
-        ],
+        "children": ["flex-layout.row#image-common"],
         "props": {
             "blockClass": "image-common-render"
         }
     },
     "render-children#image-common-10": {
         "title": "image-common-10",
-        "children": [
-            "flex-layout.row#image-common"
-        ],
+        "children": ["flex-layout.row#image-common"],
         "props": {
             "blockClass": "image-common-render"
         }
     },
     "flex-layout.row#image-common": {
-        "children": [
-            "image#image-common"
-        ],
+        "children": ["image#image-common"],
         "props": {
             "blockClass": "image-common-container"
         }
@@ -1526,53 +1356,41 @@
     // VIDEO COMMON
     "render-children#video-common-1": {
         "title": "video-common-1",
-        "children": [
-            "flex-layout.row#video-common"
-        ],
+        "children": ["flex-layout.row#video-common"],
         "props": {
             "blockClass": "video-common-render"
         }
     },
     "render-children#video-common-2": {
         "title": "video-common-2",
-        "children": [
-            "flex-layout.row#video-common"
-        ],
+        "children": ["flex-layout.row#video-common"],
         "props": {
             "blockClass": "video-common-render"
         }
     },
     "render-children#video-common-3": {
         "title": "video-common-3",
-        "children": [
-            "flex-layout.row#video-common"
-        ],
+        "children": ["flex-layout.row#video-common"],
         "props": {
             "blockClass": "video-common-render"
         }
     },
     "render-children#video-common-4": {
         "title": "video-common-4",
-        "children": [
-            "flex-layout.row#video-common"
-        ],
+        "children": ["flex-layout.row#video-common"],
         "props": {
             "blockClass": "video-common-render"
         }
     },
     "render-children#video-common-5": {
         "title": "video-common-5",
-        "children": [
-            "flex-layout.row#video-common"
-        ],
+        "children": ["flex-layout.row#video-common"],
         "props": {
             "blockClass": "video-common-render"
         }
     },
     "flex-layout.row#video-common": {
-        "children": [
-            "video#video-common"
-        ],
+        "children": ["video#video-common"],
         "props": {
             "blockClass": "video-common-container"
         }
@@ -1591,45 +1409,35 @@
     // INFO AND IMAGE
     "render-children#image-and-info-1": {
         "title": "image-and-info-1",
-        "children": [
-            "flex-layout.row#image-and-info"
-        ],
+        "children": ["flex-layout.row#image-and-info"],
         "props": {
             "blockClass": "image-and-info-render"
         }
     },
     "render-children#image-and-info-2": {
         "title": "image-and-info-2",
-        "children": [
-            "flex-layout.row#image-and-info"
-        ],
+        "children": ["flex-layout.row#image-and-info"],
         "props": {
             "blockClass": "image-and-info-render"
         }
     },
     "render-children#image-and-info-3": {
         "title": "image-and-info-3",
-        "children": [
-            "flex-layout.row#image-and-info"
-        ],
+        "children": ["flex-layout.row#image-and-info"],
         "props": {
             "blockClass": "image-and-info-render"
         }
     },
     "render-children#image-and-info-4": {
         "title": "image-and-info-4",
-        "children": [
-            "flex-layout.row#image-and-info"
-        ],
+        "children": ["flex-layout.row#image-and-info"],
         "props": {
             "blockClass": "image-and-info-render"
         }
     },
     "render-children#image-and-info-5": {
         "title": "image-and-info-5",
-        "children": [
-            "flex-layout.row#image-and-info"
-        ],
+        "children": ["flex-layout.row#image-and-info"],
         "props": {
             "blockClass": "image-and-info-render"
         }
@@ -1646,45 +1454,35 @@
     // IMAGE AND INFO
     "render-children#info-and-image-1": {
         "title": "info-and-image-1",
-        "children": [
-            "flex-layout.row#info-and-image"
-        ],
+        "children": ["flex-layout.row#info-and-image"],
         "props": {
             "blockClass": "info-and-image-render"
         }
     },
     "render-children#info-and-image-2": {
         "title": "info-and-image-2",
-        "children": [
-            "flex-layout.row#info-and-image"
-        ],
+        "children": ["flex-layout.row#info-and-image"],
         "props": {
             "blockClass": "info-and-image-render"
         }
     },
     "render-children#info-and-image-3": {
         "title": "info-and-image-3",
-        "children": [
-            "flex-layout.row#info-and-image"
-        ],
+        "children": ["flex-layout.row#info-and-image"],
         "props": {
             "blockClass": "info-and-image-render"
         }
     },
     "render-children#info-and-image-4": {
         "title": "info-and-image-4",
-        "children": [
-            "flex-layout.row#info-and-image"
-        ],
+        "children": ["flex-layout.row#info-and-image"],
         "props": {
             "blockClass": "info-and-image-render"
         }
     },
     "render-children#info-and-image-5": {
         "title": "info-and-image-5",
-        "children": [
-            "flex-layout.row#info-and-image"
-        ],
+        "children": ["flex-layout.row#info-and-image"],
         "props": {
             "blockClass": "info-and-image-render"
         }
@@ -1701,45 +1499,35 @@
     // IMAGE AND INFO
     "render-children#info-image-info-1": {
         "title": "info-image-info-1",
-        "children": [
-            "flex-layout.row#info-image-info"
-        ],
+        "children": ["flex-layout.row#info-image-info"],
         "props": {
             "blockClass": "info-image-info-render"
         }
     },
     "render-children#info-image-info-2": {
         "title": "info-image-info-2",
-        "children": [
-            "flex-layout.row#info-image-info"
-        ],
+        "children": ["flex-layout.row#info-image-info"],
         "props": {
             "blockClass": "info-image-info-render"
         }
     },
     "render-children#info-image-info-3": {
         "title": "info-image-info-3",
-        "children": [
-            "flex-layout.row#info-image-info"
-        ],
+        "children": ["flex-layout.row#info-image-info"],
         "props": {
             "blockClass": "info-image-info-render"
         }
     },
     "render-children#info-image-info-4": {
         "title": "info-image-info-4",
-        "children": [
-            "flex-layout.row#info-image-info"
-        ],
+        "children": ["flex-layout.row#info-image-info"],
         "props": {
             "blockClass": "info-image-info-render"
         }
     },
     "render-children#info-image-info-5": {
         "title": "info-image-info-5",
-        "children": [
-            "flex-layout.row#info-image-info"
-        ],
+        "children": ["flex-layout.row#info-image-info"],
         "props": {
             "blockClass": "info-image-info-render"
         }

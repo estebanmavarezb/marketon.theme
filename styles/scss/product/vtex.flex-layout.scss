@@ -3,3 +3,24 @@
         font-weight: 700;
     }
 }
+
+.flexRow--specification-and-description-desk {
+    max-width: 1012px;
+    margin: auto;
+    .flexRowContent--specification-and-description-desk {
+        align-items: flex-start;
+        justify-content: space-between;
+        .stretchChildrenWidth:first-child {
+            width: 62.54% !important;
+        }
+        .stretchChildrenWidth:last-child {
+            width: 30.336% !important;
+        }
+        .stretchChildrenWidth {
+            flex-direction: column;
+            :global(.vtex-disclosure-layout-1-x-content) {
+                padding: 0;
+            }
+        }
+    }
+}

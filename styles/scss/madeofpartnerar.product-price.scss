@@ -93,10 +93,10 @@
 
         &::after {
             position: absolute;
-            content: "";
+            content: '';
             width: 100%;
             height: 1px;
-            background-color: #9A9D9F;
+            background-color: #9a9d9f;
             left: 0;
             top: 44%;
             bottom: 66%;
@@ -109,16 +109,15 @@
 
         &::after {
             position: absolute;
-            content: "";
+            content: '';
             width: 100%;
             height: 1px;
-            background-color: #9A9D9F;
+            background-color: #9a9d9f;
             left: 0;
             top: 52%;
         }
     }
 }
-
 
 .listPriceValue,
 .sellingPriceContainer {
@@ -146,7 +145,6 @@
             font-weight: 100;
             line-height: 135.9%;
             margin-left: 5px;
-
         }
     }
 
@@ -157,10 +155,10 @@
 
         &::after {
             position: absolute;
-            content: "";
+            content: '';
             width: 100%;
             height: 1.6px;
-            background-color: #9A9D9F;
+            background-color: $main-gray;
             left: 0;
             top: 12px;
         }
@@ -175,7 +173,6 @@
             font-weight: 100;
             line-height: 135.9%;
             margin-left: 5px;
-
         }
     }
 
@@ -190,10 +187,10 @@
 
             &::after {
                 position: absolute;
-                content: "";
+                content: '';
                 width: 100%;
                 height: 1px;
-                background-color: #9A9D9F;
+                background-color: #9a9d9f;
                 left: 0;
                 top: 50%;
                 bottom: 50%;
@@ -207,17 +204,16 @@
             &--value,
             & .price--value__text {
                 font-weight: 400;
-                color: #848484;
+                color: $main-gray;
                 font-size: 18px;
                 line-height: 16.31px;
             }
         }
 
         .selling__price {
-
             &--value,
             & .price--value__text {
-                color: #2B2B2B;
+                color: #2b2b2b;
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 16.31px;
@@ -235,12 +231,9 @@
     }
 }
 
-
-
 /* ------------------------------MOBILE ------------------------------*/
 
 @media screen and (max-width: 639px) {
-
     /* SHELF */
     .listPrice .listPriceValue {
         font-size: 10.29px;
@@ -285,12 +278,13 @@
 /*FICHA*/
 
 :global(.vtex-flex-layout-0-x-flexRow--view-product-row) {
-
     :global(.vtex-flex-layout-0-x-flexCol--right-col-desktop),
-    :global(.vtex-flex-layout-0-x-flexRowContent--view-product-col-product-main-mobile) {
+    :global(
+            .vtex-flex-layout-0-x-flexRowContent--view-product-col-product-main-mobile
+        ) {
         .listPriceValue {
             font-family: 'Poppins';
-            color: #848484;
+            color: $main-gray;
             font-size: 18px;
             font-weight: 400;
             line-height: 135.9%;
@@ -300,8 +294,8 @@
 
         .sellingPriceValue {
             font-family: 'Poppins';
-            font-size: 20px;
-            font-weight: 400;
+            font-size: 24px;
+            font-weight: 600;
             line-height: 135.9%;
             color: #2b2b2b;
         }
@@ -318,7 +312,15 @@
 
         .savingsPercentage,
         .savings--percentage {
-            color: $main-color;
+            display: inline-flex;
+            padding: 8px 5px;
+            max-height: 12px;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            color: #fff;
+            border-radius: 4px;
+            background: #4c4cea;
             text-align: center;
             font-family: 'Poppins', sans-serif;
             font-size: 16px;
@@ -326,7 +328,6 @@
             font-weight: 600;
             line-height: normal;
             white-space: nowrap;
-            padding-top: 0.8px;
             line-height: 135.9%;
         }
 
@@ -351,8 +352,6 @@
             }
         }
     }
-
-
 
     :global(.vtex-product-summary-2-x-element--product-shelf) {
         :global(.vtex-flex-layout-0-x-flexCol--container-data-grid) {
@@ -389,7 +388,6 @@
                 }
             }
 
-
             .price--value__text {
                 margin-left: 5px;
             }
@@ -398,7 +396,7 @@
                 .content__sellingPrice {
                     text-align: start;
                     color: #2b2b2b;
-                    font-family: "Poppins", sans-serif;
+                    font-family: 'Poppins', sans-serif;
                     font-size: 12px;
                     font-style: normal;
                     font-weight: 500;
@@ -407,8 +405,6 @@
                     .sellingPrice {
                         margin-right: 5px;
                     }
-
-
                 }
 
                 .container__total__price {
@@ -418,7 +414,7 @@
                     .currencyContainer,
                     .price--value__text {
                         color: #2b2b2b;
-                        font-family: "Poppins", sans-serif;
+                        font-family: 'Poppins', sans-serif;
                         font-size: 10px;
                         font-style: normal;
                         font-weight: 500;
@@ -429,16 +425,12 @@
                         margin-left: 2.5px;
                     }
                 }
-
             }
         }
-
     }
 }
 
-
 :global(.vtex-product-summary-2-x-element--product-shelf) {
-
     :global(.vtex-flex-layout-0-x-flexCol--container-data-price-condition) {
         .listPrice {
             .content__listPrice {
@@ -465,7 +457,6 @@
             }
         }
 
-
         .price--value__text {
             margin-left: 5px;
         }
@@ -474,7 +465,7 @@
             .content__sellingPrice {
                 text-align: start;
                 color: #2b2b2b;
-                font-family: "Poppins", sans-serif;
+                font-family: 'Poppins', sans-serif;
                 font-size: 12px;
                 font-style: normal;
                 font-weight: 500;
@@ -483,8 +474,6 @@
                 .sellingPrice {
                     margin-right: 5px;
                 }
-
-
             }
 
             .container__total__price {
@@ -493,7 +482,7 @@
                 .currencyContainer,
                 .price--value__text {
                     color: #2b2b2b;
-                    font-family: "Poppins", sans-serif;
+                    font-family: 'Poppins', sans-serif;
                     font-size: 10px;
                     font-style: normal;
                     font-weight: 500;
@@ -504,21 +493,20 @@
                     margin-left: 2.5px;
                 }
             }
-
         }
     }
-
 }
 
 @media screen and (max-width: 1024px) {
-    :global(.vtex-flex-layout-0-x-flexRow--view-product-col-product-main-mobile) {
+    :global(
+            .vtex-flex-layout-0-x-flexRow--view-product-col-product-main-mobile
+        ) {
         .list__price {
             &::after {
                 background-color: #848484 !important;
                 top: 45% !important;
                 bottom: 55% !important;
             }
-    
         }
     }
 }

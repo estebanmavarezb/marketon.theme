@@ -568,8 +568,8 @@ body {
 }
 
 :global(.vtex-numeric-stepper__input) {
-    width: 65px;
-    font-weight: 500;
+    width: 55px;
+    font-weight: 600;
     font-size: 12px;
 }
 
@@ -1046,10 +1046,10 @@ body {
     }
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--connectif-block){
+:global(.vtex-flex-layout-0-x-flexRowContent--connectif-block) {
     & > div {
         width: 100% !important;
-        &:empty{
+        &:empty {
             width: auto !important;
         }
     }
