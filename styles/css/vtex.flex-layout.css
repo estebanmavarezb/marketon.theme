@@ -918,6 +918,10 @@
 
 /* ------------------------------DESKTOP ------------------------------*/
 /* HEADER */
+.flexRow--sticky-desktop {
+  padding-inline: 50px;
+}
+
 .flexColChild--search-desktop {
   width: 100%;
   max-width: 940px;
@@ -1888,4 +1892,8 @@
   .flexColChild--cuotas-container:first-child {
     margin-bottom: 0.2rem;
   }
+}
+.flexRow--row-rounded-border-banner {
+  max-width: 1280px;
+  margin: 0 auto;
 }

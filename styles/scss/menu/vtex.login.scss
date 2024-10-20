@@ -2,21 +2,40 @@
 
 :global(.madeofpartnerar-componentes-0-x-item_menu) {
     max-width: 315px;
+    transform: translate(10%, 0%);
+
     :global(.madeofpartnerar-componentes-0-x-link_active) {
-        background-color: $main-yellow;
+        background-color: transparent;
         :global(.madeofpartnerar-componentes-0-x-link_menu_content) {
             a {
-                color: #fff;
+                color: #0B0B6D;
                 font-weight: 700;
             }
+            img {
+                filter: invert(30%) sepia(98%) saturate(3579%) hue-rotate(226deg) brightness(96%) contrast(89%);
+            }
+        }
+
+        & :global(.madeofpartnerar-componentes-0-x-hoverEffect){
+            background-color: #0B0B6D;
         }
     }
     :global(.madeofpartnerar-componentes-0-x-nombre) {
-        color: $main-yellow;
+        color: #2B2B2B;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
     }
     :global(.madeofpartnerar-componentes-0-x-titulo) {
         a {
-            color: $main-gray;
+            color: #848484;
+        }
+    }
+    
+    :global(.madeofpartnerar-componentes-0-x-link_menu_content) {
+        a {
+            color: #848484;
+            font-weight: 500;
         }
     }
 }

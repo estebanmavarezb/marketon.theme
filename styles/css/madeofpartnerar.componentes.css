@@ -4,6 +4,13 @@
 /* Colores */
 /* Fuentes */
 /* Ciculo Cantidad - Favoritos, Minicart... */
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) .menu {
+  margin-top: 10px;
+  padding-inline: 50px;
+  background-color: #F4F4F4;
+  max-width: unset;
+}
+
 /* FAVORITOS */
 .drawer_content_close {
   height: fit-content;
@@ -786,6 +793,13 @@
     margin: 25px 0 31px;
   }
 }
+/*Menu*/
+.menuLista_link {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
 /*Mapas*/
 .container_maps .content_block_map .trigger {
   width: 100%;
