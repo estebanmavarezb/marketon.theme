@@ -4,17 +4,31 @@
 /* Ciculo Cantidad - Favoritos, Minicart... */
 :global(.madeofpartnerar-componentes-0-x-item_menu) {
   max-width: 315px;
+  transform: translate(10%, 0%);
 }
 :global(.madeofpartnerar-componentes-0-x-item_menu) :global(.madeofpartnerar-componentes-0-x-link_active) {
-  background-color: #f4c226;
+  background-color: transparent;
 }
 :global(.madeofpartnerar-componentes-0-x-item_menu) :global(.madeofpartnerar-componentes-0-x-link_active) :global(.madeofpartnerar-componentes-0-x-link_menu_content) a {
-  color: #fff;
+  color: #0B0B6D;
   font-weight: 700;
 }
+:global(.madeofpartnerar-componentes-0-x-item_menu) :global(.madeofpartnerar-componentes-0-x-link_active) :global(.madeofpartnerar-componentes-0-x-link_menu_content) img {
+  filter: invert(30%) sepia(98%) saturate(3579%) hue-rotate(226deg) brightness(96%) contrast(89%);
+}
+:global(.madeofpartnerar-componentes-0-x-item_menu) :global(.madeofpartnerar-componentes-0-x-link_active) :global(.madeofpartnerar-componentes-0-x-hoverEffect) {
+  background-color: #0B0B6D;
+}
 :global(.madeofpartnerar-componentes-0-x-item_menu) :global(.madeofpartnerar-componentes-0-x-nombre) {
-  color: #f4c226;
+  color: #2B2B2B;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
 }
 :global(.madeofpartnerar-componentes-0-x-item_menu) :global(.madeofpartnerar-componentes-0-x-titulo) a {
-  color: #2b2b2b;
+  color: #848484;
+}
+:global(.madeofpartnerar-componentes-0-x-item_menu) :global(.madeofpartnerar-componentes-0-x-link_menu_content) a {
+  color: #848484;
+  font-weight: 500;
 }

@@ -23,6 +23,7 @@
             "blockClass": "view-product-col"
         },
         "children": [
+            "credit-promotion-v2",
             "flex-layout.row#product-breadcrumb",
             "responsive-layout.desktop#product-main",
             "responsive-layout.tablet#product-main",
